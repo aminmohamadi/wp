@@ -1,0 +1,1792 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Silicon\n"
+"POT-Creation-Date: 2022-08-24 11:18+0430\n"
+"PO-Revision-Date: 2022-08-24 11:19+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "ارسال نظرات"
+
+#. translators: %s - number of comments
+#: comments.php:30
+#, php-format
+msgctxt "number of comments"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "نظرات %s"
+msgstr[1] "نظر %s"
+
+#: comments.php:50
+msgid "Comment Navigation Below"
+msgstr "پیمایش نظر در زیر"
+
+#: comments.php:51
+msgid "Comment navigation"
+msgstr "پیمایش نظر"
+
+#: comments.php:52
+msgid "&larr; Older Comments"
+msgstr "&larr; نظریات قبلی"
+
+#: comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr "نظرات جدیدتر &rarr;"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "نظرات بسته شده است."
+
+#: comments.php:84
+msgctxt "noun"
+msgid "Comment"
+msgstr "نظر"
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "چیزی پیدا نشد"
+
+#. translators: 1: URL
+#: content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"برای انتشار اولین پست خود آماده اید؟ <a href=\"%1$s\">از اینجا شروع کنید</a>."
+
+#: content-none.php:29
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"متأسفیم، اما هیچ چیزی با عبارات جستجوی شما مطابقت نداشت. لطفاً با چند کلمه "
+"کلیدی مختلف دوباره امتحان کنید."
+
+#: content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"به نظر می رسد ما نمی توانیم آنچه شما به دنبال آن هستید را پیدا کنیم. شاید "
+"جستجو بتواند کمک کند."
+
+#: inc/admin/class-silicon-plugin-install.php:102
+#: inc/classes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "نصب افزونه‌ها"
+
+#: inc/admin/class-silicon-plugin-install.php:151
+msgid "Activated"
+msgstr "فعال شد"
+
+#: inc/admin/class-silicon-plugin-install.php:164
+#: inc/classes/class-tgm-plugin-activation.php:2847
+msgid "Activate"
+msgstr "فعال کردن"
+
+#: inc/admin/class-silicon-plugin-install.php:185
+msgid "Install now"
+msgstr "الآن نصب کن"
+
+#. translators: conjunction of two alternative options user can choose (in missing plugin admin notice).
+#: inc/admin/class-silicon-plugin-install.php:204
+msgid "or"
+msgstr "یا"
+
+#: inc/admin/class-silicon-plugin-install.php:205
+msgid "learn more"
+msgstr "بیشتر بدانید"
+
+#: inc/admin/class-silicon-plugin-install.php:267
+msgid "Page Builder used to build all our Silicon Pages"
+msgstr "صفحه ساز استفاده می شود برای ساخت تمام صفحات سیلیکون ما"
+
+#: inc/admin/class-silicon-plugin-install.php:274
+msgid "Additional modules for Elementor to build our Silicon Pages"
+msgstr "ماژول های اضافی برای Elementor برای ساخت صفحات سیلیکونی ما"
+
+#: inc/admin/class-silicon-plugin-install.php:280
+msgid "Additional options for Silicon Pages, Posts and Portfolio"
+msgstr "گزینه های اضافی برای صفحات سیلیکونی، پست ها و نمونه کارها"
+
+#: inc/admin/class-silicon-plugin-install.php:286
+msgid "Import Silicon demo content easily with just one click."
+msgstr "محتوای نمایشی سیلیکون را به راحتی تنها با یک کلیک وارد کنید."
+
+#: inc/admin/class-silicon-plugin-install.php:292
+#: inc/admin/class-silicon-plugin-install.php:323
+msgid "Use this plugin to replace HTML forms with a working form."
+msgstr ""
+"از این افزونه برای جایگزینی فرم های HTML با یک فرم در حال کار استفاده کنید."
+
+#: inc/admin/class-silicon-plugin-install.php:298
+msgid "Use this plugin to upload SVG files."
+msgstr "از این افزونه برای آپلود فایل های SVG استفاده کنید."
+
+#: inc/admin/class-silicon-plugin-install.php:307
+msgid "Enable this plugin for Portfolio custom post type."
+msgstr "این افزونه را برای نوع پست سفارشی نمونه کارها فعال کنید."
+
+#: inc/admin/class-silicon-plugin-install.php:315
+msgid "Silicon uses Static Contents for Footer and Megamenus."
+msgstr "سیلیکون از محتوای استاتیک برای پاورقی و مگامنو استفاده می کند."
+
+#: inc/class-silicon-breadcrumb.php:109
+msgid "Error 404"
+msgstr "خطای 404"
+
+#. translators: %s: tag name
+#: inc/class-silicon-breadcrumb.php:218
+#, php-format
+msgid "Posts tagged &ldquo;%s&rdquo;"
+msgstr "پست هایی با برچسب &ldquo;%s&rdquo;"
+
+#. translators: %s: author name
+#: inc/class-silicon-breadcrumb.php:261
+#, php-format
+msgid "Author: %s"
+msgstr "نویسنده: %s"
+
+#. translators: %s: search term
+#: inc/class-silicon-breadcrumb.php:301
+#, php-format
+msgid "Search results for &ldquo;%s&rdquo;"
+msgstr "نتایج جستجو برای &ldquo;%s&rdquo;"
+
+#. translators: %d: page number
+#: inc/class-silicon-breadcrumb.php:311
+#, php-format
+msgid "Page %d"
+msgstr "صفحه %d"
+
+#: inc/class-silicon.php:108
+msgid "Primary Menu"
+msgstr "منوی اولیه"
+
+#: inc/class-silicon.php:109
+msgid "Portfolio Menu"
+msgstr "منوی نمونه کارها"
+
+#: inc/class-silicon.php:182
+msgid "Extra Small"
+msgstr "بسیار کوچک"
+
+#: inc/class-silicon.php:187 inc/customizer/class-silicon-customizer.php:1051
+#: inc/customizer/class-silicon-customizer.php:1356
+msgid "Small"
+msgstr "کوچک"
+
+#: inc/class-silicon.php:192
+msgid "Base"
+msgstr "اساس"
+
+#: inc/class-silicon.php:197 inc/customizer/class-silicon-customizer.php:1053
+#: inc/customizer/class-silicon-customizer.php:1358
+msgid "Large"
+msgstr "بزرگ"
+
+#: inc/class-silicon.php:202
+msgid "Extra Large"
+msgstr "خیلی بزرگ"
+
+#: inc/class-silicon.php:216 inc/silicon-functions.php:334
+#: inc/silicon-functions.php:339
+msgid "Primary"
+msgstr "اولیه"
+
+#: inc/class-silicon.php:221
+msgid "Secondary"
+msgstr "ثانوی"
+
+#: inc/class-silicon.php:226 inc/silicon-functions.php:349
+msgid "Info"
+msgstr "اطلاعات"
+
+#: inc/class-silicon.php:231 inc/silicon-functions.php:344
+msgid "Success"
+msgstr "موفق"
+
+#: inc/class-silicon.php:236 inc/silicon-functions.php:354
+msgid "Warning"
+msgstr "هشدار"
+
+#: inc/class-silicon.php:241 inc/silicon-functions.php:359
+msgid "Danger"
+msgstr "خطر"
+
+#: inc/class-silicon.php:246 inc/customizer/class-silicon-customizer.php:625
+#: inc/customizer/class-silicon-customizer.php:713
+#: inc/silicon-functions.php:364 inc/template-functions/header.php:223
+msgid "Light"
+msgstr "روشن"
+
+#: inc/class-silicon.php:251 inc/customizer/class-silicon-customizer.php:626
+#: inc/customizer/class-silicon-customizer.php:714
+#: inc/silicon-functions.php:369 inc/template-functions/header.php:224
+msgid "Dark"
+msgstr "تیره"
+
+#. translators: label field of control in Customizer
+#: inc/class-silicon.php:276 inc/customizer/class-silicon-customizer.php:445
+msgid "Blog Sidebar"
+msgstr "نوار کناری وبلاگ"
+
+#. translators: 1: column number
+#: inc/class-silicon.php:291
+#, php-format
+msgid "Footer Column %1$d"
+msgstr "ستون پاورقی %1$d"
+
+#. translators: 1: column number
+#: inc/class-silicon.php:294
+#, php-format
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "ابزارک های اضافه شده در اینجا در ستون %1$d پاورقی ظاهر می شوند."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-silicon.php:297
+#, php-format
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "ردیف پاورقی %1$d - ستون %2$d"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-silicon.php:300
+#, php-format
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr ""
+"ابزارک‌های اضافه شده در اینجا در ستون %1$d از ردیف پاورقی %2$d ظاهر می‌شوند."
+
+#: inc/class-silicon.php:551
+msgid "Post Navigation"
+msgstr "ناوبری پست"
+
+#: inc/class-silicon.php:685
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+"این محتوا با رمز عبور محافظت می شود. برای مشاهده آن لطفا رمز عبور خود را در "
+"زیر وارد کنید:"
+
+#: inc/class-silicon.php:685
+msgid "Password:"
+msgstr "رمز عبور:"
+
+#: inc/class-silicon.php:685
+msgid "Enter Password"
+msgstr "رمز عبور را وارد کنید"
+
+#: inc/class-silicon.php:685
+msgctxt "post password form"
+msgid "Enter"
+msgstr "ورود"
+
+#: inc/classes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "پلاگین های مورد نیاز را نصب کنید"
+
+#. translators: %s: plugin name.
+#: inc/classes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "در حال نصب افزونه: %s"
+
+#. translators: %s: plugin name.
+#: inc/classes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "در حال به روز رسانی افزونه: %s"
+
+#: inc/classes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "مشکلی با API افزونه پیش آمد."
+
+#. translators: 1: plugin name(s).
+#: inc/classes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "این تم به پلاگین های زیر نیاز دارد: %1$s."
+msgstr[1] "این تم به افزونه زیر نیاز دارد: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/classes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "این تم افزونه های زیر را توصیه می کند: %1$s."
+msgstr[1] "این تم افزونه زیر را توصیه می کند: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/classes/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"برای اطمینان از حداکثر سازگاری با این موضوع، افزونه‌های زیر باید به آخرین "
+"نسخه خود به‌روزرسانی شوند: %1$s."
+msgstr[1] ""
+"برای اطمینان از حداکثر سازگاری با این موضوع، افزونه زیر باید به آخرین نسخه "
+"خود به روز شود: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/classes/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "به‌روزرسانی‌هایی برای افزونه‌های زیر موجود است: %1$s."
+msgstr[1] "یک به‌روزرسانی برای: %1$s موجود است."
+
+#. translators: 1: plugin name(s).
+#: inc/classes/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "افزونه های مورد نیاز زیر در حال حاضر غیرفعال هستند: %1$s."
+msgstr[1] "افزونه مورد نیاز زیر در حال حاضر غیرفعال است: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/classes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "افزونه های توصیه شده زیر در حال حاضر غیرفعال هستند: %1$s."
+msgstr[1] "افزونه پیشنهادی زیر در حال حاضر غیرفعال است: %1$s."
+
+#: inc/classes/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "نصب پلاگین ها را شروع کنید"
+msgstr[1] "نصب افزونه را شروع کنید"
+
+#: inc/classes/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "به روز رسانی پلاگین ها را شروع کنید"
+msgstr[1] "شروع به روز رسانی افزونه"
+
+#: inc/classes/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "شروع به فعال سازی پلاگین ها کنید"
+msgstr[1] "شروع به فعال سازی افزونه کنید"
+
+#: inc/classes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "بازگشت برای نصب پلاگین مورد نیاز"
+
+#: inc/classes/class-tgm-plugin-activation.php:393
+#: inc/classes/class-tgm-plugin-activation.php:913
+#: inc/classes/class-tgm-plugin-activation.php:2654
+#: inc/classes/class-tgm-plugin-activation.php:3705
+msgid "Return to the Dashboard"
+msgstr "بازگشت به صفحه"
+
+#: inc/classes/class-tgm-plugin-activation.php:394
+#: inc/classes/class-tgm-plugin-activation.php:3280
+msgid "Plugin activated successfully."
+msgstr "افزونه با موفقیت فعال شد."
+
+#: inc/classes/class-tgm-plugin-activation.php:395
+#: inc/classes/class-tgm-plugin-activation.php:3073
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "افزونه های زیر با موفقیت فعال شدند:"
+msgstr[1] "افزونه زیر با موفقیت فعال شد:"
+
+#. translators: 1: plugin name.
+#: inc/classes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "اقدامی صورت نگرفت. افزونه %1$s قبلاً فعال بود."
+
+#. translators: 1: plugin name.
+#: inc/classes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"افزونه فعال نشد یک نسخه بالاتر از %s برای این موضوع مورد نیاز است. لطفا "
+"افزونه را به روز کنید."
+
+#. translators: 1: dashboard link.
+#: inc/classes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "همه افزونه ها با موفقیت نصب و فعال شدند. %1$s"
+
+#: inc/classes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "نادیده گرفتن این اعلان"
+
+#: inc/classes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"یک یا چند افزونه مورد نیاز یا توصیه شده برای نصب، به روز رسانی یا فعال سازی "
+"وجود دارد."
+
+#: inc/classes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "لطفا برای راهنمایی با مدیر این سایت تماس بگیرید."
+
+#: inc/classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "این افزونه باید به روز شود تا با تم شما سازگار باشد."
+
+#: inc/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "به روزرسانی نیاز است"
+
+#: inc/classes/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"بسته پلاگین راه دور حاوی پوشه ای با اسلاگ مورد نظر نیست و تغییر نام کار نمی "
+"کند."
+
+#: inc/classes/class-tgm-plugin-activation.php:1022
+#: inc/classes/class-tgm-plugin-activation.php:1032
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"لطفا با ارائه دهنده افزونه تماس بگیرید و از آنها بخواهید که افزونه خود را "
+"طبق دستورالعمل های وردپرس بسته بندی کنند."
+
+#: inc/classes/class-tgm-plugin-activation.php:1032
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"بسته پلاگین راه دور از بیش از یک فایل تشکیل شده است، اما فایل ها در یک پوشه "
+"بسته بندی نمی شوند."
+
+#: inc/classes/class-tgm-plugin-activation.php:1221
+#: inc/classes/class-tgm-plugin-activation.php:3069
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "و"
+
+#. translators: %s: version number
+#: inc/classes/class-tgm-plugin-activation.php:2103
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/classes/class-tgm-plugin-activation.php:2394
+msgid "Required"
+msgstr "الزامی"
+
+#: inc/classes/class-tgm-plugin-activation.php:2397
+msgid "Recommended"
+msgstr "توصیه شده"
+
+#: inc/classes/class-tgm-plugin-activation.php:2413
+msgid "WordPress Repository"
+msgstr "مخزن وردپرس"
+
+#: inc/classes/class-tgm-plugin-activation.php:2416
+msgid "External Source"
+msgstr "منبع خارجی"
+
+#: inc/classes/class-tgm-plugin-activation.php:2419
+msgid "Pre-Packaged"
+msgstr "از پیش بسته بندی شده"
+
+#: inc/classes/class-tgm-plugin-activation.php:2436
+msgid "Not Installed"
+msgstr "نصب نشده"
+
+#: inc/classes/class-tgm-plugin-activation.php:2440
+msgid "Installed But Not Activated"
+msgstr "نصب شده اما فعال نیست"
+
+#: inc/classes/class-tgm-plugin-activation.php:2442
+msgid "Active"
+msgstr "فعال"
+
+#: inc/classes/class-tgm-plugin-activation.php:2448
+msgid "Required Update not Available"
+msgstr "بروزرسانی مورد نیاز موجود نیست"
+
+#: inc/classes/class-tgm-plugin-activation.php:2451
+msgid "Requires Update"
+msgstr "به روز رسانی نیاز دارد"
+
+#: inc/classes/class-tgm-plugin-activation.php:2454
+msgid "Update recommended"
+msgstr "به روز رسانی توصیه می شود"
+
+#. translators: 1: install status, 2: update status
+#: inc/classes/class-tgm-plugin-activation.php:2463
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/classes/class-tgm-plugin-activation.php:2509
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "همه <span class=\"count\">(%s)</span>"
+msgstr[1] "همه <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/classes/class-tgm-plugin-activation.php:2513
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "برای نصب <span class=\"count\">(%s)</span>"
+msgstr[1] "برای نصب <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/classes/class-tgm-plugin-activation.php:2517
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "به‌روزرسانی موجود <span class=\"count\">(%s)</span>"
+msgstr[1] "به‌روزرسانی موجود <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/classes/class-tgm-plugin-activation.php:2521
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "برای فعال‌سازی <span class=\"count\">(%s)</span>"
+msgstr[1] "برای فعال‌سازی <span class=\"count\">(%s)</span>"
+
+#: inc/classes/class-tgm-plugin-activation.php:2603
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "ناشناس"
+
+#: inc/classes/class-tgm-plugin-activation.php:2611
+msgid "Installed version:"
+msgstr "نسخه نصب شده:"
+
+#: inc/classes/class-tgm-plugin-activation.php:2619
+msgid "Minimum required version:"
+msgstr "حداقل نسخه مورد نیاز :"
+
+#: inc/classes/class-tgm-plugin-activation.php:2631
+msgid "Available version:"
+msgstr "نسخه در دسترس :"
+
+#: inc/classes/class-tgm-plugin-activation.php:2654
+msgid "No plugins to install, update or activate."
+msgstr "هیچ پلاگینی برای نصب، به روز رسانی یا فعال سازی وجود ندارد."
+
+#: inc/classes/class-tgm-plugin-activation.php:2668
+msgid "Plugin"
+msgstr "افزونه"
+
+#: inc/classes/class-tgm-plugin-activation.php:2669
+msgid "Source"
+msgstr "منبع"
+
+#: inc/classes/class-tgm-plugin-activation.php:2670
+msgid "Type"
+msgstr "نوع"
+
+#: inc/classes/class-tgm-plugin-activation.php:2674
+msgid "Version"
+msgstr "نسخه"
+
+#: inc/classes/class-tgm-plugin-activation.php:2675
+msgid "Status"
+msgstr "وضعیت"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/classes/class-tgm-plugin-activation.php:2724
+#, php-format
+msgid "Install %2$s"
+msgstr "نصب %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/classes/class-tgm-plugin-activation.php:2729
+#, php-format
+msgid "Update %2$s"
+msgstr "به روزرسانی %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/classes/class-tgm-plugin-activation.php:2735
+#, php-format
+msgid "Activate %2$s"
+msgstr "فعال کردن %2$s"
+
+#: inc/classes/class-tgm-plugin-activation.php:2805
+msgid "Upgrade message from the plugin author:"
+msgstr "پیام بروزرسانی از نویسنده افزونه :"
+
+#: inc/classes/class-tgm-plugin-activation.php:2838
+msgid "Install"
+msgstr "نصب"
+
+#: inc/classes/class-tgm-plugin-activation.php:2844
+msgid "Update"
+msgstr "بروز‌رسانی"
+
+#: inc/classes/class-tgm-plugin-activation.php:2878
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "هیچ افزونه ای برای نصب انتخاب نشد. اقدامی صورت نگرفت."
+
+#: inc/classes/class-tgm-plugin-activation.php:2880
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "هیچ افزونه ای برای به روز رسانی انتخاب نشد. اقدامی صورت نگرفت."
+
+#: inc/classes/class-tgm-plugin-activation.php:2921
+msgid "No plugins are available to be installed at this time."
+msgstr "در حال حاضر هیچ پلاگینی برای نصب وجود ندارد."
+
+#: inc/classes/class-tgm-plugin-activation.php:2923
+msgid "No plugins are available to be updated at this time."
+msgstr "در حال حاضر هیچ افزونه ای برای به روز رسانی در دسترس نیست."
+
+#: inc/classes/class-tgm-plugin-activation.php:3029
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "هیچ افزونه ای برای فعال سازی انتخاب نشد. اقدامی صورت نگرفت."
+
+#: inc/classes/class-tgm-plugin-activation.php:3055
+msgid "No plugins are available to be activated at this time."
+msgstr "در حال حاضر هیچ افزونه ای برای فعال سازی موجود نیست."
+
+#: inc/classes/class-tgm-plugin-activation.php:3279
+msgid "Plugin activation failed."
+msgstr "فعال سازی پلاگین انجام نشد."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/classes/class-tgm-plugin-activation.php:3623
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "در حال به‌روزرسانی افزونه %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/classes/class-tgm-plugin-activation.php:3626
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "هنگام نصب %1$s خطایی روی داد: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: inc/classes/class-tgm-plugin-activation.php:3628
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "نصب %1$s ناموفق بود."
+
+#: inc/classes/class-tgm-plugin-activation.php:3632
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"مراحل نصب و فعال سازی شروع می شود. این فرآیند ممکن است در برخی از هاست ها "
+"مدتی طول بکشد، پس لطفا صبور باشید."
+
+#. translators: 1: plugin name.
+#: inc/classes/class-tgm-plugin-activation.php:3634
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s با موفقیت نصب و فعال شد."
+
+#: inc/classes/class-tgm-plugin-activation.php:3635
+msgid "All installations and activations have been completed."
+msgstr "تمامی نصب ها و فعال سازی ها انجام شده است."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/classes/class-tgm-plugin-activation.php:3637
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب و فعال کردن افزونه %1$s (%2$d/%3$d)"
+
+#: inc/classes/class-tgm-plugin-activation.php:3640
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"مراحل نصب شروع می شود. این فرآیند ممکن است در برخی از هاست ها مدتی طول بکشد، "
+"پس لطفا صبور باشید."
+
+#. translators: 1: plugin name.
+#: inc/classes/class-tgm-plugin-activation.php:3642
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s با موفقیت نصب شد."
+
+#: inc/classes/class-tgm-plugin-activation.php:3643
+msgid "All installations have been completed."
+msgstr "تمامی نصب ها انجام شده است."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/classes/class-tgm-plugin-activation.php:3645
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب افزونه%1$s (%2$d/%3$d)"
+
+#: inc/classes/class-wp-bootstrap-navwalker.php:417
+msgid "Please assign a menu"
+msgstr "لطفا منو را انتخاب کنید"
+
+#: inc/customizer/class-silicon-customizer.php:63
+msgid "Footer"
+msgstr "صفحه پاورقی ( فوتر )"
+
+#: inc/customizer/class-silicon-customizer.php:64
+msgid "Customize the theme footer."
+msgstr "پاورقی تم را سفارشی کنید."
+
+#: inc/customizer/class-silicon-customizer.php:105
+msgid "Dark Logo"
+msgstr "لوگو تیره"
+
+#: inc/customizer/class-silicon-customizer.php:106
+msgid "Dark logo appears whenyou choose dark version."
+msgstr "زمانی که نسخه تاریک را انتخاب می‌کنید، لوگو تیره ظاهر می‌شود."
+
+#: inc/customizer/class-silicon-customizer.php:113
+#: inc/customizer/class-silicon-customizer.php:118
+msgid "Select logo"
+msgstr "انتخاب لوگو"
+
+#: inc/customizer/class-silicon-customizer.php:114
+msgid "Change logo"
+msgstr "تغییر لوگو"
+
+#: inc/customizer/class-silicon-customizer.php:115
+msgid "Remove"
+msgstr "حذف"
+
+#: inc/customizer/class-silicon-customizer.php:116
+#: inc/customizer/class-silicon-customizer.php:1084
+msgid "Default"
+msgstr "پیشفرض"
+
+#: inc/customizer/class-silicon-customizer.php:117
+msgid "No logo selected"
+msgstr "لوگویی انتخاب نشده است"
+
+#: inc/customizer/class-silicon-customizer.php:119
+msgid "Choose logo"
+msgstr "انتخاب لوگو"
+
+#: inc/customizer/class-silicon-customizer.php:153
+msgid "Footer Variant"
+msgstr "نوع پاورقی"
+
+#: inc/customizer/class-silicon-customizer.php:154
+msgid "This setting allows you to choose your footer variant."
+msgstr "این تنظیم به شما امکان می دهد نوع پاورقی خود را انتخاب کنید."
+
+#: inc/customizer/class-silicon-customizer.php:156
+#: inc/customizer/class-silicon-customizer.php:653
+msgctxt "button"
+msgid "Default"
+msgstr "پیشفرض"
+
+#: inc/customizer/class-silicon-customizer.php:157
+msgctxt "button"
+msgid "Static Contents"
+msgstr "بلوک های ایستا"
+
+#: inc/customizer/class-silicon-customizer.php:158
+msgctxt "button"
+msgid "No Footer"
+msgstr "بدون فوتر"
+
+#: inc/customizer/class-silicon-customizer.php:181
+msgid "Footer Static Content"
+msgstr "محتوای ثابت پاورقی"
+
+#: inc/customizer/class-silicon-customizer.php:182
+msgid "This setting allows you to choose your footer type."
+msgstr "این تنظیمات به شما امکان می دهد نوع فوتر خود را انتخاب کنید."
+
+#: inc/customizer/class-silicon-customizer.php:211
+msgid "Copyright Text"
+msgstr "متن کپی رایت"
+
+#. translators: title of section in Customizer
+#: inc/customizer/class-silicon-customizer.php:236
+msgid "Portfolio"
+msgstr "نمونه کارها"
+
+#: inc/customizer/class-silicon-customizer.php:237
+#: inc/customizer/class-silicon-customizer.php:309
+msgid ""
+"This section contains settings related to posts listing archives and single "
+"post."
+msgstr "این بخش شامل تنظیمات مربوط به پست های فهرست شده بایگانی و تک پست است."
+
+#. translators: label field of control in Customizer
+#: inc/customizer/class-silicon-customizer.php:264
+#: inc/customizer/class-silicon-customizer.php:481
+msgid "Blog Layout"
+msgstr "طرح بندی وبلاگ"
+
+#: inc/customizer/class-silicon-customizer.php:265
+#: inc/customizer/class-silicon-customizer.php:391
+#: inc/customizer/class-silicon-customizer.php:482
+msgid ""
+"This setting affects both the posts listing (your blog page) and archives."
+msgstr "این تنظیم بر فهرست پست ها (صفحه وبلاگ شما) و آرشیو تأثیر می گذارد."
+
+#. translators: single item in a list of Blog Layout choices (in Customizer)
+#: inc/customizer/class-silicon-customizer.php:268
+#: inc/customizer/class-silicon-customizer.php:485
+msgid "Grid"
+msgstr "شبکه"
+
+#. translators: single item in a list of Blog Layout choices (in Customizer)
+#: inc/customizer/class-silicon-customizer.php:270
+#: inc/customizer/class-silicon-customizer.php:487
+msgid "List"
+msgstr "لیست"
+
+#. translators: single item in a list of Blog Layout choices (in Customizer)
+#: inc/customizer/class-silicon-customizer.php:272
+msgid "Slider"
+msgstr "اسلایدر"
+
+#: inc/customizer/class-silicon-customizer.php:287
+msgid "Blog"
+msgstr "وبلاگ"
+
+#: inc/customizer/class-silicon-customizer.php:288
+#: inc/customizer/class-silicon-customizer.php:566
+msgid "Customize the theme header."
+msgstr "هدر تم را سفارشی کنید."
+
+#. translators: title of section in Customizer
+#: inc/customizer/class-silicon-customizer.php:308
+msgid "Single Podcast"
+msgstr "پادکست تک"
+
+#. translators: label field of control in Customizer
+#: inc/customizer/class-silicon-customizer.php:338
+#: inc/customizer/class-silicon-customizer.php:390
+msgid "Static Content"
+msgstr "محتوای استاتیک"
+
+#. translators: title of section in Customizer
+#: inc/customizer/class-silicon-customizer.php:361
+msgid "Single Post"
+msgstr "پست تک"
+
+#. translators: title of section in Customizer
+#: inc/customizer/class-silicon-customizer.php:414
+msgid "Layout"
+msgstr "چیدمان"
+
+#: inc/customizer/class-silicon-customizer.php:447
+msgid "Left Sidebar"
+msgstr "نوار کناری چپ"
+
+#: inc/customizer/class-silicon-customizer.php:448
+msgid "Right Sidebar"
+msgstr "نوار کناری راست"
+
+#: inc/customizer/class-silicon-customizer.php:449
+msgid "Full Width"
+msgstr "تمام عرض"
+
+#: inc/customizer/class-silicon-customizer.php:509
+msgid "General"
+msgstr "عمومی"
+
+#: inc/customizer/class-silicon-customizer.php:510
+msgid "Customize general options."
+msgstr "گزینه های کلی را سفارشی کنید."
+
+#: inc/customizer/class-silicon-customizer.php:539
+msgid "Page Loader"
+msgstr "لودر صفحه"
+
+#: inc/customizer/class-silicon-customizer.php:541
+msgid "Enable"
+msgstr "فعالسازی"
+
+#: inc/customizer/class-silicon-customizer.php:542
+msgid "Disable"
+msgstr "غیر فعال"
+
+#: inc/customizer/class-silicon-customizer.php:565
+msgid "Header"
+msgstr "هدر"
+
+#: inc/customizer/class-silicon-customizer.php:595
+msgid "Enable Mode Switcher?"
+msgstr "تغییر حالت فعال شود؟"
+
+#: inc/customizer/class-silicon-customizer.php:597
+#: inc/customizer/class-silicon-customizer.php:682
+#: inc/customizer/class-silicon-customizer.php:770
+#: inc/customizer/class-silicon-customizer.php:798
+#: inc/customizer/class-silicon-customizer.php:898
+#: inc/customizer/class-silicon-customizer.php:2104
+msgid "Yes"
+msgstr "بلی"
+
+#: inc/customizer/class-silicon-customizer.php:598
+#: inc/customizer/class-silicon-customizer.php:683
+#: inc/customizer/class-silicon-customizer.php:771
+#: inc/customizer/class-silicon-customizer.php:799
+#: inc/customizer/class-silicon-customizer.php:899
+#: inc/customizer/class-silicon-customizer.php:2105
+msgid "No"
+msgstr "خیر"
+
+#: inc/customizer/class-silicon-customizer.php:623
+msgid "Default Mode"
+msgstr "حالت پیش فرض"
+
+#: inc/customizer/class-silicon-customizer.php:651
+msgid "Navbar Position"
+msgstr "موقعیت نوار ناوبری"
+
+#: inc/customizer/class-silicon-customizer.php:654
+msgctxt "button"
+msgid "Fixed Top"
+msgstr "بالا ثابت"
+
+#: inc/customizer/class-silicon-customizer.php:655
+msgctxt "button"
+msgid "Absolute"
+msgstr "مطلق"
+
+#: inc/customizer/class-silicon-customizer.php:680
+msgid "Stick Navbar on Scroll"
+msgstr "نوار اسکرول ناوبری"
+
+#: inc/customizer/class-silicon-customizer.php:711
+msgid "Navbar Text"
+msgstr "متن نوار ناوبری"
+
+#: inc/customizer/class-silicon-customizer.php:739
+#: inc/customizer/class-silicon-customizer.php:1446
+msgid "Background"
+msgstr "پس زمینه"
+
+#: inc/customizer/class-silicon-customizer.php:741
+msgctxt "button"
+msgid "Transparent"
+msgstr "شفاف"
+
+#: inc/customizer/class-silicon-customizer.php:742
+#: inc/customizer/class-silicon-customizer.php:962
+msgctxt "button"
+msgid "Light"
+msgstr "روشن"
+
+#: inc/customizer/class-silicon-customizer.php:743
+#: inc/customizer/class-silicon-customizer.php:961
+#: inc/customizer/class-silicon-customizer.php:1315
+msgctxt "button"
+msgid "Dark"
+msgstr "تیره"
+
+#: inc/customizer/class-silicon-customizer.php:768
+msgid "Enable Shadow ?"
+msgstr "سایه را فعال کنید؟"
+
+#: inc/customizer/class-silicon-customizer.php:796
+msgid "Disable Dark Mode Shadow ?"
+msgstr "سایه حالت تاریک را غیرفعال کنید؟"
+
+#: inc/customizer/class-silicon-customizer.php:827
+msgid "Border"
+msgstr "حاشیه"
+
+#: inc/customizer/class-silicon-customizer.php:829
+msgctxt "border"
+msgid "None"
+msgstr "هیچکدام"
+
+#: inc/customizer/class-silicon-customizer.php:830
+msgctxt "border"
+msgid "Top"
+msgstr "بالا"
+
+#: inc/customizer/class-silicon-customizer.php:831
+msgctxt "border"
+msgid "Bottom"
+msgstr "پایین"
+
+#: inc/customizer/class-silicon-customizer.php:832
+msgctxt "border"
+msgid "Start"
+msgstr "شروع"
+
+#: inc/customizer/class-silicon-customizer.php:833
+msgctxt "border"
+msgid "End"
+msgstr "پایان"
+
+#: inc/customizer/class-silicon-customizer.php:858
+msgid "Buy Header Border Color"
+msgstr "رنگ حاشیه سربرگ خرید"
+
+#: inc/customizer/class-silicon-customizer.php:860
+msgctxt "border"
+msgid "Primary"
+msgstr "اولیه"
+
+#: inc/customizer/class-silicon-customizer.php:861
+msgctxt "border"
+msgid "Secondary"
+msgstr "ثانوی"
+
+#: inc/customizer/class-silicon-customizer.php:862
+msgctxt "border"
+msgid "Success"
+msgstr "موفق"
+
+#: inc/customizer/class-silicon-customizer.php:863
+msgctxt "border"
+msgid "Danger"
+msgstr "خطر"
+
+#: inc/customizer/class-silicon-customizer.php:864
+msgctxt "border"
+msgid "Warning"
+msgstr "هشدار"
+
+#: inc/customizer/class-silicon-customizer.php:865
+msgctxt "border"
+msgid "Info"
+msgstr "اطلاعات"
+
+#: inc/customizer/class-silicon-customizer.php:866
+msgctxt "border"
+msgid "Dark"
+msgstr "تیره"
+
+#: inc/customizer/class-silicon-customizer.php:867
+msgctxt "border"
+msgid "Light"
+msgstr "روشن"
+
+#: inc/customizer/class-silicon-customizer.php:868
+msgctxt "border"
+msgid "Link"
+msgstr "پیوند"
+
+#: inc/customizer/class-silicon-customizer.php:896
+msgid "Enable Buy Now Button ?"
+msgstr "فعال کردن دکمه اکنون خرید کنید؟"
+
+#: inc/customizer/class-silicon-customizer.php:924
+msgid "Change Buy Now Button Icon"
+msgstr "نماد دکمه اکنون خرید کنید را تغییر دهید"
+
+#: inc/customizer/class-silicon-customizer.php:925
+msgid "This setting allows you to change the button icon"
+msgstr "این تنظیمات به شما امکان می دهد نماد دکمه را تغییر دهید"
+
+#: inc/customizer/class-silicon-customizer.php:953
+msgid "Buy Now Button Color"
+msgstr "رنگ دکمه اکنون خرید کنید"
+
+#: inc/customizer/class-silicon-customizer.php:955
+#: inc/customizer/class-silicon-customizer.php:1310
+msgctxt "button"
+msgid "Primary"
+msgstr "اولیه"
+
+#: inc/customizer/class-silicon-customizer.php:956
+msgctxt "button"
+msgid "Secondary"
+msgstr "ثانوی"
+
+#: inc/customizer/class-silicon-customizer.php:957
+#: inc/customizer/class-silicon-customizer.php:1311
+msgctxt "button"
+msgid "Success"
+msgstr "موفق"
+
+#: inc/customizer/class-silicon-customizer.php:958
+#: inc/customizer/class-silicon-customizer.php:1312
+msgctxt "button"
+msgid "Danger"
+msgstr "خطر"
+
+#: inc/customizer/class-silicon-customizer.php:959
+#: inc/customizer/class-silicon-customizer.php:1313
+msgctxt "button"
+msgid "Warning"
+msgstr "هشدار"
+
+#: inc/customizer/class-silicon-customizer.php:960
+#: inc/customizer/class-silicon-customizer.php:1314
+msgctxt "button"
+msgid "Info"
+msgstr "اطلاعات"
+
+#: inc/customizer/class-silicon-customizer.php:963
+#: inc/customizer/class-silicon-customizer.php:1317
+msgctxt "button"
+msgid "Link"
+msgstr "پیوند"
+
+#: inc/customizer/class-silicon-customizer.php:981
+#: inc/template-functions/header.php:254
+msgid "Buy now"
+msgstr "هم اکنون خریداری کنید"
+
+#: inc/customizer/class-silicon-customizer.php:992
+msgid "Buy Now Button Text"
+msgstr "متن دکمه همین حالا بخر"
+
+#: inc/customizer/class-silicon-customizer.php:993
+#: inc/customizer/class-silicon-customizer.php:1283
+msgid "This setting allows you to change the button text"
+msgstr "این تنظیم به شما امکان می دهد متن دکمه را تغییر دهید"
+
+#: inc/customizer/class-silicon-customizer.php:1020
+msgid "Buy Now Button Link"
+msgstr "لینک دکمه خرید"
+
+#: inc/customizer/class-silicon-customizer.php:1021
+msgid "This setting allows you to change the button link"
+msgstr "این تنظیم به شما امکان می دهد پیوند دکمه را تغییر دهید"
+
+#: inc/customizer/class-silicon-customizer.php:1048
+msgid "Buy Now Button Size"
+msgstr "سایز دکمه اکنون خرید کنید"
+
+#: inc/customizer/class-silicon-customizer.php:1049
+msgid "This setting allows you to choose your header button size."
+msgstr "این تنظیم به شما امکان می دهد اندازه دکمه هدر خود را انتخاب کنید."
+
+#: inc/customizer/class-silicon-customizer.php:1052
+msgid "Normal"
+msgstr "معمولی"
+
+#: inc/customizer/class-silicon-customizer.php:1081
+msgid "Buy Now Button Shape"
+msgstr "شکل دکمه اکنون خرید کنید"
+
+#: inc/customizer/class-silicon-customizer.php:1082
+msgid "This setting allows you to choose your header button shape."
+msgstr "این تنظیمات به شما امکان می دهد شکل دکمه هدر خود را انتخاب کنید."
+
+#: inc/customizer/class-silicon-customizer.php:1085
+msgid "Pill"
+msgstr "قرص"
+
+#: inc/customizer/class-silicon-customizer.php:1086
+msgid "Square"
+msgstr "مربع"
+
+#: inc/customizer/class-silicon-customizer.php:1116
+msgid "Buy Now Button CSS"
+msgstr "CSS دکمه اکنون خرید کنید"
+
+#: inc/customizer/class-silicon-customizer.php:1117
+msgid "This setting allows you to add button css classes"
+msgstr "این تنظیمات به شما اجازه می دهد تا کلاس های css دکمه را اضافه کنید"
+
+#: inc/customizer/class-silicon-customizer.php:1143
+msgid "404"
+msgstr "404"
+
+#: inc/customizer/class-silicon-customizer.php:1171
+msgid "404 Page Variant"
+msgstr "نوع صفحه 404"
+
+#: inc/customizer/class-silicon-customizer.php:1172
+msgid "This setting allows you to choose your 404 page types."
+msgstr "این تنظیم به شما امکان می دهد انواع صفحه 404 خود را انتخاب کنید."
+
+#: inc/customizer/class-silicon-customizer.php:1174
+msgid "404 v1"
+msgstr "404 v1"
+
+#: inc/customizer/class-silicon-customizer.php:1175
+msgid "404 v2"
+msgstr "404 v2"
+
+#: inc/customizer/class-silicon-customizer.php:1204
+msgid "404 Image Upload"
+msgstr "404 آپلود تصویر"
+
+#: inc/customizer/class-silicon-customizer.php:1206
+msgid "This setting allows you to upload an image for 404 page."
+msgstr "این تنظیم به شما امکان می دهد یک تصویر برای صفحه 404 آپلود کنید."
+
+#: inc/customizer/class-silicon-customizer.php:1217 templates/404/404-v1.php:42
+#: templates/404/404-v2.php:61
+msgctxt "front-end"
+msgid "Error 404"
+msgstr "خطای 404"
+
+#: inc/customizer/class-silicon-customizer.php:1228
+msgid "404 Title"
+msgstr "عنوان 404"
+
+#: inc/customizer/class-silicon-customizer.php:1244 templates/404/404-v1.php:44
+#: templates/404/404-v2.php:62
+msgctxt "front-end"
+msgid "The page you are looking for was moved, removed or might never existed."
+msgstr ""
+"صفحه ای که به دنبال آن هستید منتقل شده، حذف شده یا ممکن است هرگز وجود نداشته "
+"باشد."
+
+#: inc/customizer/class-silicon-customizer.php:1255
+msgid "Description"
+msgstr "توضیح"
+
+#: inc/customizer/class-silicon-customizer.php:1271
+msgid "Go to home page"
+msgstr "به صفحه اصلی بروید"
+
+#: inc/customizer/class-silicon-customizer.php:1282
+msgid "Action button text"
+msgstr "متن دکمه اقدام"
+
+#: inc/customizer/class-silicon-customizer.php:1308
+msgid "Action button color"
+msgstr "رنگ دکمه اقدام"
+
+#: inc/customizer/class-silicon-customizer.php:1316
+msgctxt "button"
+msgid "Gradient"
+msgstr "گرادیانت"
+
+#: inc/customizer/class-silicon-customizer.php:1335
+msgid "Button Url"
+msgstr "آدرس دکمه"
+
+#: inc/customizer/class-silicon-customizer.php:1336
+msgid "This setting allows you to change button url."
+msgstr "این تنظیمات به شما امکان می دهد آدرس دکمه را تغییر دهید."
+
+#: inc/customizer/class-silicon-customizer.php:1353
+msgid "Primary Button Size"
+msgstr "اندازه دکمه اصلی"
+
+#: inc/customizer/class-silicon-customizer.php:1354
+msgid "This setting allows you to choose your 404 page primary button size."
+msgstr ""
+"این تنظیم به شما امکان می دهد اندازه دکمه اصلی صفحه 404 خود را انتخاب کنید."
+
+#: inc/customizer/class-silicon-customizer.php:1357
+msgid "Medium"
+msgstr "متوسط"
+
+#: inc/customizer/class-silicon-customizer.php:1491
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: inc/customizer/class-silicon-customizer.php:1512
+msgid "Heading color"
+msgstr "رنگ عنوان"
+
+#: inc/customizer/class-silicon-customizer.php:1536
+#: inc/customizer/class-silicon-customizer.php:1668
+msgid "Text color"
+msgstr "رنگ متن"
+
+#: inc/customizer/class-silicon-customizer.php:1560
+msgid "Link / accent color"
+msgstr "رنگ / لینک ها"
+
+#: inc/customizer/class-silicon-customizer.php:1584
+msgid "Hero heading color"
+msgstr "رنگ ناحیه ابتدایی هدینگ"
+
+#: inc/customizer/class-silicon-customizer.php:1608
+msgid "Hero text color"
+msgstr "رنگ متن ناحیه ابتدایی"
+
+#: inc/customizer/class-silicon-customizer.php:1622
+msgid "Buttons"
+msgstr "دکمه ها"
+
+#: inc/customizer/class-silicon-customizer.php:1624
+msgid "Customize the look & feel of your website buttons."
+msgstr "ظاهر و احساس دکمه های وب سایت خود را سفارشی کنید."
+
+#: inc/customizer/class-silicon-customizer.php:1644
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: inc/customizer/class-silicon-customizer.php:1692
+msgid "Alternate button background color"
+msgstr "رنگ پس زمینه دکمه جایگزین"
+
+#: inc/customizer/class-silicon-customizer.php:1716
+msgid "Alternate button text color"
+msgstr "رنگ متن دکمه جایگزین"
+
+#: inc/customizer/class-silicon-customizer.php:2098
+msgid "Enable Custom Color?"
+msgstr "رنگ سفارشی فعال شود؟"
+
+#: inc/customizer/class-silicon-customizer.php:2100
+msgid "This settings allow you to apply your custom color option."
+msgstr "این تنظیمات به شما امکان می دهد تا گزینه رنگ دلخواه خود را اعمال کنید."
+
+#: inc/customizer/class-silicon-customizer.php:2125
+msgid "Primary color"
+msgstr "رنگ اصلی"
+
+#: inc/customizer/silicon-customizer-functions.php:24
+msgid "— Select —"
+msgstr "— انتخاب —"
+
+#: inc/customizer/silicon-customizer-functions.php:29
+msgid "No Static Content Found"
+msgstr "هیچ محتوای ثابتی یافت نشد"
+
+#. translators: %s template
+#: inc/functions/template.php:39
+#, php-format
+msgid "%s does not exist."
+msgstr "%s وجود ندارد."
+
+#: inc/functions/template.php:56
+msgid ""
+"action_args should not be overwritten when calling silicon_get_template."
+msgstr "هنگام فراخوانی silicon_get_template، action_args نباید رونویسی شود."
+
+#: inc/functions/template.php:301
+msgid "Page navigation"
+msgstr "ناوبری صفحه"
+
+#. translators: %1$s - Current Page, %2$s - Total Pages
+#: inc/functions/template.php:305
+#, php-format
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#. translators: %1$s - The demo name. %2$s - Minutes.
+#: inc/ocdi/class-silicon-ocdi.php:290
+#, php-format
+msgid "This demo will import %1$s. It may take %2$s"
+msgstr "این نسخه نمایشی %1$s را وارد می‌کند. ممکن است %2$s طول بکشد"
+
+#: inc/ocdi/class-silicon-ocdi.php:291
+msgid ""
+"Menus, Widgets and Settings will not be imported. Content imported already "
+"will not be imported."
+msgstr ""
+"منوها، ابزارک‌ها و تنظیمات وارد نمی‌شوند. محتوای وارد شده از قبل وارد نخواهد "
+"شد."
+
+#: inc/ocdi/class-silicon-ocdi.php:292
+msgid ""
+"Alternatively, you can import this template directly into your page via Edit "
+"with Elementor."
+msgstr ""
+"همچنین، می‌توانید این الگو را مستقیماً از طریق ویرایش با المنتور به صفحه خود "
+"وارد کنید."
+
+#: inc/ocdi/class-silicon-ocdi.php:302
+msgid "25 items including 1 page & 24 images"
+msgstr "25 مورد شامل 1 صفحه و 24 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:302 inc/ocdi/class-silicon-ocdi.php:312
+#: inc/ocdi/class-silicon-ocdi.php:322 inc/ocdi/class-silicon-ocdi.php:332
+#: inc/ocdi/class-silicon-ocdi.php:342 inc/ocdi/class-silicon-ocdi.php:352
+#: inc/ocdi/class-silicon-ocdi.php:362 inc/ocdi/class-silicon-ocdi.php:372
+#: inc/ocdi/class-silicon-ocdi.php:382 inc/ocdi/class-silicon-ocdi.php:392
+#: inc/ocdi/class-silicon-ocdi.php:402 inc/ocdi/class-silicon-ocdi.php:412
+#: inc/ocdi/class-silicon-ocdi.php:422 inc/ocdi/class-silicon-ocdi.php:432
+#: inc/ocdi/class-silicon-ocdi.php:442 inc/ocdi/class-silicon-ocdi.php:453
+#: inc/ocdi/class-silicon-ocdi.php:463 inc/ocdi/class-silicon-ocdi.php:473
+#: inc/ocdi/class-silicon-ocdi.php:497
+msgid "upto a minute"
+msgstr "تا یک دقیقه"
+
+#: inc/ocdi/class-silicon-ocdi.php:312
+msgid "33 items including 1 page & 32 images"
+msgstr "33 مورد شامل 1 صفحه و 32 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:322
+msgid "28 items including 1 page & 27 images"
+msgstr "28 مورد شامل 1 صفحه و 27 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:332
+msgid "36 items including 1 page & 35 images"
+msgstr "36 مورد شامل 1 صفحه و 35 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:342
+msgid "29 items including 1 page & 28 images"
+msgstr "29 مورد شامل 1 صفحه و 28 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:352
+msgid "39 items including 1 page & 38 images"
+msgstr "39 مورد شامل 1 صفحه و 38 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:362
+msgid "31 items including 1 page, 4 posts, 1 static-content & 25 images"
+msgstr "31 مورد شامل 1 صفحه، 4 پست، 1 محتوای ثابت و 25 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:372
+msgid "42 items including 1 page, 4 posts, 1 static-content & 36 images"
+msgstr "42 مورد شامل 1 صفحه، 4 پست، 1 محتوای ثابت و 36 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:382
+msgid "39 items including 1 page, 5 posts, 1 static-content & 32 images"
+msgstr "39 مورد شامل 1 صفحه، 5 پست، 1 محتوای ثابت و 32 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:392
+msgid "44 items including 1 page, 2 static-content & 41 images"
+msgstr "44 مورد شامل 1 صفحه، 2 محتوای ثابت و 41 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:402
+msgid ""
+"63 items including 1 page, 6 posts, 7 projects, 1 static-content & 48 images"
+msgstr "63 مورد شامل 1 صفحه، 6 پست، 7 پروژه، 1 محتوای ثابت و 48 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:412
+msgid "38 items including 1 page, 15 posts, 2 static-content & 20 images"
+msgstr "38 مورد شامل 1 صفحه، 15 پست، 2 محتوای ثابت و 20 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:422
+msgid "46 items including 2 pages & 44 images"
+msgstr "46 مورد شامل 2 صفحه و 44 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:432
+msgid "66 items including 4 pages, 4 posts & 58 images"
+msgstr "66 مورد شامل 4 صفحه، 4 پست و 58 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:442
+msgid "4 items including 3 pages & 1 image"
+msgstr "4 مورد شامل 3 صفحه و 1 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:453
+msgid "29 items including 5 pages, 12 posts, 1 static-content & 11 images"
+msgstr "29 مورد شامل 5 صفحه، 12 پست، 1 محتوای ثابت و 11 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:463
+msgid "46 items including 3 pages, 16 projects & 27 images"
+msgstr "46 مورد شامل 3 صفحه، 16 پروژه و 27 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:473
+msgid "16 items including 11 Static Contents & 5 images"
+msgstr "16 مورد شامل 11 محتوای ثابت و 5 تصویر"
+
+#: inc/ocdi/class-silicon-ocdi.php:497
+msgid "7 items including 2 pages & 1 image"
+msgstr "7 مورد شامل 2 صفحه و 1 تصویر"
+
+#: inc/silicon-template-functions.php:71
+msgid "Skip to navigation"
+msgstr "پرش به ناوبری"
+
+#: inc/silicon-template-functions.php:72
+msgid "Skip to content"
+msgstr "نادیده گرفتن محتوا"
+
+#: inc/silicon-template-functions.php:84
+msgid "Edit this section"
+msgstr "ویرایش این بخش"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/silicon-template-functions.php:106
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "ویرایش <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/silicon-template-functions.php:129
+#: inc/silicon-template-functions.php:132
+msgid ", "
+msgstr ", "
+
+#: inc/silicon-template-functions.php:138
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "دسته بندی:"
+msgstr[1] "دسته بندی ها:"
+
+#: inc/silicon-template-functions.php:144
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "برچسب:"
+msgstr[1] "برچسب ها:"
+
+#: inc/silicon-template-functions.php:162
+msgctxt "Next post"
+msgid "Next"
+msgstr "بعدی"
+
+#: inc/silicon-template-functions.php:163
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "قبلی"
+
+#: inc/silicon-template-functions.php:176
+msgid "Next post:"
+msgstr "پست بعدی:"
+
+#: inc/silicon-template-functions.php:177
+msgid "Previous post:"
+msgstr "پست قبلی:"
+
+#: inc/template-functions/footer.php:78
+msgid ""
+"© All rights reserved. Made with <i class=\"bx bx-heart d-inline-block fs-lg "
+"text-gradient-primary align-middle mt-n1 mx-1\"></i> by&nbsp; <a href="
+"\"https://madrasthemes.com/\" class=\"text-muted\" target=\"_blank\" rel="
+"\"noopener\">MadrasThemes</a>"
+msgstr ""
+"© کلیه حقوق محفوظ است. ساخته شده با <i class=\"bx bx-heart d-inline-block fs-"
+"lg text-gradient-primary align-middle mt-n1 mx-1\"></i> توسط&nbsp; <a href="
+"\"https://madrasthemes.com/\" class=\"text-muted\" target=\"_blank\" rel="
+"\"noopener\">مدراس مضامین</a>"
+
+#: inc/template-functions/global.php:83
+msgid "Your comment is awaiting moderation."
+msgstr "نظر شما در انتظار تایید است."
+
+#: inc/template-functions/global.php:110
+msgid "Edit"
+msgstr "ویرایش"
+
+#: inc/template-functions/global.php:134
+msgid "Loading..."
+msgstr "بارگذاری ..."
+
+#: inc/template-functions/global.php:176 sidebar.php:19
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: inc/template-functions/global.php:190
+msgid "Top"
+msgstr "بالا"
+
+#: inc/template-functions/global.php:203
+msgid "Page Navigation"
+msgstr "ناوبری برگه"
+
+#: inc/template-functions/global.php:226
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: inc/template-functions/header.php:242
+msgid "Toggle navigation"
+msgstr "تغییر ناوبری"
+
+#: inc/template-functions/header.php:490
+msgid "Menu"
+msgstr "فهرست"
+
+#. translators: %$ - Time ago
+#: inc/template-functions/loop-post.php:233
+#: inc/template-functions/loop-post.php:235
+#, php-format
+msgid "%s ago"
+msgstr "%s قبل"
+
+#: inc/template-functions/loop-post.php:354
+#: inc/template-functions/loop-post.php:384
+msgid "Avatar"
+msgstr "آواتار"
+
+#: inc/template-functions/loop-post.php:356
+msgid "Author"
+msgstr "نویسنده"
+
+#: inc/template-functions/page.php:53 inc/template-functions/single-post.php:97
+msgid "Pages:"
+msgstr "برگه‌ها :"
+
+#: inc/template-functions/portfolio.php:32
+msgid "All Categories"
+msgstr "همه دسته بندی ها"
+
+#: inc/template-functions/portfolio.php:89
+msgid "Portfolio List"
+msgstr "لیست نمونه کارها"
+
+#: inc/template-functions/portfolio.php:104
+msgid "Portfolio Grid"
+msgstr "شبکه نمونه کارها"
+
+#. translators: %s: post title
+#: inc/template-functions/single-post.php:91
+#, php-format
+msgid "Continue reading %s"
+msgstr "به خواندن %s ادامه دهید"
+
+#: inc/template-functions/single-post.php:125
+msgid "Related Tags:"
+msgstr "برچسب‌های مرتبط:"
+
+#: inc/wpforms/class-silicon-wpforms.php:414
+msgid "Form Tag Class"
+msgstr "کلاس تگ فرم"
+
+#: inc/wpforms/class-silicon-wpforms.php:416
+msgid ""
+"Enter CSS class names for the form tag. Multiple class names should be "
+"separated with spaces."
+msgstr ""
+"نام کلاس های CSS را برای تگ فرم وارد کنید. نام چند کلاس باید با فاصله از هم "
+"جدا شوند."
+
+#: inc/wpforms/class-silicon-wpforms.php:424
+msgid "Fields Wrapper Class"
+msgstr "کلاس بسته بندی فیلدها"
+
+#: inc/wpforms/class-silicon-wpforms.php:426
+msgid ""
+"Enter CSS class names for the fields wrapper. Multiple class names should be "
+"separated with spaces."
+msgstr ""
+"نام کلاس های CSS را برای پوشش فیلدها وارد کنید. نام چند کلاس باید با فاصله "
+"از هم جدا شوند."
+
+#: inc/wpforms/class-silicon-wpforms.php:434
+msgid "Form Control CSS"
+msgstr "CSS کنترل فرم"
+
+#: inc/wpforms/class-silicon-wpforms.php:436
+msgid ""
+"Enter additional CSS class names for the form_control element. Multiple "
+"class names should be separated with spaces."
+msgstr ""
+"نام کلاس های CSS اضافی را برای عنصر کنترل فرم وارد کنید. نام چند کلاس باید "
+"با فاصله از هم جدا شوند."
+
+#: inc/wpforms/class-silicon-wpforms.php:444
+msgid "Form Footer CSS"
+msgstr "CSS پاورقی فرم"
+
+#: inc/wpforms/class-silicon-wpforms.php:446
+msgid ""
+"Enter additional CSS class names for the form footer element. Multiple class "
+"names should be separated with spaces."
+msgstr ""
+"نام کلاس های CSS اضافی را برای عنصر فوتر فرم وارد کنید. نام چند کلاس باید با "
+"فاصله از هم جدا شوند."
+
+#. translators: %s: search term
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای: %s"
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search …"
+msgstr "جستجو کردن …"
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "جستجو برای:"
+
+#: templates/404/404-v1.php:9 templates/404/404-v2.php:9
+msgid "Go to homepage"
+msgstr "رفتن به صفحه اصلی"
+
+#: templates/404/404-v1.php:29 templates/404/404-v2.php:27
+msgctxt "front-end"
+msgid "404"
+msgstr "404"
+
+#: templates/404/404-v2.php:36 templates/404/404-v2.php:39
+#: templates/404/404-v2.php:42 templates/404/404-v2.php:49
+#: templates/404/404-v2.php:52 templates/404/404-v2.php:55
+msgid "Layer"
+msgstr "لایه"
+
+#: templates/contents/loop-post-default.php:28
+msgid "Featured"
+msgstr "ویژه"
+
+#: templates/contents/loop-post-featured.php:20
+msgid "Read article"
+msgstr "خواندن مطلب"
+
+#: templates/contents/loop-post-grid-podcast.php:19
+msgid "Listen podcast"
+msgstr "پادکست گوش کن"
+
+#: templates/contents/loop-post-grid-podcast.php:30
+msgid "Listen now"
+msgstr "اکنون گوش کن"
+
+#. translators: %s - Credit Link
+#: templates/global/footer-404.php:14
+#, php-format
+msgid "&copy; All Rights reserved. Made by %s"
+msgstr "&کپی 🀄؛ تمامی حقوق محفوظ است. ساخته شده توسط %s"
+
+#. translators: %1$s - Heart Icon, %2$s - Credit Link
+#: templates/global/footer-v1.php:15
+#, php-format
+msgid "&copy; All Rights reserved. Made with %1$s by %2$s"
+msgstr "&کپی 🀄؛ تمامی حقوق محفوظ است. ساخته شده با %1$s توسط %2$s"
+
+#: templates/portfolio/loop-portfolio-slider.php:12
+msgid "Category"
+msgstr "دسته بندی"
+
+#: templates/portfolio/loop-portfolio-slider.php:17
+msgid "Date"
+msgstr "تاریخ"
+
+#: templates/portfolio/loop-portfolio-slider.php:23
+msgid "Read more"
+msgstr "بیشتر بخوانید"
+
+#. Theme Name of the plugin/theme
+msgid "Silicon"
+msgstr "Silicon"
+
+#. Theme URI of the plugin/theme
+msgid "https://silicon.madrasthemes.com/"
+msgstr "https://silicon.madrasthemes.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Silicon is a multipurpose WordPress Theme with focus in Technology Business "
+"niches. It offers demos for creative businesses, IT, software development as "
+"well as corporate segment and startups."
+msgstr ""
+"سیلیکون یک قالب وردپرس چند منظوره با تمرکز بر حوزه های کسب و کار فناوری است. "
+"این برنامه نمایشی را برای مشاغل خلاق، فناوری اطلاعات، توسعه نرم افزار و "
+"همچنین بخش شرکت ها و استارت آپ ها ارائه می دهد."
+
+#. Author of the plugin/theme
+msgid "MadrasThemes"
+msgstr "MadrasThemes"
+
+#. Author URI of the plugin/theme
+msgid "https://madrasthemes.com/"
+msgstr "https://madrasthemes.com/"
+
+#~ msgid "22 items including 2 pages & 20 images"
+#~ msgstr "22 مورد شامل 2 صفحه و 20 تصویر"
+
+#~ msgid "2 items including 2 pages"
+#~ msgstr "2 مورد شامل 2 صفحه"

@@ -1,0 +1,14 @@
+
+---فایلهای بارگیری شده---
+فایلهای درون ریزی برای:Software Company با موفقیت بارگیری شد!
+حداکثر زمان اجرای اولیه =300
+اطلاعات فایل ها :
+Site URL = https://galleryelara.ir/ghaleb7
+فایل اطلاعات = /home/gallerye/public_html/ghaleb7/wp-content/uploads/2022/05/demo-content-import-file_2022-05-29__09-11-20.xml
+فایل ابزارک = تعریف نشده!
+فایل های سفارشی ساز= تعریف نشده!
+Redux فایل ها:
+تعریف نشده!
+
+---ocdi/after_import---
+

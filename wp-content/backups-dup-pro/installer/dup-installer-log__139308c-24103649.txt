@@ -1,0 +1,837 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 10:48:41
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.30                                |7.4.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.33 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33
+DOC ROOT____________: "D:/xamm74/htdocs/it"
+REQUEST URL_________: "http://localhost/it"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "D:/xamm74/htdocs/it"
+URL_NEW_____________: "http://localhost/it"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "D:/xamm74/htdocs/it/20220824_d8b3db8cd984db8cdaa9d98fd986_[HASH]_20220824103649_archive.zip"
+ARCHIVE SIZE________: 63.78MB
+CREATED_____________: 2022-08-24 10:36:49
+WP VERSION__________: 6.0.1
+DUP VERSION_________: 4.5.2
+LICENSE_____________: unlicensed
+DB VERSION__________: 10.3.35
+DB FILE SIZE________: 8.22MB
+DB TABLES___________: 20
+DB ROWS_____________: 3362
+URL HOME____________: https://galleryelara.ir/ghaleb7
+URL CORE____________: https://galleryelara.ir/ghaleb7
+URL CONTENT_________: https://galleryelara.ir/ghaleb7/wp-content
+URL UPLOAD__________: https://galleryelara.ir/ghaleb7/wp-content/uploads
+URL PLUGINS_________: https://galleryelara.ir/ghaleb7/wp-content/plugins
+URL MU PLUGINS______: https://galleryelara.ir/ghaleb7/wp-content/mu-plugins
+URL THEMES__________: https://galleryelara.ir/ghaleb7/wp-content/themes
+PATH HOME___________: /home/gallerye/public_html/ghaleb7
+PATH ABS____________: /home/gallerye/public_html/ghaleb7
+PATH WPCONFIG_______: /home/gallerye/public_html/ghaleb7
+PATH WPCONTENT______: /home/gallerye/public_html/ghaleb7/wp-content
+PATH UPLOADS________: /home/gallerye/public_html/ghaleb7/wp-content/uploads
+PATH PLUGINS________: /home/gallerye/public_html/ghaleb7/wp-content/plugins
+PATH MUPLUGINS______: /home/gallerye/public_html/ghaleb7/wp-content/mu-plugins
+PATH THEMES_________: /home/gallerye/public_html/ghaleb7/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "galleryelara.ir/ghaleb7/"
+
+PLUGINS
+PLUGIN [SLUG:advanced-custom-fields/acf.php                    ][ON:true ]  Advanced Custom Fields
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-Spam
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:classic-widgets/classic-widgets.php               ][ON:true ]  Classic Widgets
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:mas-static-content/mas-static-content.php         ][ON:true ]  MAS Static Content
+PLUGIN [SLUG:one-click-demo-import/one-click-demo-import.php   ][ON:true ]  One Click Demo Import
+PLUGIN [SLUG:safe-svg/safe-svg.php                             ][ON:true ]  Safe SVG
+PLUGIN [SLUG:silicon-elementor/silicon-elementor.php           ][ON:true ]  Silicon Elementor
+PLUGIN [SLUG:silicon-extensions/silicon-extensions.php         ][ON:true ]  Silicon Extensions
+PLUGIN [SLUG:wordpress-importer/wordpress-importer.php         ][ON:true ]  WordPress Importer
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:true ]  WPForms Lite
+PLUGIN [SLUG:wp-shamsi/wp-shamsi.php                           ][ON:true ]  تاریخ شمسی و فارسی ساز وردپرس
+PLUGIN [SLUG:RTL-CareUnit/RTL-CareUnit.php                     ][ON:true ]  مدیریت لایسنس راستچین
+
+********************************************************************************
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\ctrls\ctrl.base.php:231][DELTA:   0.18061]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "settpm"
+NEW TEMPLATE:default
+--------------------------------------
+PATHS MAPPING : "D:/xamm74/htdocs/it"
+--------------------------------------
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\ctrls\ctrl.base.php:231][DELTA:   0.15123]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+--------------------------------------
+PATHS MAPPING : "D:/xamm74/htdocs/it"
+--------------------------------------
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\ctrls\ctrl.base.php:231][DELTA:   0.13189]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "D:/xamm74/htdocs/it"
+--------------------------------------
+LOG-TIME[DELTA:   0.04348]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.02076]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00066]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.01858]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00176]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00053]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00039]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00142]  MESSAGE:TEST "Multiple WP Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00116]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05825]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00052]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00089]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00104]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "D:/xamm74/htdocs/it"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:51:40
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "سیلیکُن"
+HOME URL NEW________: "http://localhost/it"
+SITE URL NEW________: "http://localhost/it"
+CONTENT URL NEW_____: "http://localhost/it/wp-content"
+UPLOAD URL NEW______: "http://localhost/it/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/it/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/it/wp-content/mu-plugins"
+HOME PATH NEW_______: "D:/xamm74/htdocs/it"
+SITE PATH NEW_______: "D:/xamm74/htdocs/it"
+CONTENT PATH NEW____: "D:/xamm74/htdocs/it/wp-content"
+UPLOAD PATH NEW_____: "D:/xamm74/htdocs/it/wp-content/uploads"
+PLUGINS PATH NEW____: "D:/xamm74/htdocs/it/wp-content/plugins"
+MUPLUGINS PATH NEW__: "D:/xamm74/htdocs/it/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: true
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "D:/xamm74/htdocs/it/dup-installer"
+	FILE: "D:/xamm74/htdocs/it/20220824_d8b3db8cd984db8cdaa9d98fd986_[HASH]_20220824103649_installer-backup.php"
+	FILE: "D:/xamm74/htdocs/it/20220824_d8b3db8cd984db8cdaa9d98fd986_[HASH]_20220824103649_archive.zip"
+	FILE: "D:/xamm74/htdocs/it/installer.php"
+	FILE: "D:/xamm74/htdocs/it/dup-installer-bootlog__139308c-24103649.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20220824_d8b3db8cd984db8cdaa9d98fd986_[HASH]_20220824103649_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0050 sec. - Files processed: 7,744 of 12,741
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7744
+--------------------------------------
+PATHS MAPPING : "D:/xamm74/htdocs/it"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 13445
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 10:51:50 - RUNTIME: 10.0834 sec. - Files processed: 12,741 of 12,741
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\ctrls\ctrl.base.php:231][DELTA:   0.29773]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s2] START
+AJAX ACTION [sparam_s2] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_d
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 10:52:13
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_d"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: "utf8mb4_persian_ci"
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_dactionscheduler_actions"_____________________[ROWS:      44] [EXTRACT|REPLACE] [INST NAME: wp_dactionscheduler_actions]
+TABLE "wp_dactionscheduler_claims"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dactionscheduler_claims]
+TABLE "wp_dactionscheduler_groups"______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_dactionscheduler_groups]
+TABLE "wp_dactionscheduler_logs"________________________[ROWS:     122] [EXTRACT|REPLACE] [INST NAME: wp_dactionscheduler_logs]
+TABLE "wp_dcommentmeta"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dcommentmeta]
+TABLE "wp_dcomments"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dcomments]
+TABLE "wp_dduplicator_pro_entities"_____________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_dduplicator_pro_entities]
+TABLE "wp_dduplicator_pro_packages"_____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_dduplicator_pro_packages]
+TABLE "wp_de_events"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_de_events]
+TABLE "wp_dlinks"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dlinks]
+TABLE "wp_doptions"_____________________________________[ROWS:     231] [EXTRACT|REPLACE] [INST NAME: wp_doptions]
+TABLE "wp_dpostmeta"____________________________________[ROWS:    2334] [EXTRACT|REPLACE] [INST NAME: wp_dpostmeta]
+TABLE "wp_dposts"_______________________________________[ROWS:     333] [EXTRACT|REPLACE] [INST NAME: wp_dposts]
+TABLE "wp_dtermmeta"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dtermmeta]
+TABLE "wp_dterms"_______________________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wp_dterms]
+TABLE "wp_dterm_relationships"__________________________[ROWS:     197] [EXTRACT|REPLACE] [INST NAME: wp_dterm_relationships]
+TABLE "wp_dterm_taxonomy"_______________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wp_dterm_taxonomy]
+TABLE "wp_dusermeta"____________________________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: wp_dusermeta]
+TABLE "wp_dusers"_______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_dusers]
+TABLE "wp_dwpforms_tasks_meta"__________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_dwpforms_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.27 -- Build Server: 10.3.35
+FILE SIZE:	dup-database__[HASH].sql (4.4MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wp_jactionscheduler_actions
+DROP TABLE wp_jactionscheduler_claims
+DROP TABLE wp_jactionscheduler_groups
+DROP TABLE wp_jactionscheduler_logs
+DROP TABLE wp_jcommentmeta
+DROP TABLE wp_jcomments
+DROP TABLE wp_jduplicator_pro_entities
+DROP TABLE wp_jduplicator_pro_packages
+DROP TABLE wp_je_events
+DROP TABLE wp_jlinks
+DROP TABLE wp_joptions
+DROP TABLE wp_jpostmeta
+DROP TABLE wp_jposts
+DROP TABLE wp_jterm_relationships
+DROP TABLE wp_jterm_taxonomy
+DROP TABLE wp_jtermmeta
+DROP TABLE wp_jterms
+DROP TABLE wp_jusermeta
+DROP TABLE wp_jusers
+DROP TABLE wp_jwpforms_tasks_meta
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	20
+RENAMED TABLES:	0
+QUERIES RAN:	62
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_dactionscheduler_actions"_____________________[ROWS:    44]
+TABLE "wp_dactionscheduler_claims"______________________[ROWS:     0]
+TABLE "wp_dactionscheduler_groups"______________________[ROWS:     2]
+TABLE "wp_dactionscheduler_logs"________________________[ROWS:   122]
+TABLE "wp_dcommentmeta"_________________________________[ROWS:     0]
+TABLE "wp_dcomments"____________________________________[ROWS:     0]
+TABLE "wp_dduplicator_pro_entities"_____________________[ROWS:     5]
+TABLE "wp_dduplicator_pro_packages"_____________________[ROWS:     1]
+TABLE "wp_de_events"____________________________________[ROWS:     0]
+TABLE "wp_dlinks"_______________________________________[ROWS:     0]
+TABLE "wp_doptions"_____________________________________[ROWS:   231]
+TABLE "wp_dpostmeta"____________________________________[ROWS:  2334]
+TABLE "wp_dposts"_______________________________________[ROWS:   333]
+TABLE "wp_dterm_relationships"__________________________[ROWS:   197]
+TABLE "wp_dterm_taxonomy"_______________________________[ROWS:    34]
+TABLE "wp_dtermmeta"____________________________________[ROWS:     0]
+TABLE "wp_dterms"_______________________________________[ROWS:    34]
+TABLE "wp_dusermeta"____________________________________[ROWS:    26]
+TABLE "wp_dusers"_______________________________________[ROWS:     1]
+TABLE "wp_dwpforms_tasks_meta"__________________________[ROWS:     4]
+
+INSERT DATA RUNTIME: 1.3775 sec.
+STEP-2 COMPLETE @ 10:52:14 - RUNTIME: 1.3777 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\ctrls\ctrl.base.php:231][DELTA:   0.15181]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s3] START
+AJAX ACTION [sparam_s3] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/gallerye/public_html/ghaleb7 REPLACE: D:/xamm74/htdocs/it [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://galleryelara.ir/ghaleb7 REPLACE: http://localhost/it [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:52:59
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = ], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 2G], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_doptions]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:    43]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_dactionscheduler_actions"_____________________[ROWS:    44][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dactionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_dactionscheduler_claims"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dactionscheduler_groups"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dactionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_dactionscheduler_logs"________________________[ROWS:   122][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dactionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_dcommentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dcomments"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dduplicator_pro_entities"_____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dduplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_dduplicator_pro_packages"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_de_events"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dlinks"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_doptions"_____________________________________[ROWS:   188][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_doptions][0]
+
+EVALUATE TABLE: "wp_dpostmeta"____________________________________[ROWS:  2334][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dpostmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_dpostmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_dpostmeta][2]
+
+EVALUATE TABLE: "wp_dposts"_______________________________________[ROWS:   333][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dposts][0]
+
+EVALUATE TABLE: "wp_dtermmeta"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dterms"_______________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dterms][0]
+
+EVALUATE TABLE: "wp_dterm_relationships"__________________________[ROWS:   197][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dterm_taxonomy"_______________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dterm_taxonomy][0]
+
+EVALUATE TABLE: "wp_dusermeta"____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dusermeta][0]
+
+EVALUATE TABLE: "wp_dusers"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dusers][0]
+
+EVALUATE TABLE: "wp_dwpforms_tasks_meta"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/gallerye/public_html/ghaleb7" ==============> "D:/xamm74/htdocs/it"
+	SEARCH[urlnd]  2:"https://galleryelara.ir/ghaleb7" =================> "http://localhost/it"
+	CHUNK ACTION: CURRENT [search_replace][wp_dwpforms_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:20 	|	 Rows:3127 	|	 Cells:19418 
+UPDATED:	Tables:5 	|	 Rows:266 	|	 Cells:288 
+ERRORS:		0 
+RUNTIME:	1.277100 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:D:/xamm74/htdocs/it/wp-config.php
+New htaccess file created:D:/xamm74/htdocs/it/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""it""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE "utf8mb4_persian_ci"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+RESET USER ID 1 NAME admin PASSWORD
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+REMOVE REDUNDANT
+====================================
+MAINTENANCE MODE DISABLE
+FUNCTION [unistallInactivePlugins]: unistall inactive plugins
+[PHP ERR][E_NOTICE] MSG:Constant KB_IN_BYTES already defined [CODE:8|FILE:D:\xamm74\htdocs\it\wp-includes\default-constants.php|LINE:27]
+[PHP ERR][E_NOTICE] MSG:Constant MB_IN_BYTES already defined [CODE:8|FILE:D:\xamm74\htdocs\it\wp-includes\default-constants.php|LINE:28]
+[PHP ERR][E_NOTICE] MSG:Constant GB_IN_BYTES already defined [CODE:8|FILE:D:\xamm74\htdocs\it\wp-includes\default-constants.php|LINE:29]
+UNINSTALL PLUGIN "hello.php" DONE
+
+--------------------
+DELETING INACTIVE THEMES
+THEME: "silicon" ENABLE
+THEME: "twentytwenty" DELETED
+THEME: "twentytwentyone" DELETED
+THEME: "twentytwentytwo" DELETED
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:53:03 - RUNTIME: 3.4271 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Activate Akismet Anti-Spam after you login.
+	SECTIONS: plugins
+
+====================================
+LOG-TIME[D:\xamm74\htdocs\it\dup-installer\ctrls\ctrl.base.php:231][DELTA:   0.14874]  MESSAGE:END RENDER PAGE

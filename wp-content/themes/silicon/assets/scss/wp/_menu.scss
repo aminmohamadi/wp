@@ -1,0 +1,15 @@
+@media (max-width: 782px) {
+    .admin-bar .offcanvas-end {
+        top: 46px;
+    }
+
+    .admin-bar .navbar-sticky.navbar-stuck .offcanvas-end {
+        top: 0;
+    }
+}
+
+.form-check-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-print-color-adjust: exact;
+}

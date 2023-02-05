@@ -1,0 +1,23 @@
+{
+    "htaccess": {
+        "baseName": "source_site_htaccess",
+        "source": ".htaccess",
+        "stored": "source_site_htaccess",
+        "mode": "copy",
+        "isRelative": true
+    },
+    "wpconfig": {
+        "baseName": "source_site_wpconfig",
+        "source": "wp-config.php",
+        "stored": "source_site_wpconfig",
+        "mode": "copy",
+        "isRelative": true
+    },
+    "hello.php": {
+        "baseName": "hello.php",
+        "source": "wp-content\/plugins\/hello.php",
+        "stored": "wp-content\/plugins\/hello.php",
+        "mode": "move",
+        "isRelative": true
+    }
+}

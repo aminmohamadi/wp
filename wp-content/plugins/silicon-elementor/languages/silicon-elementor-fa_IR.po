@@ -1,0 +1,5422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Silicon Elementor\n"
+"POT-Creation-Date: 2022-08-24 11:14+0430\n"
+"PO-Revision-Date: 2022-08-24 11:17+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: silicon-elementor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: base/module-base.php:34 modules/accordion/skins/skin-accordion-silicon.php:53
+#: modules/button/skins/skin-button-silicon.php:55
+#: modules/logo/widgets/logo.php:152
+msgid "Silicon"
+msgstr "Silicon"
+
+#: core/icons-manager.php:35
+msgid "Box Icons"
+msgstr "آیکون های جعبه"
+
+#. translators: %s: Search term.
+#: core/utils.php:150
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای: %s"
+
+#. translators: %s is the page number.
+#: core/utils.php:154
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr "&nbsp;&ndash; صفحه %s"
+
+#. translators: Category archive title. 1: Category name
+#: core/utils.php:161
+#, php-format
+msgid "Category: %s"
+msgstr "دسته بندی: %s"
+
+#. translators: Tag archive title. 1: Tag name
+#: core/utils.php:167
+#, php-format
+msgid "Tag: %s"
+msgstr "برچسب: %s"
+
+#. translators: Author archive title. 1: Author name
+#: core/utils.php:174
+#, php-format
+msgid "Author: %s"
+msgstr "نویسنده: %s"
+
+#: core/utils.php:177
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: Yearly archive title. 1: Year
+#: core/utils.php:181
+#, php-format
+msgid "Year: %s"
+msgstr "سال: %s"
+
+#: core/utils.php:184
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#. translators: Monthly archive title. 1: Month name and year
+#: core/utils.php:188
+#, php-format
+msgid "Month: %s"
+msgstr "ماه: %s"
+
+#: core/utils.php:191
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#. translators: Daily archive title. 1: Date
+#: core/utils.php:195
+#, php-format
+msgid "Day: %s"
+msgstr "روز: %s"
+
+#: core/utils.php:199
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "به جز"
+
+#: core/utils.php:201
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "گالری ها"
+
+#: core/utils.php:203
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "تصویرها"
+
+#: core/utils.php:205
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "ویدئوها"
+
+#: core/utils.php:207
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "نقل قول ها"
+
+#: core/utils.php:209
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "لینکها"
+
+#: core/utils.php:211
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "وضعیت ها"
+
+#: core/utils.php:213
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "صوتی"
+
+#: core/utils.php:215
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "چت ها"
+
+#. translators: Post type archive title. 1: Post type name
+#: core/utils.php:222
+#, php-format
+msgid "Archives: %s"
+msgstr "آرشیو: %s"
+
+#. translators: Taxonomy term archive title. 1: Taxonomy singular name, 2: Current taxonomy term
+#: core/utils.php:230
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: core/utils.php:233
+msgid "Archives"
+msgstr "آرشیو"
+
+#: core/utils.php:235
+msgid "Page Not Found"
+msgstr "صفحه یافت نشد"
+
+#: includes/controls/font-size.php:19
+#: modules/button/skins/skin-button-silicon.php:342
+#: modules/carousel/widgets/content-carousel.php:1145
+#: modules/carousel/widgets/team-carousel.php:315
+#: modules/image/skins/skin-image.php:206
+#: modules/nav-tabs/skins/skin-nav-tabs.php:194
+#: modules/nav-tabs/widgets/nav-tabs.php:191 modules/page-settings/module.php:594
+#: modules/page-settings/module.php:684
+#: modules/posts/traits/button-widget-trait.php:281
+#: modules/posts/widgets/posts-base.php:486 modules/pricing/widgets/price.php:750
+#: modules/team-member/widgets/team-member.php:411
+#: modules/ticket/widgets/ticket.php:606
+msgid "Normal"
+msgstr "معمولی"
+
+#: includes/controls/font-size.php:20
+msgid "Display 1"
+msgstr "نمایشگر 1"
+
+#: includes/controls/font-size.php:21
+msgid "Display 2"
+msgstr "نمایشگر 2"
+
+#: includes/controls/font-size.php:22
+msgid "Display 3"
+msgstr "نمایشگر 3"
+
+#: includes/controls/font-size.php:23
+msgid "Display 4"
+msgstr "نمایشگر 4"
+
+#: includes/controls/font-size.php:24
+msgid "Display 5"
+msgstr "نمایشگر 5"
+
+#: includes/controls/font-size.php:25
+msgid "Display 6"
+msgstr "نمایشگر 6"
+
+#: includes/controls/font-size.php:26
+msgid "Font Size 1"
+msgstr "اندازه فونت 1"
+
+#: includes/controls/font-size.php:27
+msgid "Font Size 2"
+msgstr "اندازه فونت 2"
+
+#: includes/controls/font-size.php:28
+msgid "Font Size 3"
+msgstr "اندازه فونت 3"
+
+#: includes/controls/font-size.php:29
+msgid "Font Size 4"
+msgstr "اندازه فونت 4"
+
+#: includes/controls/font-size.php:30
+msgid "Font Size 5"
+msgstr "اندازه فونت 5"
+
+#: includes/controls/font-size.php:31
+msgid "Font Size 6"
+msgstr "اندازه فونت 6"
+
+#: includes/controls/font-size.php:32 modules/hero/widgets/hero.php:126
+msgid "Lead"
+msgstr "رهبری"
+
+#: includes/controls/font-size.php:33
+msgid "Font Size lg"
+msgstr "اندازه فونت lg"
+
+#: includes/controls/font-size.php:34 includes/controls/font-size.php:35
+msgid "Font Size sm"
+msgstr "اندازه قلم sm"
+
+#: includes/controls/font-size.php:36
+msgid "H1"
+msgstr "H1"
+
+#: includes/controls/font-size.php:37
+msgid "H2"
+msgstr "H2"
+
+#: includes/controls/font-size.php:38
+msgid "H3"
+msgstr "H3"
+
+#: includes/controls/font-size.php:39
+msgid "H4"
+msgstr "H4"
+
+#: includes/controls/font-size.php:40
+msgid "H5"
+msgstr "H5"
+
+#: includes/controls/font-size.php:41
+msgid "H6"
+msgstr "H6"
+
+#: modules/accordion/skins/skin-accordion-card-v2.php:54
+msgid "Card V2"
+msgstr "کارت V2"
+
+#: modules/accordion/skins/skin-accordion-card-v2.php:111
+#: modules/accordion/skins/skin-accordion-card.php:93
+#: modules/accordion/skins/skin-accordion-card.php:285
+#: modules/accordion/skins/skin-accordion-silicon.php:77
+#: modules/button/skins/skin-button-market.php:199
+#: modules/button/skins/skin-button-reviews.php:88
+#: modules/carousel/skins/skin-post-carousel-v3.php:121
+#: modules/carousel/skins/skin-post-carousel-v3.php:129
+#: modules/carousel/widgets/content-carousel.php:252
+#: modules/carousel/widgets/content-carousel.php:421
+#: modules/carousel/widgets/content-carousel.php:587
+#: modules/carousel/widgets/content-carousel.php:767
+#: modules/carousel/widgets/content-carousel.php:875
+#: modules/carousel/widgets/content-carousel.php:1241
+#: modules/carousel/widgets/iconbox-carousel.php:138
+#: modules/carousel/widgets/iconbox-carousel.php:355
+#: modules/carousel/widgets/iconbox-carousel.php:468
+#: modules/carousel/widgets/imagebox-carousel.php:132
+#: modules/carousel/widgets/imagebox-carousel.php:478
+#: modules/carousel/widgets/imagebox-carousel.php:755
+#: modules/carousel/widgets/mobile-carousel.php:115
+#: modules/carousel/widgets/mobile-carousel.php:251
+#: modules/carousel/widgets/mobile-carousel.php:397
+#: modules/carousel/widgets/mobile-carousel.php:488
+#: modules/carousel/widgets/post-carousel.php:569
+#: modules/hero/skins/medical-hero.php:99 modules/hero/widgets/hero.php:104
+#: modules/highlighted-heading/widgets/highlighted-heading.php:68
+#: modules/highlighted-heading/widgets/highlighted-heading.php:204
+#: modules/logo/widgets/logo.php:150 modules/pricing/skins/skin-list.php:149
+#: modules/pricing/skins/skin-list.php:398 modules/pricing/widgets/price.php:101
+#: modules/pricing/widgets/price.php:504
+#: modules/query-control/controls/group-control-query.php:382
+#: modules/ticket/widgets/ticket.php:100 modules/ticket/widgets/ticket.php:477
+msgid "Title"
+msgstr "عنوان"
+
+#: modules/accordion/skins/skin-accordion-card-v2.php:119
+#: modules/accordion/skins/skin-accordion-card.php:293
+#: modules/accordion/skins/skin-accordion-silicon.php:85
+msgid " Background Hover Color"
+msgstr " رنگ هاور پس زمینه"
+
+#: modules/accordion/skins/skin-accordion-card-v2.php:133
+#: modules/accordion/skins/skin-accordion-card-v2.php:176
+#: modules/accordion/skins/skin-accordion-card.php:307
+#: modules/accordion/skins/skin-accordion-card.php:350
+#: modules/accordion/skins/skin-accordion-silicon.php:99
+#: modules/accordion/skins/skin-accordion-silicon.php:142
+#: modules/button/skins/skin-button-silicon.php:373
+#: modules/button/skins/skin-button-silicon.php:415
+#: modules/page-settings/module.php:359
+#: modules/posts/traits/button-widget-trait.php:303
+#: modules/posts/traits/button-widget-trait.php:348 modules/section/module.php:99
+#: modules/ticket/widgets/ticket.php:325
+msgid "Background"
+msgstr "پس زمینه"
+
+#: modules/accordion/skins/skin-accordion-card-v2.php:144
+#: modules/accordion/skins/skin-accordion-card-v2.php:187
+#: modules/accordion/skins/skin-accordion-card.php:318
+#: modules/accordion/skins/skin-accordion-card.php:361
+#: modules/accordion/skins/skin-accordion-silicon.php:110
+#: modules/accordion/skins/skin-accordion-silicon.php:153
+#: modules/blockquote/widgets/blockquote.php:257
+#: modules/carousel/widgets/base.php:439 modules/carousel/widgets/base.php:497
+#: modules/image/module.php:133 modules/posts/widgets/posts-base.php:134
+#: modules/posts/widgets/posts-base.php:493
+#: modules/posts/widgets/posts-base.php:513
+#: modules/posts/widgets/posts-base.php:533 modules/pricing/widgets/price.php:664
+#: modules/shapes/widgets/shapes.php:59
+msgid "Color"
+msgstr "رنگ"
+
+#: modules/accordion/skins/skin-accordion-card-v2.php:168
+#: modules/accordion/skins/skin-accordion-card.php:115
+#: modules/accordion/skins/skin-accordion-card.php:342
+#: modules/accordion/skins/skin-accordion-silicon.php:134
+#: modules/blockquote/widgets/blockquote.php:93
+#: modules/blockquote/widgets/blockquote.php:158
+#: modules/carousel/widgets/brand-carousel.php:132
+#: modules/carousel/widgets/content-carousel.php:866
+#: modules/carousel/widgets/iconbox-carousel.php:199
+#: modules/carousel/widgets/imagebox-carousel.php:441
+#: modules/carousel/widgets/post-carousel.php:503
+#: modules/carousel/widgets/team-carousel.php:411
+#: modules/carousel/widgets/testimonial-carousel.php:355
+#: modules/hero/widgets/hero.php:97
+#: modules/image-gallery/skins/skin-image-gallery.php:169
+#: modules/nav-tabs/skins/skin-nav-tabs.php:152
+#: modules/nav-tabs/widgets/nav-tabs.php:344
+#: modules/team-member/widgets/team-member.php:507
+msgid "Content"
+msgstr "محتوا"
+
+#: modules/accordion/skins/skin-accordion-card-v2.php:209
+msgid "Wrap CSS"
+msgstr "CSS را بپیچید"
+
+#: modules/accordion/skins/skin-accordion-card-v2.php:212
+#: modules/accordion/skins/skin-accordion-card.php:398
+#: modules/carousel/widgets/brand-carousel.php:193
+#: modules/carousel/widgets/iconbox-carousel.php:369
+#: modules/carousel/widgets/iconbox-carousel.php:412
+#: modules/carousel/widgets/imagebox-carousel.php:346
+#: modules/carousel/widgets/imagebox-carousel.php:404
+#: modules/carousel/widgets/imagebox-carousel.php:491
+#: modules/carousel/widgets/imagebox-carousel.php:539 modules/image/module.php:92
+msgid "Additional CSS class that you want to apply to the a tag"
+msgstr "کلاس CSS اضافی که می‌خواهید روی تگ a اعمال کنید"
+
+#: modules/accordion/skins/skin-accordion-card.php:57
+#: modules/carousel/widgets/brand-carousel.php:141
+#: modules/carousel/widgets/iconbox-carousel.php:296
+#: modules/carousel/widgets/imagebox-carousel.php:265
+#: modules/carousel/widgets/imagebox-carousel.php:277
+#: modules/carousel/widgets/post-carousel.php:542
+#: modules/carousel/widgets/team-carousel.php:170
+#: modules/carousel/widgets/team-carousel.php:180
+#: modules/icon-box/skins/skin-icon-box-v2.php:390
+#: modules/icon-box/skins/skin-icon-box.php:90
+#: modules/image-box/skins/skin-image-box-v2.php:235
+#: modules/image-box/skins/skin-image-box.php:320
+#: modules/pricing/skins/skin-card.php:32 modules/pricing/skins/skin-card.php:317
+#: modules/team-member/widgets/team-member.php:244
+#: modules/team-member/widgets/team-member.php:254
+msgid "Card"
+msgstr "کارت"
+
+#: modules/accordion/skins/skin-accordion-card.php:91
+msgid "Title & Description"
+msgstr "عنوان و توضیحات"
+
+#: modules/accordion/skins/skin-accordion-card.php:104
+#: modules/accordion/skins/skin-accordion-card.php:385
+#: modules/carousel/skins/skin-team-carousel.php:207
+#: modules/carousel/widgets/brand-carousel.php:319
+#: modules/carousel/widgets/content-carousel.php:396
+#: modules/carousel/widgets/imagebox-carousel.php:113
+#: modules/carousel/widgets/imagebox-carousel.php:318
+#: modules/carousel/widgets/imagebox-carousel.php:734
+#: modules/carousel/widgets/mobile-carousel.php:477
+#: modules/carousel/widgets/team-carousel.php:102
+#: modules/carousel/widgets/team-carousel.php:263
+#: modules/ticket/widgets/ticket.php:357 modules/ticket/widgets/ticket.php:371
+msgid "Image"
+msgstr "تصویر"
+
+#: modules/accordion/skins/skin-accordion-card.php:117
+msgid "Accordion Content"
+msgstr "محتوای آکاردئون"
+
+#: modules/accordion/skins/skin-accordion-card.php:125
+msgid "Accordion Items"
+msgstr "آیتم های آکاردئون"
+
+#: modules/accordion/skins/skin-accordion-card.php:393
+#: modules/carousel/widgets/brand-carousel.php:247
+#: modules/carousel/widgets/imagebox-carousel.php:356
+#: modules/carousel/widgets/team-carousel.php:272 modules/hero/widgets/hero.php:502
+#: modules/image-box/skins/skin-image-box-v2.php:370
+#: modules/image-box/skins/skin-image-box.php:114
+#: modules/image-gallery/skins/skin-profile.php:81 modules/image/module.php:75
+#: modules/team-member/widgets/team-member.php:116
+msgid "Image Class"
+msgstr "کلاس تصویر"
+
+#: modules/accordion/skins/skin-accordion-card.php:395
+#: modules/carousel/widgets/brand-carousel.php:249 modules/image/module.php:77
+msgid "Add your custom class for <img> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <img> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/accordion/skins/skin-accordion-card.php:407
+#: modules/button/skins/skin-button-reviews.php:206
+#: modules/carousel/widgets/brand-carousel.php:260
+#: modules/carousel/widgets/imagebox-carousel.php:416
+#: modules/carousel/widgets/testimonial-carousel.php:522
+msgid "Image Width"
+msgstr "عرض تصویر"
+
+#: modules/blockquote/widgets/blockquote.php:55
+#: modules/blockquote/widgets/blockquote.php:86
+#: modules/blockquote/widgets/blockquote.php:324
+#: modules/carousel/widgets/testimonial-carousel.php:107
+#: modules/carousel/widgets/testimonial-carousel.php:175
+#: modules/carousel/widgets/testimonial-carousel.php:364
+#: modules/carousel/widgets/testimonial-carousel.php:724
+msgid "Blockquote"
+msgstr "مسابقه"
+
+#: modules/blockquote/widgets/blockquote.php:98
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus "
+"nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان "
+"گرافیک است."
+
+#: modules/blockquote/widgets/blockquote.php:98
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor"
+msgstr ""
+"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان "
+"مگاتم است"
+
+#: modules/blockquote/widgets/blockquote.php:99
+msgid "Enter your quote"
+msgstr "نقل قول خود را وارد کنید"
+
+#: modules/blockquote/widgets/blockquote.php:107
+#: modules/blockquote/widgets/blockquote.php:200
+#: modules/carousel/widgets/post-carousel.php:330
+#: modules/carousel/widgets/post-carousel.php:352
+#: modules/query-control/controls/group-control-posts.php:103
+#: modules/query-control/controls/group-control-query.php:131
+#: modules/query-control/controls/group-control-query.php:168
+#: modules/query-control/controls/group-control-query.php:209
+#: modules/query-control/controls/group-control-query.php:267
+msgid "Author"
+msgstr "نویسنده"
+
+#: modules/blockquote/widgets/blockquote.php:112
+msgid "John Doe"
+msgstr "جان دو"
+
+#: modules/blockquote/widgets/blockquote.php:120
+msgid "Author Byline"
+msgstr "خط نویسنده"
+
+#: modules/blockquote/widgets/blockquote.php:125
+msgid "CEO of Ipsum Company"
+msgstr "مدیرعامل شرکت ایپسوم"
+
+#: modules/blockquote/widgets/blockquote.php:133
+#: modules/carousel/widgets/testimonial-carousel.php:117
+#: modules/carousel/widgets/testimonial-carousel.php:185
+#: modules/carousel/widgets/testimonial-carousel.php:512
+#: modules/carousel/widgets/testimonial-carousel.php:750
+msgid "Avatar"
+msgstr "تصویر پروفایل"
+
+#: modules/blockquote/widgets/blockquote.php:166
+#: modules/blockquote/widgets/blockquote.php:208
+#: modules/button-icon/widgets/button-icon.php:265
+#: modules/button/skins/skin-button-silicon.php:349
+#: modules/button/skins/skin-button-silicon.php:402
+#: modules/carousel/widgets/content-carousel.php:895
+#: modules/carousel/widgets/content-carousel.php:955
+#: modules/carousel/widgets/content-carousel.php:1006
+#: modules/carousel/widgets/content-carousel.php:1152
+#: modules/carousel/widgets/imagebox-carousel.php:627
+#: modules/carousel/widgets/mobile-carousel.php:417
+#: modules/carousel/widgets/mobile-carousel.php:451
+#: modules/carousel/widgets/testimonial-carousel.php:384
+#: modules/carousel/widgets/testimonial-carousel.php:572
+#: modules/carousel/widgets/testimonial-carousel.php:634
+#: modules/icon-box/skins/skin-icon-box-v2.php:490
+#: modules/nav-tabs/skins/skin-nav-tabs.php:201
+#: modules/nav-tabs/skins/skin-nav-tabs.php:253
+#: modules/nav-tabs/skins/skin-nav-tabs.php:296
+#: modules/nav-tabs/widgets/nav-tabs.php:198
+#: modules/nav-tabs/widgets/nav-tabs.php:260
+#: modules/nav-tabs/widgets/nav-tabs.php:303 modules/page-settings/module.php:604
+#: modules/page-settings/module.php:631 modules/page-settings/module.php:695
+#: modules/page-settings/module.php:740
+#: modules/posts/traits/button-widget-trait.php:289
+#: modules/posts/traits/button-widget-trait.php:334
+#: modules/pricing/widgets/price.php:315 modules/pricing/widgets/price.php:760
+#: modules/pricing/widgets/price.php:818 modules/pricing/widgets/price.php:884
+#: modules/ticket/widgets/ticket.php:616 modules/ticket/widgets/ticket.php:674
+#: modules/ticket/widgets/ticket.php:731
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: modules/blockquote/widgets/blockquote.php:188
+#: modules/blockquote/widgets/blockquote.php:230
+#: modules/blockquote/widgets/blockquote.php:279
+msgid "Gap"
+msgstr "شکاف"
+
+#: modules/blockquote/widgets/blockquote.php:249
+#: modules/blockquote/widgets/blockquote.php:313
+#: modules/button/skins/skin-button-silicon.php:235
+#: modules/page-settings/module.php:405
+msgid "Border"
+msgstr "حاشیه"
+
+#: modules/blockquote/widgets/blockquote.php:268
+#: modules/button/skins/skin-button-market.php:123
+#: modules/carousel/widgets/lottie-carousel.php:114
+#: modules/highlighted-heading/widgets/highlighted-heading.php:317
+#: modules/logo/widgets/logo.php:123 modules/ticket/widgets/ticket.php:528
+msgid "Width"
+msgstr "عرض"
+
+#: modules/blockquote/widgets/blockquote.php:291
+msgid "Vertical Padding"
+msgstr "پدینگ عمودی"
+
+#: modules/blockquote/widgets/blockquote.php:305
+#: modules/button/skins/skin-button-silicon.php:278
+#: modules/button/skins/skin-button-silicon.php:500
+#: modules/button/skins/skin-button-silicon.php:513
+#: modules/carousel/widgets/testimonial-carousel.php:656
+#: modules/column/module.php:87
+#: modules/image-gallery/skins/skin-parallax-gfx.php:78
+#: modules/section/module.php:192 modules/section/module.php:209
+msgid "CSS Classes"
+msgstr "کلاس های CSS"
+
+#: modules/blockquote/widgets/blockquote.php:315
+msgid "Additional CSS classes to be applied to the border tag"
+msgstr "کلاس های CSS اضافی که باید روی تگ حاشیه اعمال شوند"
+
+#: modules/blockquote/widgets/blockquote.php:326
+msgid "Additional CSS classes to be applied to the blockquote tag"
+msgstr "کلاس‌های CSS اضافی که باید به تگ نقل قول بلوک اعمال شوند"
+
+#: modules/blockquote/widgets/blockquote.php:335
+msgid "Quote Content"
+msgstr "نقل قول محتوا"
+
+#: modules/blockquote/widgets/blockquote.php:337
+msgid ""
+"Additional CSS classes to be applied to the content inside the blockquote tag"
+msgstr "کلاس های CSS اضافی برای اعمال به محتوای داخل تگ نقل قول بلوک"
+
+#: modules/blockquote/widgets/blockquote.php:346
+#: modules/carousel/widgets/testimonial-carousel.php:551
+#: modules/team-member/widgets/team-member.php:128
+msgid "Author Name"
+msgstr "نام نویسنده"
+
+#: modules/blockquote/widgets/blockquote.php:348
+msgid "Additional CSS classes to be applied to the author of the quote"
+msgstr "کلاس های CSS اضافی که برای نویسنده نقل قول اعمال می شود"
+
+#: modules/breadcrumb/widgets/breadcrumb.php:39
+msgid "Breadcrumb"
+msgstr "خرده نان"
+
+#: modules/breadcrumb/widgets/breadcrumb.php:79 templates/documents/section.php:16
+#: templates/types/section.php:21
+msgid "Section"
+msgstr "بخش"
+
+#: modules/breadcrumb/widgets/breadcrumb.php:86
+msgid "Nav Class"
+msgstr "کلاس Nav"
+
+#: modules/breadcrumb/widgets/breadcrumb.php:88
+msgid "container py-4 mb-2 my-lg-3 "
+msgstr "container py-4 mb-2 my-lg-3 "
+
+#: modules/breadcrumb/widgets/breadcrumb.php:95
+msgid "Ordered List Class"
+msgstr "کلاس لیست سفارشی"
+
+#: modules/button-icon/widgets/button-icon.php:46
+#: modules/icon-box/skins/skin-icon-box-v2.php:215
+msgid "Button Icon"
+msgstr "آیکون دکمه"
+
+#: modules/button-icon/widgets/button-icon.php:85
+#: modules/button-icon/widgets/button-icon.php:213
+#: modules/button/skins/skin-button-market.php:170
+#: modules/button/skins/skin-button-reviews.php:158
+#: modules/button/skins/skin-button-reviews.php:166
+#: modules/button/skins/skin-button-silicon.php:321
+#: modules/carousel/widgets/content-carousel.php:1105
+#: modules/carousel/widgets/content-carousel.php:1114
+#: modules/carousel/widgets/imagebox-carousel.php:607
+#: modules/icon-box/skins/skin-icon-box-v2.php:110
+#: modules/icon-box/skins/skin-icon-box-v2.php:470
+#: modules/image/skins/skin-image.php:196 modules/page-settings/module.php:669
+#: modules/posts/widgets/posts-base.php:76 modules/posts/widgets/posts-base.php:326
+#: modules/pricing/widgets/price.php:710 modules/ticket/widgets/ticket.php:566
+msgid "Button"
+msgstr "دکمه"
+
+#: modules/button-icon/widgets/button-icon.php:92
+#: modules/carousel/skins/skin-post-carousel.php:72
+#: modules/image-box/skins/skin-image-box.php:89
+#: modules/shapes/widgets/shapes.php:94
+msgid "Styles"
+msgstr "سبک ها"
+
+#: modules/button-icon/widgets/button-icon.php:95
+#: modules/icon-box/skins/skin-icon-box.php:54
+#: modules/image-box/skins/skin-image-box.php:55
+#: modules/image-box/skins/skin-image-box.php:92
+#: modules/shapes/widgets/shapes.php:98
+#: modules/star-rating/skins/skin-star-rating.php:52
+#: modules/team-member/skins/skin-team-member.php:35
+msgid "Style 1"
+msgstr "استایل 1"
+
+#: modules/button-icon/widgets/button-icon.php:96
+#: modules/icon-box/skins/skin-icon-box-v2.php:54
+#: modules/image-box/skins/skin-image-box-v2.php:56
+#: modules/image-box/skins/skin-image-box.php:93
+#: modules/shapes/widgets/shapes.php:99
+msgid "Style 2"
+msgstr "استایل 2"
+
+#: modules/button-icon/widgets/button-icon.php:104
+#: modules/button/skins/skin-button-silicon.php:114
+#: modules/carousel/widgets/content-carousel.php:320
+#: modules/carousel/widgets/content-carousel.php:500
+#: modules/carousel/widgets/content-carousel.php:1295
+#: modules/carousel/widgets/imagebox-carousel.php:169
+#: modules/hero/skins/medical-hero.php:164 modules/hero/widgets/hero.php:210
+#: modules/hero/widgets/hero.php:339
+#: modules/icon-box/skins/skin-icon-box-v2.php:119
+#: modules/image-box/skins/skin-image-box.php:157
+#: modules/page-settings/module.php:506
+#: modules/posts/traits/button-widget-trait.php:58
+#: modules/pricing/widgets/price.php:392 modules/ticket/widgets/ticket.php:176
+msgid "Type"
+msgstr "نوع"
+
+#: modules/button-icon/widgets/button-icon.php:108
+#: modules/button/skins/skin-button-silicon.php:118
+#: modules/carousel/widgets/content-carousel.php:324
+#: modules/carousel/widgets/content-carousel.php:505
+#: modules/carousel/widgets/content-carousel.php:1299
+#: modules/carousel/widgets/imagebox-carousel.php:173
+#: modules/hero/skins/medical-hero.php:168 modules/hero/widgets/hero.php:214
+#: modules/hero/widgets/hero.php:343
+#: modules/icon-box/skins/skin-icon-box-v2.php:123
+#: modules/image-box/skins/skin-image-box.php:161
+#: modules/page-settings/module.php:428 modules/page-settings/module.php:510
+#: modules/pricing/widgets/price.php:396 modules/shapes/widgets/shapes.php:64
+#: modules/ticket/widgets/ticket.php:180
+msgid "Primary"
+msgstr "اولیه"
+
+#: modules/button-icon/widgets/button-icon.php:109
+#: modules/button/skins/skin-button-silicon.php:119
+#: modules/carousel/widgets/content-carousel.php:325
+#: modules/carousel/widgets/content-carousel.php:506
+#: modules/carousel/widgets/content-carousel.php:1300
+#: modules/carousel/widgets/imagebox-carousel.php:174
+#: modules/hero/skins/medical-hero.php:169 modules/hero/widgets/hero.php:215
+#: modules/hero/widgets/hero.php:344
+#: modules/icon-box/skins/skin-icon-box-v2.php:124
+#: modules/image-box/skins/skin-image-box.php:162
+#: modules/page-settings/module.php:429 modules/page-settings/module.php:511
+#: modules/pricing/widgets/price.php:397 modules/shapes/widgets/shapes.php:65
+#: modules/ticket/widgets/ticket.php:181
+msgid "Secondary"
+msgstr "ثانوی"
+
+#: modules/button-icon/widgets/button-icon.php:110
+#: modules/button/skins/skin-button-silicon.php:120
+#: modules/carousel/widgets/content-carousel.php:326
+#: modules/carousel/widgets/content-carousel.php:507
+#: modules/carousel/widgets/content-carousel.php:1301
+#: modules/carousel/widgets/imagebox-carousel.php:175
+#: modules/hero/skins/medical-hero.php:170 modules/hero/widgets/hero.php:216
+#: modules/hero/widgets/hero.php:345
+#: modules/icon-box/skins/skin-icon-box-v2.php:125
+#: modules/image-box/skins/skin-image-box.php:163
+#: modules/page-settings/module.php:430 modules/page-settings/module.php:512
+#: modules/posts/traits/button-widget-trait.php:64
+#: modules/pricing/widgets/price.php:398 modules/shapes/widgets/shapes.php:66
+#: modules/ticket/widgets/ticket.php:182
+msgid "Success"
+msgstr "موفق"
+
+#: modules/button-icon/widgets/button-icon.php:111
+#: modules/button/skins/skin-button-silicon.php:121
+#: modules/carousel/widgets/content-carousel.php:327
+#: modules/carousel/widgets/content-carousel.php:508
+#: modules/carousel/widgets/content-carousel.php:1302
+#: modules/carousel/widgets/imagebox-carousel.php:176
+#: modules/hero/skins/medical-hero.php:171 modules/hero/widgets/hero.php:217
+#: modules/hero/widgets/hero.php:346
+#: modules/icon-box/skins/skin-icon-box-v2.php:126
+#: modules/image-box/skins/skin-image-box.php:164
+#: modules/page-settings/module.php:431 modules/page-settings/module.php:513
+#: modules/posts/traits/button-widget-trait.php:66
+#: modules/pricing/widgets/price.php:399 modules/shapes/widgets/shapes.php:69
+#: modules/ticket/widgets/ticket.php:183
+msgid "Danger"
+msgstr "خطر"
+
+#: modules/button-icon/widgets/button-icon.php:112
+#: modules/button/skins/skin-button-silicon.php:122
+#: modules/carousel/widgets/content-carousel.php:328
+#: modules/carousel/widgets/content-carousel.php:509
+#: modules/carousel/widgets/content-carousel.php:1303
+#: modules/carousel/widgets/imagebox-carousel.php:177
+#: modules/hero/skins/medical-hero.php:172 modules/hero/widgets/hero.php:218
+#: modules/hero/widgets/hero.php:347
+#: modules/icon-box/skins/skin-icon-box-v2.php:127
+#: modules/image-box/skins/skin-image-box.php:165
+#: modules/page-settings/module.php:432 modules/page-settings/module.php:514
+#: modules/posts/traits/button-widget-trait.php:65
+#: modules/pricing/widgets/price.php:400 modules/shapes/widgets/shapes.php:68
+#: modules/ticket/widgets/ticket.php:184
+msgid "Warning"
+msgstr "هشدار"
+
+#: modules/button-icon/widgets/button-icon.php:113
+#: modules/button/skins/skin-button-silicon.php:123
+#: modules/carousel/widgets/content-carousel.php:329
+#: modules/carousel/widgets/content-carousel.php:510
+#: modules/carousel/widgets/content-carousel.php:1304
+#: modules/carousel/widgets/imagebox-carousel.php:178
+#: modules/hero/skins/medical-hero.php:173 modules/hero/widgets/hero.php:219
+#: modules/hero/widgets/hero.php:348
+#: modules/icon-box/skins/skin-icon-box-v2.php:128
+#: modules/image-box/skins/skin-image-box.php:166
+#: modules/page-settings/module.php:433 modules/page-settings/module.php:515
+#: modules/posts/traits/button-widget-trait.php:63
+#: modules/pricing/widgets/price.php:401 modules/shapes/widgets/shapes.php:67
+#: modules/ticket/widgets/ticket.php:185
+msgid "Info"
+msgstr "اطلاعات"
+
+#: modules/button-icon/widgets/button-icon.php:114
+#: modules/button/skins/skin-button-silicon.php:124
+#: modules/carousel/widgets/content-carousel.php:330
+#: modules/carousel/widgets/content-carousel.php:511
+#: modules/carousel/widgets/content-carousel.php:1305
+#: modules/carousel/widgets/imagebox-carousel.php:179
+#: modules/hero/skins/medical-hero.php:174 modules/hero/widgets/hero.php:220
+#: modules/hero/widgets/hero.php:349
+#: modules/icon-box/skins/skin-icon-box-v2.php:129
+#: modules/image-box/skins/skin-image-box.php:167
+#: modules/page-settings/module.php:349 modules/page-settings/module.php:364
+#: modules/page-settings/module.php:434 modules/page-settings/module.php:516
+#: modules/pricing/widgets/price.php:402 modules/shapes/widgets/shapes.php:70
+#: modules/ticket/widgets/ticket.php:186
+msgid "Light"
+msgstr "روشن"
+
+#: modules/button-icon/widgets/button-icon.php:115
+#: modules/button/skins/skin-button-silicon.php:125
+#: modules/carousel/widgets/content-carousel.php:331
+#: modules/carousel/widgets/content-carousel.php:512
+#: modules/carousel/widgets/content-carousel.php:1306
+#: modules/carousel/widgets/imagebox-carousel.php:180
+#: modules/hero/skins/medical-hero.php:175 modules/hero/widgets/hero.php:221
+#: modules/hero/widgets/hero.php:350
+#: modules/icon-box/skins/skin-icon-box-v2.php:130
+#: modules/image-box/skins/skin-image-box.php:168
+#: modules/page-settings/module.php:348 modules/page-settings/module.php:365
+#: modules/page-settings/module.php:435 modules/page-settings/module.php:517
+#: modules/pricing/widgets/price.php:403 modules/shapes/widgets/shapes.php:71
+#: modules/ticket/widgets/ticket.php:187
+msgid "Dark"
+msgstr "تیره"
+
+#: modules/button-icon/widgets/button-icon.php:116
+#: modules/button-icon/widgets/button-icon.php:202
+#: modules/button/skins/skin-button-silicon.php:126
+#: modules/carousel/widgets/brand-carousel.php:327
+#: modules/carousel/widgets/content-carousel.php:311
+#: modules/carousel/widgets/content-carousel.php:332
+#: modules/carousel/widgets/content-carousel.php:491
+#: modules/carousel/widgets/content-carousel.php:513
+#: modules/carousel/widgets/content-carousel.php:1249
+#: modules/carousel/widgets/content-carousel.php:1286
+#: modules/carousel/widgets/content-carousel.php:1307
+#: modules/carousel/widgets/iconbox-carousel.php:165
+#: modules/carousel/widgets/imagebox-carousel.php:160
+#: modules/carousel/widgets/imagebox-carousel.php:181
+#: modules/carousel/widgets/lottie-carousel.php:267
+#: modules/carousel/widgets/lottie-carousel.php:282
+#: modules/carousel/widgets/mobile-carousel.php:165
+#: modules/hero/skins/medical-hero.php:153 modules/hero/skins/medical-hero.php:176
+#: modules/hero/widgets/hero.php:182 modules/hero/widgets/hero.php:222
+#: modules/hero/widgets/hero.php:330 modules/hero/widgets/hero.php:351
+#: modules/highlighted-heading/widgets/highlighted-heading.php:118
+#: modules/icon-box/skins/skin-icon-box-v2.php:131
+#: modules/icon-box/skins/skin-icon-box-v2.php:206
+#: modules/image-box/skins/skin-image-box-v2.php:262
+#: modules/image-box/skins/skin-image-box.php:169
+#: modules/image/skins/skin-image.php:91 modules/page-settings/module.php:436
+#: modules/page-settings/module.php:493 modules/page-settings/module.php:518
+#: modules/posts/traits/button-widget-trait.php:90
+#: modules/pricing/widgets/price.php:380 modules/pricing/widgets/price.php:404
+#: modules/ticket/widgets/ticket.php:164 modules/ticket/widgets/ticket.php:188
+msgid "Link"
+msgstr "پیوند"
+
+#: modules/button-icon/widgets/button-icon.php:127
+#: modules/button/skins/skin-button-silicon.php:134
+#: modules/hero/skins/medical-hero.php:187 modules/hero/widgets/hero.php:191
+#: modules/hero/widgets/hero.php:360
+#: modules/icon-box/skins/skin-icon-box-v2.php:139
+#: modules/image-box/skins/skin-image-box.php:180
+#: modules/pricing/widgets/price.php:412 modules/ticket/widgets/ticket.php:196
+msgid "Variant"
+msgstr "متغیر"
+
+#: modules/button-icon/widgets/button-icon.php:131
+#: modules/button-icon/widgets/button-icon.php:147
+#: modules/button-icon/widgets/button-icon.php:164
+#: modules/button/skins/skin-button-silicon.php:138
+#: modules/button/skins/skin-button-silicon.php:153
+#: modules/button/skins/skin-button-silicon.php:167
+#: modules/carousel/skins/skin-post-carousel.php:75
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:95
+#: modules/carousel/widgets/content-carousel.php:345
+#: modules/carousel/widgets/content-carousel.php:372
+#: modules/carousel/widgets/content-carousel.php:526
+#: modules/carousel/widgets/content-carousel.php:553
+#: modules/carousel/widgets/content-carousel.php:1320
+#: modules/carousel/widgets/content-carousel.php:1347
+#: modules/carousel/widgets/imagebox-carousel.php:194
+#: modules/carousel/widgets/imagebox-carousel.php:221
+#: modules/hero/skins/medical-hero.php:191 modules/hero/skins/medical-hero.php:209
+#: modules/hero/skins/medical-hero.php:226 modules/hero/widgets/hero.php:195
+#: modules/hero/widgets/hero.php:235 modules/hero/widgets/hero.php:268
+#: modules/hero/widgets/hero.php:364 modules/hero/widgets/hero.php:380
+#: modules/hero/widgets/hero.php:407
+#: modules/icon-box/skins/skin-icon-box-v2.php:143
+#: modules/icon-box/skins/skin-icon-box-v2.php:158
+#: modules/icon-box/skins/skin-icon-box-v2.php:173
+#: modules/image-box/skins/skin-image-box.php:184
+#: modules/image-box/skins/skin-image-box.php:202
+#: modules/image-box/skins/skin-image-box.php:219
+#: modules/image/skins/skin-image.php:118 modules/nav-menu/widgets/nav-menu.php:204
+#: modules/page-settings/module.php:317 modules/page-settings/module.php:534
+#: modules/page-settings/module.php:552 modules/page-settings/module.php:809
+#: modules/posts/traits/button-widget-trait.php:62
+#: modules/pricing/widgets/price.php:416 modules/pricing/widgets/price.php:726
+#: modules/ticket/widgets/ticket.php:200 modules/ticket/widgets/ticket.php:582
+msgid "Default"
+msgstr "پیشفرض"
+
+#: modules/button-icon/widgets/button-icon.php:132
+#: modules/button/skins/skin-button-silicon.php:139
+#: modules/hero/skins/medical-hero.php:192 modules/hero/widgets/hero.php:196
+#: modules/hero/widgets/hero.php:365
+#: modules/icon-box/skins/skin-icon-box-v2.php:144
+#: modules/image-box/skins/skin-image-box.php:185
+#: modules/pricing/widgets/price.php:417 modules/ticket/widgets/ticket.php:201
+msgid "Outline"
+msgstr "طرح کلی"
+
+#: modules/button-icon/widgets/button-icon.php:143
+#: modules/button/skins/skin-button-silicon.php:149
+#: modules/carousel/widgets/base.php:414 modules/carousel/widgets/base.php:479
+#: modules/carousel/widgets/content-carousel.php:368
+#: modules/carousel/widgets/content-carousel.php:549
+#: modules/carousel/widgets/content-carousel.php:1343
+#: modules/carousel/widgets/iconbox-carousel.php:279
+#: modules/carousel/widgets/imagebox-carousel.php:217
+#: modules/carousel/widgets/mobile-carousel.php:180
+#: modules/carousel/widgets/team-carousel.php:295
+#: modules/hero/skins/medical-hero.php:205 modules/hero/widgets/hero.php:264
+#: modules/hero/widgets/hero.php:403
+#: modules/highlighted-heading/widgets/highlighted-heading.php:142
+#: modules/icon-box/skins/skin-icon-box-v2.php:169
+#: modules/icon-box/skins/skin-icon-box-v2.php:351
+#: modules/icon-box/skins/skin-icon-box-v2.php:572
+#: modules/icon-box/skins/skin-icon-box.php:198
+#: modules/image-box/skins/skin-image-box.php:198
+#: modules/image/skins/skin-image.php:114 modules/page-settings/module.php:548
+#: modules/posts/traits/button-widget-trait.php:135
+#: modules/pricing/widgets/price.php:722 modules/ticket/widgets/ticket.php:578
+msgid "Size"
+msgstr "اندازه"
+
+#: modules/button-icon/widgets/button-icon.php:148
+#: modules/button/skins/skin-button-silicon.php:154
+#: modules/carousel/widgets/content-carousel.php:373
+#: modules/carousel/widgets/content-carousel.php:554
+#: modules/carousel/widgets/content-carousel.php:1348
+#: modules/carousel/widgets/imagebox-carousel.php:222
+#: modules/hero/skins/medical-hero.php:210 modules/hero/widgets/hero.php:269
+#: modules/hero/widgets/hero.php:408
+#: modules/icon-box/skins/skin-icon-box-v2.php:174
+#: modules/image-box/skins/skin-image-box.php:203
+#: modules/image/skins/skin-image.php:119 modules/page-settings/module.php:553
+#: modules/posts/traits/button-widget-trait.php:30
+#: modules/pricing/widgets/price.php:727 modules/ticket/widgets/ticket.php:583
+msgid "Small"
+msgstr "کوچک"
+
+#: modules/button-icon/widgets/button-icon.php:149
+#: modules/button/skins/skin-button-silicon.php:155
+#: modules/carousel/widgets/content-carousel.php:374
+#: modules/carousel/widgets/content-carousel.php:555
+#: modules/carousel/widgets/content-carousel.php:1349
+#: modules/carousel/widgets/imagebox-carousel.php:223
+#: modules/hero/skins/medical-hero.php:211 modules/hero/widgets/hero.php:270
+#: modules/hero/widgets/hero.php:409
+#: modules/icon-box/skins/skin-icon-box-v2.php:175
+#: modules/image-box/skins/skin-image-box.php:204
+#: modules/image/skins/skin-image.php:120 modules/page-settings/module.php:554
+#: modules/posts/traits/button-widget-trait.php:32
+#: modules/pricing/widgets/price.php:728 modules/ticket/widgets/ticket.php:584
+msgid "Large"
+msgstr "بزرگ"
+
+#: modules/button-icon/widgets/button-icon.php:160
+#: modules/button/skins/skin-button-silicon.php:163
+#: modules/carousel/widgets/content-carousel.php:341
+#: modules/carousel/widgets/content-carousel.php:522
+#: modules/carousel/widgets/content-carousel.php:1316
+#: modules/carousel/widgets/imagebox-carousel.php:190
+#: modules/hero/skins/medical-hero.php:222 modules/hero/widgets/hero.php:231
+#: modules/hero/widgets/hero.php:376
+#: modules/icon-box/skins/skin-icon-box-v2.php:154
+#: modules/image-box/skins/skin-image-box.php:215
+#: modules/page-settings/module.php:530
+msgid "Shape"
+msgstr "شکل"
+
+#: modules/button-icon/widgets/button-icon.php:165
+#: modules/button/skins/skin-button-silicon.php:168
+#: modules/carousel/widgets/content-carousel.php:346
+#: modules/carousel/widgets/content-carousel.php:527
+#: modules/carousel/widgets/content-carousel.php:1321
+#: modules/carousel/widgets/imagebox-carousel.php:195
+#: modules/hero/skins/medical-hero.php:227 modules/hero/widgets/hero.php:236
+#: modules/hero/widgets/hero.php:381
+#: modules/icon-box/skins/skin-icon-box-v2.php:159
+#: modules/image-box/skins/skin-image-box.php:220
+#: modules/page-settings/module.php:535
+msgid "Pill"
+msgstr "قرص"
+
+#: modules/button-icon/widgets/button-icon.php:166
+#: modules/button/skins/skin-button-silicon.php:169
+#: modules/carousel/widgets/content-carousel.php:347
+#: modules/carousel/widgets/content-carousel.php:528
+#: modules/carousel/widgets/content-carousel.php:1322
+#: modules/carousel/widgets/imagebox-carousel.php:196
+#: modules/hero/skins/medical-hero.php:228 modules/hero/widgets/hero.php:237
+#: modules/hero/widgets/hero.php:382
+#: modules/icon-box/skins/skin-icon-box-v2.php:160
+#: modules/image-box/skins/skin-image-box.php:221
+#: modules/page-settings/module.php:536
+msgid "Square"
+msgstr "مربع"
+
+#: modules/button-icon/widgets/button-icon.php:177
+#: modules/carousel/widgets/content-carousel.php:135
+#: modules/carousel/widgets/content-carousel.php:1029
+#: modules/carousel/widgets/content-carousel.php:1043
+#: modules/carousel/widgets/iconbox-carousel.php:126
+#: modules/carousel/widgets/iconbox-carousel.php:208
+#: modules/carousel/widgets/iconbox-carousel.php:456
+#: modules/carousel/widgets/imagebox-carousel.php:232
+#: modules/carousel/widgets/team-carousel.php:286
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:142
+#: modules/hero/skins/medical-hero.php:254 modules/hero/widgets/hero.php:294
+#: modules/hero/widgets/hero.php:429 modules/icon-box/skins/skin-icon-box-v2.php:90
+#: modules/icon-box/skins/skin-icon-box-v2.php:313
+#: modules/icon-box/skins/skin-icon-box.php:162
+#: modules/image-box/skins/skin-image-box-v2.php:167
+#: modules/image-box/skins/skin-image-box.php:262
+#: modules/image/skins/skin-image.php:132 modules/nav-tabs/widgets/nav-tabs.php:134
+#: modules/page-settings/module.php:462
+#: modules/posts/traits/button-widget-trait.php:147
+#: modules/pricing/skins/skin-list.php:139 modules/pricing/widgets/price.php:288
+#: modules/team-member/widgets/team-member.php:198
+#: modules/team-member/widgets/team-member.php:400
+msgid "Icon"
+msgstr "آیکن"
+
+#: modules/button-icon/widgets/button-icon.php:189
+#: modules/carousel/widgets/lottie-carousel.php:254
+#: modules/posts/traits/button-widget-trait.php:46
+#: modules/pricing/widgets/price.php:298
+msgid "Text"
+msgstr "متن"
+
+#: modules/button-icon/widgets/button-icon.php:194
+#: modules/button-icon/widgets/button-icon.php:195
+#: modules/posts/traits/button-widget-trait.php:45
+#: modules/pricing/widgets/price.php:373 modules/ticket/widgets/ticket.php:157
+msgid "Click here"
+msgstr "اینجا کلیک کنید"
+
+#: modules/button-icon/widgets/button-icon.php:204
+#: modules/carousel/widgets/brand-carousel.php:329
+#: modules/image-box/skins/skin-image-box-v2.php:267
+#: modules/image-gallery/skins/skin-image-gallery.php:107
+#: modules/image/skins/skin-image.php:95 modules/nav-tabs/widgets/nav-tabs.php:111
+#: modules/posts/traits/button-widget-trait.php:95
+#: modules/pricing/widgets/price.php:382
+#: modules/team-member/widgets/team-member.php:218
+#: modules/ticket/widgets/ticket.php:166
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: modules/button-icon/widgets/button-icon.php:222
+#: modules/carousel/widgets/iconbox-carousel.php:156
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:179
+#: modules/icon/module.php:67 modules/image-box/skins/skin-image-box-v2.php:332
+msgid "Wrap Class"
+msgstr "کلاس بسته بندی"
+
+#: modules/button-icon/widgets/button-icon.php:227
+#: modules/button-icon/widgets/button-icon.php:245
+#: modules/button-icon/widgets/button-icon.php:257
+#: modules/carousel/widgets/iconbox-carousel.php:158
+#: modules/hero/skins/medical-hero.php:307
+#: modules/icon-box/skins/skin-icon-box.php:253
+#: modules/icon-box/skins/skin-icon-box.php:272
+#: modules/icon-box/skins/skin-icon-box.php:289
+#: modules/image-box/skins/skin-image-box.php:445
+#: modules/image-box/skins/skin-image-box.php:462
+#: modules/image-box/skins/skin-image-box.php:504
+#: modules/image-box/skins/skin-image-box.php:514
+#: modules/image-box/skins/skin-image-box.php:524
+#: modules/image-box/skins/skin-image-box.php:533
+msgid "Enter your class"
+msgstr "کلاس خود را وارد کنید"
+
+#: modules/button-icon/widgets/button-icon.php:228
+msgid "position-absolute d-none d-lg-block bottom-0 start-0 w-100"
+msgstr "position-absolute d-none d-lg-block bottom-0 start-0 w-100"
+
+#: modules/button-icon/widgets/button-icon.php:239
+msgid "Link Class"
+msgstr "لینک کلاس"
+
+#: modules/button-icon/widgets/button-icon.php:244
+msgid "nav-link stretched-link text-light fw-normal opacity-80 py-2 px-3"
+msgstr "nav-link stretched-link text-light fw-normal opacity-80 py-2 px-3"
+
+#: modules/button-icon/widgets/button-icon.php:252
+#: modules/carousel/widgets/iconbox-carousel.php:217
+#: modules/carousel/widgets/imagebox-carousel.php:681
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:225
+#: modules/hero/skins/medical-hero.php:302 modules/hero/widgets/hero.php:534
+#: modules/icon-box/skins/skin-icon-box-v2.php:371
+#: modules/icon-box/skins/skin-icon-box-v2.php:545
+#: modules/icon-box/skins/skin-icon-box.php:251 modules/icon-list/module.php:76
+#: modules/icon/module.php:58 modules/image-box/skins/skin-image-box-v2.php:183
+#: modules/nav-tabs/widgets/nav-tabs.php:146
+msgid "Icon Class"
+msgstr "کلاس آیکون"
+
+#: modules/button-icon/widgets/button-icon.php:287
+#: modules/carousel/widgets/content-carousel.php:1071
+#: modules/carousel/widgets/iconbox-carousel.php:229
+#: modules/carousel/widgets/testimonial-carousel.php:428
+#: modules/icon-box/skins/skin-icon-box-v2.php:336
+#: modules/icon-box/skins/skin-icon-box.php:184
+#: modules/image/skins/skin-image.php:225 modules/nav-tabs/widgets/nav-tabs.php:230
+#: modules/nav-tabs/widgets/nav-tabs.php:282
+#: modules/nav-tabs/widgets/nav-tabs.php:326 modules/pricing/widgets/price.php:326
+msgid "Icon Color"
+msgstr "رنگ آیکون"
+
+#: modules/button/skins/skin-button-market.php:56
+msgid "Market Button"
+msgstr "دکمه بازار"
+
+#: modules/button/skins/skin-button-market.php:101
+msgid "Image Light"
+msgstr "نور تصویر"
+
+#: modules/button/skins/skin-button-market.php:112
+msgid "Image Dark"
+msgstr "تصویر تاریک"
+
+#: modules/button/skins/skin-button-market.php:150
+msgid "Button Wrap Class"
+msgstr "کلاس بسته بندی دکمه"
+
+#: modules/button/skins/skin-button-market.php:152
+#: modules/carousel/widgets/team-carousel.php:423
+#: modules/carousel/widgets/team-carousel.php:453
+#: modules/image-gallery/skins/skin-profile.php:83
+#: modules/image-gallery/skins/skin-profile.php:164
+#: modules/nav-tabs/skins/skin-nav-tabs.php:163
+#: modules/nav-tabs/skins/skin-nav-tabs.php:173
+#: modules/star-rating/skins/skin-star-rating.php:163
+#: modules/star-rating/skins/skin-star-rating.php:195
+#: modules/star-rating/skins/skin-star-rating.php:228
+#: modules/star-rating/skins/skin-star-rating.php:246
+#: modules/team-member/widgets/team-member.php:118
+#: modules/team-member/widgets/team-member.php:209
+#: modules/team-member/widgets/team-member.php:518
+#: modules/team-member/widgets/team-member.php:547
+msgid "Enter Your Class"
+msgstr "کلاس خود را وارد کنید"
+
+#: modules/button/skins/skin-button-market.php:153
+#: modules/team-member/widgets/team-member.php:210
+msgid "Additional CSS class that you want to apply to the <a> tag"
+msgstr "کلاس CSS اضافی که می‌خواهید روی تگ <a> اعمال کنید"
+
+#: modules/button/skins/skin-button-market.php:178
+#: modules/carousel/widgets/content-carousel.php:450
+#: modules/carousel/widgets/content-carousel.php:926
+#: modules/hero/skins/medical-hero.php:110 modules/hero/widgets/hero.php:115
+msgid "Subtitle"
+msgstr "زیر عنوان"
+
+#: modules/button/skins/skin-button-market.php:188
+#: modules/button/skins/skin-button-market.php:209
+#: modules/carousel/widgets/content-carousel.php:884
+#: modules/carousel/widgets/content-carousel.php:940
+#: modules/carousel/widgets/content-carousel.php:994
+#: modules/carousel/widgets/content-carousel.php:1123
+#: modules/carousel/widgets/iconbox-carousel.php:386
+#: modules/carousel/widgets/iconbox-carousel.php:429
+#: modules/carousel/widgets/imagebox-carousel.php:508
+#: modules/carousel/widgets/imagebox-carousel.php:564
+#: modules/carousel/widgets/imagebox-carousel.php:616
+#: modules/carousel/widgets/mobile-carousel.php:406
+#: modules/carousel/widgets/mobile-carousel.php:439
+#: modules/carousel/widgets/testimonial-carousel.php:561
+#: modules/carousel/widgets/testimonial-carousel.php:623
+#: modules/icon-box/skins/skin-icon-box-v2.php:479
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: modules/button/skins/skin-button-reviews.php:56
+#: modules/button/skins/skin-button-reviews.php:138
+#: modules/carousel/skins/skin-team-carousel.php:289
+#: modules/star-rating/skins/skin-star-rating.php:122
+#: modules/team-member/widgets/team-member.php:179
+msgid "Reviews"
+msgstr "دیدگاه"
+
+#: modules/button/skins/skin-button-reviews.php:97
+#: modules/carousel/widgets/testimonial-carousel.php:207
+#: modules/logo/widgets/logo.php:47 modules/logo/widgets/logo.php:86
+#: modules/testimonial/skins/skin-testimonial.php:262
+msgid "Logo"
+msgstr "لوگو"
+
+#: modules/button/skins/skin-button-reviews.php:109
+#: modules/carousel/widgets/testimonial-carousel.php:293
+msgid "Enable Rating Icon"
+msgstr "نماد رتبه‌بندی را فعال کنید"
+
+#: modules/button/skins/skin-button-reviews.php:111
+#: modules/button/skins/skin-button-reviews.php:198
+#: modules/carousel/skins/skin-mobile-carousel.php:96
+#: modules/carousel/skins/skin-team-carousel.php:261
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:127
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:140
+#: modules/carousel/skins/skin-testimonial-carousel.php:142
+#: modules/carousel/widgets/base.php:131 modules/carousel/widgets/base.php:160
+#: modules/carousel/widgets/base.php:181
+#: modules/carousel/widgets/brand-carousel.php:144
+#: modules/carousel/widgets/brand-carousel.php:155
+#: modules/carousel/widgets/iconbox-carousel.php:309
+#: modules/carousel/widgets/imagebox-carousel.php:280
+#: modules/carousel/widgets/imagebox-carousel.php:291
+#: modules/carousel/widgets/imagebox-carousel.php:330
+#: modules/carousel/widgets/imagebox-carousel.php:372
+#: modules/carousel/widgets/post-carousel.php:231
+#: modules/carousel/widgets/post-carousel.php:263
+#: modules/carousel/widgets/post-carousel.php:274
+#: modules/carousel/widgets/post-carousel.php:288
+#: modules/carousel/widgets/post-carousel.php:304
+#: modules/carousel/widgets/post-carousel.php:315
+#: modules/carousel/widgets/team-carousel.php:183
+#: modules/carousel/widgets/team-carousel.php:194
+#: modules/carousel/widgets/team-carousel.php:208
+#: modules/carousel/widgets/testimonial-carousel.php:254
+#: modules/carousel/widgets/testimonial-carousel.php:295
+#: modules/hero/skins/medical-hero.php:134
+#: modules/icon-box/skins/skin-icon-box-v2.php:413
+#: modules/icon-box/skins/skin-icon-box.php:93
+#: modules/icon-box/skins/skin-icon-box.php:104
+#: modules/image-box/skins/skin-image-box-v2.php:279
+#: modules/image-box/skins/skin-image-box.php:138
+#: modules/image-box/skins/skin-image-box.php:323
+#: modules/image-box/skins/skin-image-box.php:334
+#: modules/image/skins/skin-image.php:106 modules/nav-tabs/widgets/nav-tabs.php:99
+#: modules/pricing/widgets/price.php:456
+#: modules/team-member/widgets/team-member.php:147
+#: modules/team-member/widgets/team-member.php:257
+#: modules/team-member/widgets/team-member.php:268
+#: modules/team-member/widgets/team-member.php:282
+#: modules/testimonial/skins/skin-testimonial.php:130
+msgid "Show"
+msgstr "نمایش"
+
+#: modules/button/skins/skin-button-reviews.php:112
+#: modules/button/skins/skin-button-reviews.php:199
+#: modules/carousel/skins/skin-mobile-carousel.php:95
+#: modules/carousel/skins/skin-team-carousel.php:262
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:126
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:139
+#: modules/carousel/skins/skin-testimonial-carousel.php:141
+#: modules/carousel/widgets/base.php:130 modules/carousel/widgets/base.php:159
+#: modules/carousel/widgets/base.php:180
+#: modules/carousel/widgets/brand-carousel.php:143
+#: modules/carousel/widgets/brand-carousel.php:154
+#: modules/carousel/widgets/iconbox-carousel.php:308
+#: modules/carousel/widgets/imagebox-carousel.php:279
+#: modules/carousel/widgets/imagebox-carousel.php:290
+#: modules/carousel/widgets/imagebox-carousel.php:329
+#: modules/carousel/widgets/imagebox-carousel.php:371
+#: modules/carousel/widgets/post-carousel.php:232
+#: modules/carousel/widgets/post-carousel.php:264
+#: modules/carousel/widgets/post-carousel.php:275
+#: modules/carousel/widgets/post-carousel.php:289
+#: modules/carousel/widgets/post-carousel.php:305
+#: modules/carousel/widgets/post-carousel.php:316
+#: modules/carousel/widgets/team-carousel.php:182
+#: modules/carousel/widgets/team-carousel.php:193
+#: modules/carousel/widgets/team-carousel.php:207
+#: modules/carousel/widgets/team-carousel.php:222
+#: modules/carousel/widgets/testimonial-carousel.php:255
+#: modules/carousel/widgets/testimonial-carousel.php:296
+#: modules/hero/skins/medical-hero.php:133
+#: modules/icon-box/skins/skin-icon-box-v2.php:412
+#: modules/icon-box/skins/skin-icon-box.php:92
+#: modules/icon-box/skins/skin-icon-box.php:103
+#: modules/icon-box/skins/skin-icon-box.php:118
+#: modules/image-box/skins/skin-image-box-v2.php:278
+#: modules/image-box/skins/skin-image-box.php:137
+#: modules/image-box/skins/skin-image-box.php:322
+#: modules/image-box/skins/skin-image-box.php:333
+#: modules/image-box/skins/skin-image-box.php:348
+#: modules/image/skins/skin-image.php:107 modules/nav-tabs/widgets/nav-tabs.php:100
+#: modules/team-member/widgets/team-member.php:148
+#: modules/team-member/widgets/team-member.php:256
+#: modules/team-member/widgets/team-member.php:267
+#: modules/team-member/widgets/team-member.php:281
+#: modules/team-member/widgets/team-member.php:296
+#: modules/testimonial/skins/skin-testimonial.php:131
+msgid "Hide"
+msgstr "مخفی کردن"
+
+#: modules/button/skins/skin-button-reviews.php:119
+#: modules/carousel/skins/skin-team-carousel.php:270
+#: modules/carousel/widgets/testimonial-carousel.php:734
+#: modules/star-rating/skins/skin-star-rating.php:88
+#: modules/team-member/widgets/team-member.php:159
+msgid "Rating Star"
+msgstr "رتبه ستاره ای"
+
+#: modules/button/skins/skin-button-reviews.php:175
+#: modules/carousel/widgets/base.php:299
+#: modules/carousel/widgets/brand-carousel.php:201
+#: modules/carousel/widgets/content-carousel.php:1163
+#: modules/carousel/widgets/iconbox-carousel.php:331
+#: modules/carousel/widgets/imagebox-carousel.php:382
+#: modules/carousel/widgets/imagebox-carousel.php:638
+#: modules/carousel/widgets/testimonial-carousel.php:414
+#: modules/icon-box/skins/skin-icon-box-v2.php:501
+#: modules/image-box/skins/skin-image-box-v2.php:344
+#: modules/nav-tabs/skins/skin-nav-tabs.php:233
+#: modules/nav-tabs/skins/skin-nav-tabs.php:276
+#: modules/nav-tabs/skins/skin-nav-tabs.php:307
+#: modules/nav-tabs/widgets/nav-tabs.php:219
+#: modules/nav-tabs/widgets/nav-tabs.php:271
+#: modules/nav-tabs/widgets/nav-tabs.php:314 modules/page-settings/module.php:653
+#: modules/page-settings/module.php:711 modules/page-settings/module.php:756
+#: modules/pricing/skins/skin-list.php:264 modules/pricing/widgets/price.php:783
+#: modules/pricing/widgets/price.php:829 modules/pricing/widgets/price.php:869
+#: modules/shapes/widgets/shapes.php:130 modules/ticket/widgets/ticket.php:385
+#: modules/ticket/widgets/ticket.php:639 modules/ticket/widgets/ticket.php:685
+msgid "Background Color"
+msgstr "رنگ پس‌زمینه"
+
+#: modules/button/skins/skin-button-reviews.php:184
+#: modules/hero/skins/financial-consulting.php:113
+msgid "Subtitle Color"
+msgstr "رنگ زیرعنوان"
+
+#: modules/button/skins/skin-button-reviews.php:196
+msgid "Enable UpperCase"
+msgstr "فعال کردن حروف بزرگ"
+
+#: modules/button/skins/skin-button-reviews.php:233
+#: modules/carousel/skins/skin-team-carousel.php:75
+#: modules/carousel/widgets/testimonial-carousel.php:480
+#: modules/team-member/widgets/team-member.php:349
+msgid "Rating Size"
+msgstr "رتبه بندی اندازه"
+
+#: modules/button/skins/skin-button-reviews.php:250
+#: modules/carousel/skins/skin-team-carousel.php:103
+#: modules/team-member/widgets/team-member.php:377
+msgid "Reviews Color"
+msgstr "رنگ دیدگاه"
+
+#. translators: 1: number of comments, 2: post title
+#: modules/button/skins/skin-button-reviews.php:302
+#, php-format
+msgctxt "comments title"
+msgid "%1$s review"
+msgid_plural "%1$s reviews"
+msgstr[0] "دیدگاه %1$s"
+msgstr[1] "دیدگاه %1$s"
+
+#: modules/button/skins/skin-button-silicon.php:140
+#: modules/hero/skins/medical-hero.php:193 modules/hero/widgets/hero.php:197
+#: modules/hero/widgets/hero.php:366
+#: modules/icon-box/skins/skin-icon-box-v2.php:145
+#: modules/image-box/skins/skin-image-box.php:186
+#: modules/nav-tabs/skins/skin-nav-tabs.php:289
+#: modules/nav-tabs/widgets/nav-tabs.php:296
+#: modules/posts/widgets/posts-base.php:526
+msgid "Active"
+msgstr "فعال"
+
+#: modules/button/skins/skin-button-silicon.php:141
+#: modules/carousel/skins/skin-mobile-carousel.php:106
+#: modules/hero/skins/medical-hero.php:194 modules/hero/widgets/hero.php:198
+#: modules/hero/widgets/hero.php:367
+#: modules/icon-box/skins/skin-icon-box-v2.php:146
+#: modules/image-box/skins/skin-image-box.php:187
+msgid "Disabled"
+msgstr "غیرفعال شده"
+
+#: modules/button/skins/skin-button-silicon.php:177
+#: modules/carousel/widgets/brand-carousel.php:176
+#: modules/carousel/widgets/content-carousel.php:357
+#: modules/carousel/widgets/content-carousel.php:538
+#: modules/carousel/widgets/content-carousel.php:1332
+#: modules/carousel/widgets/imagebox-carousel.php:206
+#: modules/hero/skins/medical-hero.php:239 modules/hero/widgets/hero.php:250
+#: modules/hero/widgets/hero.php:392
+#: modules/icon-box/skins/skin-icon-box-v2.php:185
+#: modules/image-box/skins/skin-image-box.php:232
+#: modules/pricing/widgets/price.php:425 modules/pricing/widgets/price.php:564
+#: modules/ticket/widgets/ticket.php:209
+msgid "Enable Shadow"
+msgstr "فعال کردن سایه"
+
+#: modules/button/skins/skin-button-silicon.php:179
+#: modules/button/skins/skin-button-silicon.php:194
+#: modules/button/skins/skin-button-silicon.php:209
+#: modules/button/skins/skin-button-silicon.php:221
+#: modules/button/skins/skin-button-silicon.php:249
+#: modules/carousel/widgets/brand-carousel.php:169
+#: modules/carousel/widgets/brand-carousel.php:178
+#: modules/carousel/widgets/imagebox-carousel.php:745
+#: modules/hero/skins/medical-hero.php:241
+#: modules/image-box/skins/skin-image-box-v2.php:290
+#: modules/image-box/skins/skin-image-box.php:234
+#: modules/image-box/skins/skin-image-box.php:249 modules/image/module.php:123
+#: modules/pricing/skins/skin-card.php:346 modules/pricing/skins/skin-card.php:358
+#: modules/pricing/widgets/price.php:427 modules/pricing/widgets/price.php:554
+#: modules/pricing/widgets/price.php:566 modules/sidebar/module.php:54
+#: modules/ticket/widgets/ticket.php:211
+msgid "Yes"
+msgstr "بلی"
+
+#: modules/button/skins/skin-button-silicon.php:180
+#: modules/button/skins/skin-button-silicon.php:195
+#: modules/button/skins/skin-button-silicon.php:210
+#: modules/button/skins/skin-button-silicon.php:222
+#: modules/button/skins/skin-button-silicon.php:250
+#: modules/carousel/widgets/brand-carousel.php:168
+#: modules/carousel/widgets/brand-carousel.php:179
+#: modules/carousel/widgets/imagebox-carousel.php:746
+#: modules/hero/skins/medical-hero.php:242
+#: modules/image-box/skins/skin-image-box-v2.php:289
+#: modules/image-box/skins/skin-image-box.php:235
+#: modules/image-box/skins/skin-image-box.php:250 modules/image/module.php:124
+#: modules/pricing/skins/skin-card.php:347 modules/pricing/skins/skin-card.php:359
+#: modules/pricing/widgets/price.php:428 modules/pricing/widgets/price.php:555
+#: modules/pricing/widgets/price.php:567 modules/sidebar/module.php:55
+#: modules/ticket/widgets/ticket.php:212
+msgid "No"
+msgstr "خیر"
+
+#: modules/button/skins/skin-button-silicon.php:192
+#: modules/image-box/skins/skin-image-box.php:247
+msgid "Enable Gradient"
+msgstr "گرادیان را فعال کنید"
+
+#: modules/button/skins/skin-button-silicon.php:207
+msgid "Is Block Button?"
+msgstr "آیا دکمه بلوک است؟"
+
+#: modules/button/skins/skin-button-silicon.php:219
+msgid "Is Spinner Button?"
+msgstr "آیا دکمه اسپینر است؟"
+
+#: modules/button/skins/skin-button-silicon.php:231
+#: modules/posts/widgets/posts-base.php:293
+msgid "Spinner"
+msgstr "اسپینر"
+
+#: modules/button/skins/skin-button-silicon.php:236
+msgid "Grow"
+msgstr "رشد"
+
+#: modules/button/skins/skin-button-silicon.php:247
+msgid "Enable button tag"
+msgstr "فعال کردن برچسب دکمه"
+
+#: modules/button/skins/skin-button-silicon.php:260
+#: modules/carousel/widgets/content-carousel.php:1051
+#: modules/hero/skins/medical-hero.php:287
+#: modules/image-box/skins/skin-image-box.php:295
+#: modules/image/skins/skin-image.php:149
+msgid "Icon Size"
+msgstr "اندازه آیکون"
+
+#: modules/button/skins/skin-button-silicon.php:280
+#: modules/button/skins/skin-button-silicon.php:505
+#: modules/button/skins/skin-button-silicon.php:518 modules/section/module.php:198
+#: modules/section/module.php:215
+msgid "Add your custom class WITHOUT the dot. e.g: my-class"
+msgstr "کلاس سفارشی خود را بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/button/skins/skin-button-silicon.php:281
+msgid "Added to <i> tag"
+msgstr "به تگ <i> اضافه شد"
+
+#: modules/button/skins/skin-button-silicon.php:361
+#: modules/button/skins/skin-button-silicon.php:430
+#: modules/carousel/widgets/content-carousel.php:1174
+#: modules/carousel/widgets/iconbox-carousel.php:252
+#: modules/carousel/widgets/imagebox-carousel.php:649
+#: modules/carousel/widgets/testimonial-carousel.php:442
+#: modules/icon-box/skins/skin-icon-box-v2.php:512
+#: modules/image-box/skins/skin-image-box.php:490
+#: modules/page-settings/module.php:424
+#: modules/posts/traits/button-widget-trait.php:364
+#: modules/pricing/widgets/price.php:840 modules/ticket/widgets/ticket.php:696
+msgid "Border Color"
+msgstr "رنگ حاشیه"
+
+#: modules/button/skins/skin-button-silicon.php:395
+#: modules/carousel/widgets/brand-carousel.php:152
+#: modules/carousel/widgets/content-carousel.php:1186
+#: modules/carousel/widgets/imagebox-carousel.php:288
+#: modules/carousel/widgets/team-carousel.php:191
+#: modules/carousel/widgets/team-carousel.php:367
+#: modules/icon-box/skins/skin-icon-box.php:101
+#: modules/image-box/skins/skin-image-box.php:331
+#: modules/image/skins/skin-image.php:239
+#: modules/nav-tabs/skins/skin-nav-tabs.php:246
+#: modules/nav-tabs/widgets/nav-tabs.php:253 modules/page-settings/module.php:621
+#: modules/page-settings/module.php:729
+#: modules/posts/traits/button-widget-trait.php:326
+#: modules/posts/widgets/posts-base.php:506 modules/pricing/widgets/price.php:808
+#: modules/team-member/widgets/team-member.php:265
+#: modules/team-member/widgets/team-member.php:463
+#: modules/ticket/widgets/ticket.php:664
+msgid "Hover"
+msgstr "هاور"
+
+#: modules/button/skins/skin-button-silicon.php:441
+#: modules/posts/traits/button-widget-trait.php:379
+msgid "Hover Animation"
+msgstr "انیمیشن شناور"
+
+#: modules/button/skins/skin-button-silicon.php:467
+#: modules/carousel/widgets/base.php:323
+#: modules/carousel/widgets/post-carousel.php:764
+#: modules/posts/traits/button-widget-trait.php:402
+#: modules/pricing/widgets/price.php:736
+#: modules/testimonial/skins/skin-testimonial.php:230
+#: modules/testimonial/skins/skin-testimonial.php:297
+#: modules/ticket/widgets/ticket.php:592
+msgid "Border Radius"
+msgstr "خم لبه"
+
+#: modules/button/skins/skin-button-silicon.php:487
+#: modules/carousel/widgets/base.php:341
+#: modules/icon-box/skins/skin-icon-box.php:215
+#: modules/posts/traits/button-widget-trait.php:424
+msgid "Padding"
+msgstr "پدینگ"
+
+#: modules/button/skins/skin-button-silicon.php:506
+msgid "Added to .btn tag"
+msgstr "به تگ btn. اضافه شد"
+
+#: modules/button/skins/skin-button-silicon.php:519
+msgid "Added to .elementor-button-content-wrapper tag"
+msgstr "به برچسب .elementor-button-content-wrapper اضافه شد"
+
+#: modules/carousel/skins/skin-brand-carousel.php:38
+msgid "Brand Carousel"
+msgstr "چرخ فلک برند"
+
+#: modules/carousel/skins/skin-brand-carousel.php:103
+msgid "Enable Arrow ID"
+msgstr "شناسه پیکان را فعال کنید"
+
+#: modules/carousel/skins/skin-content-carousel-v2.php:38
+msgid "Skin v2"
+msgstr "پوست نسخه 2"
+
+#: modules/carousel/skins/skin-content-carousel-v2.php:85
+msgid "Enable Fade"
+msgstr "محو شدن را فعال کنید"
+
+#: modules/carousel/skins/skin-content-carousel-v2.php:87
+#: modules/carousel/skins/skin-content-carousel-v2.php:100
+#: modules/carousel/skins/skin-content-carousel-v2.php:129
+#: modules/carousel/skins/skin-content-carousel-v3.php:85
+#: modules/carousel/skins/skin-content-carousel.php:102
+#: modules/carousel/skins/skin-content-carousel.php:116
+#: modules/carousel/skins/skin-imagebox-carousel.php:99
+#: modules/carousel/skins/skin-imagebox-carousel.php:140
+#: modules/carousel/skins/skin-post-carousel-v3.php:99
+#: modules/carousel/widgets/content-carousel.php:127
+#: modules/carousel/widgets/content-carousel.php:292
+#: modules/carousel/widgets/content-carousel.php:359
+#: modules/carousel/widgets/content-carousel.php:472
+#: modules/carousel/widgets/content-carousel.php:540
+#: modules/carousel/widgets/content-carousel.php:599
+#: modules/carousel/widgets/content-carousel.php:649
+#: modules/carousel/widgets/content-carousel.php:689
+#: modules/carousel/widgets/content-carousel.php:739
+#: modules/carousel/widgets/content-carousel.php:779
+#: modules/carousel/widgets/content-carousel.php:829
+#: modules/carousel/widgets/content-carousel.php:1268
+#: modules/carousel/widgets/content-carousel.php:1334
+#: modules/carousel/widgets/imagebox-carousel.php:208
+#: modules/carousel/widgets/project-carousel.php:170
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:116
+#: modules/hero/widgets/hero.php:164 modules/hero/widgets/hero.php:252
+#: modules/hero/widgets/hero.php:285 modules/hero/widgets/hero.php:312
+#: modules/hero/widgets/hero.php:394 modules/hero/widgets/hero.php:420
+#: modules/icon-box/skins/skin-icon-box-v2.php:187
+#: modules/image-box/skins/skin-image-box-v2.php:300
+#: modules/page-settings/module.php:305 modules/page-settings/module.php:333
+#: modules/page-settings/module.php:379 modules/page-settings/module.php:393
+#: modules/page-settings/module.php:451 modules/page-settings/module.php:798
+#: modules/posts/skins/skin-hero.php:58 modules/posts/skins/skin-hero.php:70
+msgid "Enable"
+msgstr "فعالسازی"
+
+#: modules/carousel/skins/skin-content-carousel-v2.php:88
+#: modules/carousel/skins/skin-content-carousel-v2.php:101
+#: modules/carousel/skins/skin-content-carousel-v2.php:130
+#: modules/carousel/skins/skin-content-carousel-v3.php:86
+#: modules/carousel/skins/skin-content-carousel.php:103
+#: modules/carousel/skins/skin-content-carousel.php:117
+#: modules/carousel/skins/skin-imagebox-carousel.php:100
+#: modules/carousel/skins/skin-imagebox-carousel.php:141
+#: modules/carousel/skins/skin-post-carousel-v3.php:100
+#: modules/carousel/widgets/content-carousel.php:128
+#: modules/carousel/widgets/content-carousel.php:293
+#: modules/carousel/widgets/content-carousel.php:360
+#: modules/carousel/widgets/content-carousel.php:473
+#: modules/carousel/widgets/content-carousel.php:541
+#: modules/carousel/widgets/content-carousel.php:600
+#: modules/carousel/widgets/content-carousel.php:650
+#: modules/carousel/widgets/content-carousel.php:690
+#: modules/carousel/widgets/content-carousel.php:740
+#: modules/carousel/widgets/content-carousel.php:780
+#: modules/carousel/widgets/content-carousel.php:830
+#: modules/carousel/widgets/content-carousel.php:1269
+#: modules/carousel/widgets/content-carousel.php:1335
+#: modules/carousel/widgets/imagebox-carousel.php:209
+#: modules/carousel/widgets/project-carousel.php:171
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:117
+#: modules/hero/widgets/hero.php:165 modules/hero/widgets/hero.php:253
+#: modules/hero/widgets/hero.php:286 modules/hero/widgets/hero.php:313
+#: modules/hero/widgets/hero.php:395 modules/hero/widgets/hero.php:421
+#: modules/icon-box/skins/skin-icon-box-v2.php:188
+#: modules/image-box/skins/skin-image-box-v2.php:301
+#: modules/page-settings/module.php:306 modules/page-settings/module.php:334
+#: modules/page-settings/module.php:380 modules/page-settings/module.php:394
+#: modules/page-settings/module.php:452 modules/page-settings/module.php:799
+#: modules/posts/skins/skin-hero.php:59 modules/posts/skins/skin-hero.php:71
+msgid "Disable"
+msgstr "غیر فعال"
+
+#: modules/carousel/skins/skin-content-carousel-v2.php:98
+#: modules/carousel/skins/skin-content-carousel-v3.php:83
+#: modules/carousel/skins/skin-mobile-carousel.php:104
+msgid "Enable Container"
+msgstr "کانتینر را فعال کنید"
+
+#: modules/carousel/skins/skin-content-carousel-v2.php:127
+msgid "Disable On Interaction"
+msgstr "غیر فعال کردن اثرمقابل"
+
+#: modules/carousel/skins/skin-content-carousel-v3.php:38
+msgid "Skin v3"
+msgstr "پوست نسخه 3"
+
+#: modules/carousel/skins/skin-content-carousel-v3.php:112
+msgid "Pagination Id"
+msgstr "شناسه صفحه بندی"
+
+#: modules/carousel/skins/skin-content-carousel.php:38
+#: modules/carousel/skins/skin-lottie-carousel.php:38
+#: modules/testimonial/skins/skin-testimonial.php:59
+msgid "Skin v1"
+msgstr "پوست v1"
+
+#: modules/carousel/skins/skin-content-carousel.php:100
+#: modules/carousel/skins/skin-imagebox-carousel.php:97
+msgid "Enable Auto Height"
+msgstr "ارتفاع خودکار را فعال کنید"
+
+#: modules/carousel/skins/skin-content-carousel.php:114
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:124
+msgid "Enable Tabs"
+msgstr "فعال کردن زبانه ها"
+
+#: modules/carousel/skins/skin-content-carousel.php:166
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:185
+msgid "Arrows Wrapper CSS"
+msgstr "بسته بندی فلش CSS"
+
+#: modules/carousel/skins/skin-content-carousel.php:168
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:187
+#: modules/carousel/widgets/base.php:511
+#: modules/carousel/widgets/content-carousel.php:919
+#: modules/carousel/widgets/content-carousel.php:972
+#: modules/carousel/widgets/content-carousel.php:1019
+#: modules/carousel/widgets/content-carousel.php:1096
+#: modules/carousel/widgets/content-carousel.php:1136
+#: modules/carousel/widgets/imagebox-carousel.php:673
+#: modules/carousel/widgets/post-carousel.php:490
+#: modules/carousel/widgets/post-carousel.php:622
+#: modules/carousel/widgets/post-carousel.php:669
+#: modules/carousel/widgets/post-carousel.php:812
+#: modules/carousel/widgets/post-carousel.php:856
+#: modules/icon-box/skins/skin-icon-box-v2.php:536
+msgid "Add your custom class for text without the dot. e.g: my-class"
+msgstr "کلاس سفارشی خود را برای متن بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/skins/skin-iconbox-carousel.php:38
+#: modules/carousel/widgets/iconbox-carousel.php:43
+msgid "Iconbox Carousel"
+msgstr "آیکون باکس کاروسل"
+
+#: modules/carousel/skins/skin-iconbox-carousel.php:97
+#: modules/carousel/skins/skin-imagebox-carousel.php:80
+msgid "Enable Custom Arrow"
+msgstr "فعال کردن پیکان سفارشی"
+
+#: modules/carousel/skins/skin-imagebox-carousel.php:38
+#: modules/carousel/widgets/imagebox-carousel.php:44
+msgid "Imagebox Carousel"
+msgstr "کاروسل باکس تصویر"
+
+#: modules/carousel/skins/skin-imagebox-carousel.php:138
+#: modules/carousel/skins/skin-post-carousel-v3.php:97
+msgid "Adjust For Service"
+msgstr "تنظیم برای خدمات"
+
+#: modules/carousel/skins/skin-mobile-carousel.php:38
+#: modules/carousel/widgets/mobile-carousel.php:47
+msgid "Mobile Carousel"
+msgstr "کاروسل موبایل"
+
+#: modules/carousel/skins/skin-mobile-carousel.php:93
+msgid "Enable Frame"
+msgstr "فعالسازی فریم"
+
+#: modules/carousel/skins/skin-mobile-carousel.php:107
+msgid "Enabled"
+msgstr "فعال شد"
+
+#: modules/carousel/skins/skin-mobile-carousel.php:159
+msgid "Pagination ID"
+msgstr "شناسه صفحه بندی"
+
+#: modules/carousel/skins/skin-mobile-carousel.php:161
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:154
+#: modules/carousel/widgets/mobile-carousel.php:370
+#: modules/highlighted-heading/widgets/highlighted-heading.php:292
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the "
+"highlighted text"
+msgstr ""
+"کلاس‌های CSS اضافی که با فاصله از هم جدا شده‌اند که می‌خواهید روی متن برجسته شده "
+"اعمال کنید"
+
+#: modules/carousel/skins/skin-post-carousel-v2.php:38
+msgid "Post Carousel v2"
+msgstr "پست کاروسل نسخه 2"
+
+#: modules/carousel/skins/skin-post-carousel-v2.php:68
+msgid "Widget Wrapper CSS"
+msgstr "بسته بندی ویجت CSS"
+
+#: modules/carousel/skins/skin-post-carousel-v2.php:70
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the Widget "
+"Wrapper"
+msgstr ""
+"کلاس‌های CSS اضافی که با فاصله از هم جدا شده‌اند که می‌خواهید روی بسته‌بندی ویجت "
+"اعمال کنید"
+
+#: modules/carousel/skins/skin-post-carousel-v3.php:41
+msgid "Post Carousel v3"
+msgstr "پست کاروسل نسخه 3"
+
+#: modules/carousel/skins/skin-post-carousel-v3.php:137
+#: modules/carousel/widgets/iconbox-carousel.php:377
+#: modules/carousel/widgets/imagebox-carousel.php:499
+#: modules/carousel/widgets/mobile-carousel.php:259
+#: modules/carousel/widgets/post-carousel.php:578
+#: modules/carousel/widgets/team-carousel.php:430
+#: modules/hero/skins/financial-consulting.php:92
+#: modules/highlighted-heading/widgets/highlighted-heading.php:212
+#: modules/image-gallery/skins/skin-image-gallery.php:199
+#: modules/pricing/skins/skin-list.php:159 modules/pricing/widgets/price.php:513
+#: modules/team-member/widgets/team-member.php:525
+#: modules/ticket/widgets/ticket.php:486
+msgid "Title Color"
+msgstr "رنگ عنوان"
+
+#: modules/carousel/skins/skin-post-carousel.php:38
+msgid "Post Carousel v1"
+msgstr "پست کاروسل نسخه ۱"
+
+#: modules/carousel/skins/skin-post-carousel.php:76
+msgid "Full Width"
+msgstr "تمام عرض"
+
+#: modules/carousel/skins/skin-project-carousel-v2.php:38
+msgid "Style v2"
+msgstr "سبک نسخه 2"
+
+#: modules/carousel/skins/skin-project-carousel-v2.php:68
+#: modules/carousel/widgets/base.php:110
+msgid "Slides Per View"
+msgstr "اسلاید در هر نمایش"
+
+#: modules/carousel/skins/skin-team-carousel.php:39
+msgid "Team V1"
+msgstr "تیم V1"
+
+#: modules/carousel/skins/skin-team-carousel.php:66
+#: modules/carousel/widgets/testimonial-carousel.php:456
+#: modules/team-member/widgets/team-member.php:337
+msgid "Rating"
+msgstr "رتبه بندی"
+
+#: modules/carousel/skins/skin-team-carousel.php:92
+#: modules/team-member/widgets/team-member.php:366
+msgid "Rating Icon Color"
+msgstr "رنگ ایکون نظرسنجی"
+
+#: modules/carousel/skins/skin-team-carousel.php:152
+#: modules/carousel/widgets/base.php:72 modules/carousel/widgets/base.php:84
+#: modules/carousel/widgets/base.php:291
+#: modules/carousel/widgets/content-carousel.php:383
+#: modules/carousel/widgets/content-carousel.php:564
+#: modules/carousel/widgets/iconbox-carousel.php:177
+#: modules/carousel/widgets/imagebox-carousel.php:243
+#: modules/carousel/widgets/testimonial-carousel.php:148
+#: modules/carousel/widgets/testimonial-carousel.php:238
+msgid "Slides"
+msgstr "اسلایدها"
+
+#: modules/carousel/skins/skin-team-carousel.php:227
+#: modules/carousel/widgets/post-carousel.php:776
+#: modules/carousel/widgets/team-carousel.php:122
+#: modules/carousel/widgets/testimonial-carousel.php:128
+#: modules/carousel/widgets/testimonial-carousel.php:218
+#: modules/carousel/widgets/testimonial-carousel.php:761
+#: modules/categories-dropdown/widgets/categories-dropdown.php:115
+#: modules/team-member/widgets/team-member.php:126
+msgid "Name"
+msgstr "نام"
+
+#: modules/carousel/skins/skin-team-carousel.php:229
+#: modules/carousel/widgets/team-carousel.php:124
+#: modules/carousel/widgets/testimonial-carousel.php:800
+msgid "Ralph Edwards"
+msgstr "رالف ادواردز"
+
+#: modules/carousel/skins/skin-team-carousel.php:237
+#: modules/carousel/widgets/post-carousel.php:820
+#: modules/carousel/widgets/team-carousel.php:132
+#: modules/carousel/widgets/testimonial-carousel.php:138
+#: modules/carousel/widgets/testimonial-carousel.php:228
+#: modules/carousel/widgets/testimonial-carousel.php:771
+msgid "Role"
+msgstr "نقش"
+
+#: modules/carousel/skins/skin-team-carousel.php:239
+#: modules/carousel/widgets/team-carousel.php:134
+msgid "Co-Founder"
+msgstr "بنیان گذاران"
+
+#: modules/carousel/skins/skin-team-carousel.php:247
+#: modules/carousel/widgets/team-carousel.php:142
+#: modules/team-member/widgets/team-member.php:226
+msgid "Icon List"
+msgstr "لیست آیکون"
+
+#: modules/carousel/skins/skin-team-carousel.php:249
+#: modules/carousel/widgets/team-carousel.php:144
+msgid "link|value"
+msgstr "پیوند|مقدار"
+
+#: modules/carousel/skins/skin-team-carousel.php:250
+#: modules/carousel/widgets/team-carousel.php:145
+msgid "https://facebook.com|me-2"
+msgstr "https://facebook.com|me-2"
+
+#: modules/carousel/skins/skin-team-carousel.php:251
+#: modules/carousel/widgets/team-carousel.php:146
+msgid ""
+"Enter the social profiles here. Each profile URL should be separated by a new "
+"line by hitting Enter button"
+msgstr ""
+"پروفایل های اجتماعی را در اینجا وارد کنید. هر URL نمایه باید با یک خط جدید با "
+"زدن دکمه اینتر از هم جدا شود"
+
+#: modules/carousel/skins/skin-team-carousel.php:259
+#: modules/team-member/widgets/team-member.php:145
+msgid "Enable Rating Icon?"
+msgstr "نماد رتبه‌بندی فعال شود؟"
+
+#: modules/carousel/skins/skin-team-carousel.php:291
+#: modules/team-member/widgets/team-member.php:181
+msgid "Enter Your Reviews"
+msgstr "نظرات خود را وارد کنید"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v2.php:38
+msgid "Skin V2"
+msgstr "پوست V2"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v3.php:38
+msgid "Skin V3"
+msgstr "پوست V3"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:38
+msgid "Skin V4"
+msgstr "پوست V3"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:70
+msgid "Swiper Order"
+msgstr "سفارش سوایپر"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:72
+msgid "Last"
+msgstr "آخرین"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:73
+msgid "First"
+msgstr "اولین"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:91
+#: modules/carousel/widgets/brand-carousel.php:284
+#: modules/carousel/widgets/iconbox-carousel.php:111
+#: modules/carousel/widgets/imagebox-carousel.php:697
+#: modules/highlighted-heading/widgets/highlighted-heading.php:309
+#: modules/section/module.php:180
+msgid "Style"
+msgstr "استایل"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:96
+msgid "Style v1"
+msgstr "سبک v1"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:137
+msgid "Enable Pager"
+msgstr "پیجر را فعال کنید"
+
+#: modules/carousel/skins/skin-testimonial-carousel-v4.php:152
+msgid "Pager ID"
+msgstr "شناسه پیجر"
+
+#: modules/carousel/skins/skin-testimonial-carousel.php:38
+msgid "Skin V1"
+msgstr "پوست V1"
+
+#: modules/carousel/skins/skin-testimonial-carousel.php:77
+msgid "Desktop Breakpoints"
+msgstr "نقاط شکست دسکتاپ"
+
+#: modules/carousel/skins/skin-testimonial-carousel.php:139
+msgid "Enable Custom Arrows ID"
+msgstr "شناسه پیکان های سفارشی را فعال کنید"
+
+#: modules/carousel/skins/skin-testimonial-carousel.php:152
+#: modules/carousel/widgets/base.php:188
+msgid "Prev Arrow ID"
+msgstr "شناسه پیکان قبلی"
+
+#: modules/carousel/skins/skin-testimonial-carousel.php:154
+#: modules/carousel/widgets/base.php:190
+msgid "Enter ID for Previous Button"
+msgstr "شناسه دکمه قبلی را وارد کنید"
+
+#: modules/carousel/skins/skin-testimonial-carousel.php:166
+#: modules/carousel/widgets/base.php:200
+msgid "Next Arrow ID"
+msgstr "شناسه پیکان بعدی"
+
+#: modules/carousel/skins/skin-testimonial-carousel.php:168
+#: modules/carousel/widgets/base.php:202
+msgid "Enter ID for Next Button"
+msgstr "شناسه دکمه بعدی را وارد کنید"
+
+#: modules/carousel/widgets/base.php:95
+msgid "Effect"
+msgstr "افکت"
+
+#: modules/carousel/widgets/base.php:98 modules/carousel/widgets/base.php:216
+#: modules/carousel/widgets/content-carousel.php:611
+#: modules/carousel/widgets/content-carousel.php:632
+#: modules/carousel/widgets/content-carousel.php:701
+#: modules/carousel/widgets/content-carousel.php:722
+#: modules/carousel/widgets/content-carousel.php:791
+#: modules/carousel/widgets/content-carousel.php:812
+#: modules/carousel/widgets/lottie-carousel.php:272
+#: modules/carousel/widgets/project-carousel.php:255
+#: modules/image-gallery/skins/skin-image-gallery.php:133
+#: modules/page-settings/module.php:409 modules/page-settings/module.php:811
+#: modules/posts/widgets/posts-base.php:729 modules/pricing/skins/skin-list.php:173
+#: modules/pricing/widgets/price.php:154
+#: modules/query-control/controls/group-control-related.php:70
+#: modules/shapes/widgets/shapes.php:63 modules/ticket/widgets/ticket.php:252
+msgid "None"
+msgstr "هیچکدام"
+
+#: modules/carousel/widgets/base.php:99
+msgid "Slide"
+msgstr "اسلاید"
+
+#: modules/carousel/widgets/base.php:100
+msgid "Fade"
+msgstr "محو"
+
+#: modules/carousel/widgets/base.php:128
+msgid "Enable Space Between"
+msgstr "فضای بین را فعال کنید"
+
+#: modules/carousel/widgets/base.php:139
+#: modules/carousel/widgets/post-carousel.php:404
+#: modules/carousel/widgets/project-carousel.php:240
+#: modules/posts/widgets/posts-base.php:548
+msgid "Space Between"
+msgstr "فضای بین"
+
+#: modules/carousel/widgets/base.php:140
+#: modules/carousel/widgets/project-carousel.php:241
+msgid "Set Space between each Slides"
+msgstr "فاصله بین هر اسلاید را تنظیم کنید"
+
+#: modules/carousel/widgets/base.php:157
+msgid "Center Slides"
+msgstr "اسلایدهای مرکزی"
+
+#: modules/carousel/widgets/base.php:170
+msgid "Additional Options"
+msgstr "گزینه های اضافی"
+
+#: modules/carousel/widgets/base.php:178 modules/carousel/widgets/base.php:402
+msgid "Arrows"
+msgstr "پیکان ها"
+
+#: modules/carousel/widgets/base.php:212 modules/carousel/widgets/base.php:471
+#: modules/carousel/widgets/project-carousel.php:251
+#: modules/posts/widgets/posts-base.php:184
+#: modules/posts/widgets/posts-base.php:191
+#: modules/posts/widgets/posts-base.php:440
+#: modules/posts/widgets/posts-base.php:592
+msgid "Pagination"
+msgstr "صفحه بندی"
+
+#: modules/carousel/widgets/base.php:217
+#: modules/carousel/widgets/project-carousel.php:256
+msgid "Dots"
+msgstr "نقطه ها"
+
+#: modules/carousel/widgets/base.php:218
+#: modules/carousel/widgets/project-carousel.php:257
+msgid "Fraction"
+msgstr "کسر"
+
+#: modules/carousel/widgets/base.php:219
+#: modules/carousel/widgets/project-carousel.php:258
+msgid "Progress"
+msgstr "پیشرفت"
+
+#: modules/carousel/widgets/base.php:227
+msgid "Transition Duration"
+msgstr "مدت زمان انیمیشن"
+
+#: modules/carousel/widgets/base.php:239
+#: modules/carousel/widgets/project-carousel.php:219
+#: modules/lottie/widgets/lottie.php:103
+msgid "Autoplay"
+msgstr "پخش خودکار"
+
+#: modules/carousel/widgets/base.php:251
+msgid "Autoplay Speed"
+msgstr "سرعت پخش خودکار"
+
+#: modules/carousel/widgets/base.php:265
+#: modules/carousel/widgets/project-carousel.php:230
+msgid "Infinite Loop"
+msgstr "حلقه بی نهایت"
+
+#: modules/carousel/widgets/base.php:275
+msgid "Pause on Hover"
+msgstr "مکث در حالت هاور"
+
+#: modules/carousel/widgets/base.php:356
+msgid "Swiper Wrappers"
+msgstr "سوایپر لفاف"
+
+#: modules/carousel/widgets/base.php:365
+msgid "Carousel Options Wrap"
+msgstr "بسته بندی گزینه های کاروسل"
+
+#: modules/carousel/widgets/base.php:367
+#: modules/carousel/widgets/testimonial-carousel.php:670
+msgid "CSS Classes added to data-swiper-options attribute <div>"
+msgstr "کلاس‌های CSS به ویژگی data-swiper-options <div> اضافه شدند"
+
+#: modules/carousel/widgets/base.php:374
+msgid "Carousel Wrapper CSS"
+msgstr "کراسل بسته بندی CSS"
+
+#: modules/carousel/widgets/base.php:376
+#: modules/carousel/widgets/testimonial-carousel.php:680
+msgid "CSS Classes added to swiper-wrapper class <div>"
+msgstr "کلاس‌های CSS به کلاس swiper-wrapper <div> اضافه شدند"
+
+#: modules/carousel/widgets/base.php:383
+msgid "Carousel Slide CSS"
+msgstr "CSS اسلاید کراسل"
+
+#: modules/carousel/widgets/base.php:385
+msgid "CSS Classes added to swiper-slide class <div>"
+msgstr "کلاس‌های CSS به کلاس swiper-slide <div> اضافه شدند"
+
+#: modules/carousel/widgets/base.php:394
+msgid "Navigation"
+msgstr "جهت یابی"
+
+#: modules/carousel/widgets/base.php:454
+msgid "Background Hover Color"
+msgstr "رنگ هاور پس زمینه"
+
+#: modules/carousel/widgets/base.php:509
+msgid "Pagination CSS"
+msgstr "صفحه بندی CSS"
+
+#: modules/carousel/widgets/base.php:559
+msgid "Previous"
+msgstr "قبلی"
+
+#: modules/carousel/widgets/base.php:563
+msgid "Next"
+msgstr "بعدی"
+
+#: modules/carousel/widgets/brand-carousel.php:44
+msgid "Brands Carousel"
+msgstr "اسلایدر برندها"
+
+#: modules/carousel/widgets/brand-carousel.php:166
+#: modules/image-box/skins/skin-image-box-v2.php:287
+msgid "Border Disable"
+msgstr "مرز غیر فعال کردن"
+
+#: modules/carousel/widgets/brand-carousel.php:188
+#: modules/carousel/widgets/iconbox-carousel.php:343
+#: modules/carousel/widgets/imagebox-carousel.php:301
+#: modules/icon-box/skins/skin-icon-box-v2.php:399
+#: modules/image-box/skins/skin-image-box-v2.php:250
+#: modules/pricing/skins/skin-card.php:326 modules/pricing/widgets/price.php:544
+msgid "Card Class"
+msgstr "کلاس کارت"
+
+#: modules/carousel/widgets/brand-carousel.php:190 modules/image/module.php:89
+msgid "Add your custom class for <a> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <a> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/widgets/brand-carousel.php:216
+#: modules/carousel/widgets/content-carousel.php:906
+#: modules/carousel/widgets/content-carousel.php:1082
+#: modules/carousel/widgets/content-carousel.php:1193
+#: modules/carousel/widgets/content-carousel.php:1204
+#: modules/carousel/widgets/iconbox-carousel.php:316
+#: modules/carousel/widgets/imagebox-carousel.php:660
+#: modules/carousel/widgets/mobile-carousel.php:294
+#: modules/carousel/widgets/post-carousel.php:554
+#: modules/carousel/widgets/post-carousel.php:593
+#: modules/icon-box/skins/skin-icon-box-v2.php:523
+msgid "Hover Color"
+msgstr "رنگ هاور"
+
+#: modules/carousel/widgets/brand-carousel.php:252 modules/image/module.php:80
+msgid "Additional CSS class that you want to apply to the img tag"
+msgstr "کلاس CSS اضافی که می خواهید روی تگ img اعمال کنید"
+
+#: modules/carousel/widgets/content-carousel.php:44
+msgid "Content Carousel"
+msgstr "کاروسل محتوا"
+
+#: modules/carousel/widgets/content-carousel.php:115
+#: modules/carousel/widgets/post-carousel.php:211
+#: modules/carousel/widgets/project-carousel.php:150
+#: modules/hero/widgets/hero.php:88 modules/nav-menu/widgets/nav-menu.php:199
+#: modules/posts/widgets/portfolio.php:104 modules/posts/widgets/posts-base.php:714
+msgid "Layout"
+msgstr "چیدمان"
+
+#: modules/carousel/widgets/content-carousel.php:125
+msgid "Enable Icon"
+msgstr "فعال کردن آیکون"
+
+#: modules/carousel/widgets/content-carousel.php:149
+msgid "Arrows Position"
+msgstr "موقعیت پیکان ها"
+
+#: modules/carousel/widgets/content-carousel.php:154
+#: modules/carousel/widgets/content-carousel.php:612
+#: modules/carousel/widgets/content-carousel.php:702
+#: modules/carousel/widgets/content-carousel.php:792
+#: modules/carousel/widgets/post-carousel.php:697
+#: modules/carousel/widgets/post-carousel.php:723
+#: modules/page-settings/module.php:410
+msgid "Top"
+msgstr "بالا"
+
+#: modules/carousel/widgets/content-carousel.php:158
+#: modules/carousel/widgets/content-carousel.php:613
+#: modules/carousel/widgets/content-carousel.php:703
+#: modules/carousel/widgets/content-carousel.php:793
+#: modules/carousel/widgets/post-carousel.php:705
+#: modules/carousel/widgets/post-carousel.php:731
+#: modules/page-settings/module.php:411
+msgid "Bottom"
+msgstr "پایین"
+
+#: modules/carousel/widgets/content-carousel.php:168
+#: modules/carousel/widgets/content-carousel.php:260
+#: modules/carousel/widgets/content-carousel.php:430
+#: modules/carousel/widgets/post-carousel.php:240
+#: modules/pricing/widgets/price.php:110 modules/ticket/widgets/ticket.php:109
+msgid "Title HTML Tag"
+msgstr "عنوان برچسب HTML"
+
+#: modules/carousel/widgets/content-carousel.php:190 modules/section/module.php:82
+msgid "Jarallax"
+msgstr "جارالاکس"
+
+#: modules/carousel/widgets/content-carousel.php:201
+#: modules/carousel/widgets/team-carousel.php:243
+#: modules/team-member/widgets/team-member.php:317
+msgid "Opacity"
+msgstr "شفافیت"
+
+#: modules/carousel/widgets/content-carousel.php:222
+msgid "Data Speed"
+msgstr "سرعت داده"
+
+#: modules/carousel/widgets/content-carousel.php:280
+#: modules/carousel/widgets/content-carousel.php:459
+#: modules/carousel/widgets/content-carousel.php:677
+#: modules/carousel/widgets/content-carousel.php:984
+#: modules/carousel/widgets/content-carousel.php:1257
+#: modules/carousel/widgets/iconbox-carousel.php:147
+#: modules/carousel/widgets/iconbox-carousel.php:398
+#: modules/carousel/widgets/iconbox-carousel.php:477
+#: modules/carousel/widgets/imagebox-carousel.php:521
+#: modules/carousel/widgets/mobile-carousel.php:430
+#: modules/carousel/widgets/mobile-carousel.php:498
+#: modules/image-gallery/skins/skin-profile.php:90
+msgid "Description"
+msgstr "توضیح"
+
+#: modules/carousel/widgets/content-carousel.php:290
+#: modules/carousel/widgets/content-carousel.php:470
+#: modules/carousel/widgets/content-carousel.php:1266
+msgid "Enable Button"
+msgstr "فعال کردن دکمه"
+
+#: modules/carousel/widgets/content-carousel.php:301
+#: modules/carousel/widgets/content-carousel.php:481
+#: modules/carousel/widgets/content-carousel.php:1276
+#: modules/carousel/widgets/imagebox-carousel.php:150
+#: modules/hero/skins/medical-hero.php:141 modules/hero/widgets/hero.php:172
+#: modules/hero/widgets/hero.php:320
+#: modules/icon-box/skins/skin-icon-box-v2.php:196
+#: modules/image-box/skins/skin-image-box.php:145
+#: modules/page-settings/module.php:480 modules/posts/widgets/posts-base.php:338
+#: modules/pricing/widgets/price.php:370 modules/ticket/widgets/ticket.php:154
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: modules/carousel/widgets/content-carousel.php:303
+#: modules/carousel/widgets/content-carousel.php:1278
+msgid "Learn More"
+msgstr "ادامه مطلب"
+
+#: modules/carousel/widgets/content-carousel.php:413
+#: modules/ticket/widgets/ticket.php:343
+msgid "Background Image"
+msgstr "تصویر پس زمینه"
+
+#: modules/carousel/widgets/content-carousel.php:423
+#: modules/carousel/widgets/content-carousel.php:1418
+msgid "Cashless payment case study"
+msgstr "مطالعه موردی پرداخت غیرنقدی"
+
+#: modules/carousel/widgets/content-carousel.php:452
+#: modules/carousel/widgets/content-carousel.php:1419
+msgid "Payment Service Provider Company"
+msgstr "شرکت ارائه دهنده خدمات پرداخت"
+
+#: modules/carousel/widgets/content-carousel.php:462
+#: modules/carousel/widgets/content-carousel.php:1420
+msgid ""
+"Aenean dolor elit tempus tellus imperdiet. Elementum, ac convallis morbi sit est "
+"feugiat ultrices. Cras tortor maecenas pulvinar nec ac justo. Massa sem eget "
+"semper..."
+msgstr ""
+"این راست نیست که هرچه عاشق‌ تر باشی بهتر درک می‌کنی. همه‌ی آنچه عشق و عاشقی از من "
+"می‌ خواهد فقط درکِ این حکمت است: دیگری نشناختنی است؛ ماتیِ او پرده‌ی ابهامی به روی "
+"یک راز نیست، بل گواهی است که در آن بازیِ بود."
+
+#: modules/carousel/widgets/content-carousel.php:483
+#: modules/carousel/widgets/content-carousel.php:1421
+#: modules/carousel/widgets/content-carousel.php:1427
+msgid "View case study"
+msgstr "مشاهده مطالعه موردی"
+
+#: modules/carousel/widgets/content-carousel.php:577
+msgid "Animation"
+msgstr "انیمیشن"
+
+#: modules/carousel/widgets/content-carousel.php:597
+#: modules/carousel/widgets/content-carousel.php:687
+#: modules/carousel/widgets/content-carousel.php:777
+msgid "Enable Animation"
+msgstr "فعال کردن انیمیشن"
+
+#: modules/carousel/widgets/content-carousel.php:607
+#: modules/carousel/widgets/content-carousel.php:697
+#: modules/carousel/widgets/content-carousel.php:787
+msgid "Animation Direction"
+msgstr "جهت انیمیشن"
+
+#: modules/carousel/widgets/content-carousel.php:614
+#: modules/carousel/widgets/content-carousel.php:704
+#: modules/carousel/widgets/content-carousel.php:794
+#: modules/page-settings/module.php:412
+msgid "Start"
+msgstr "شروع"
+
+#: modules/carousel/widgets/content-carousel.php:615
+#: modules/carousel/widgets/content-carousel.php:705
+#: modules/carousel/widgets/content-carousel.php:795
+#: modules/page-settings/module.php:413
+msgid "End"
+msgstr "پایان"
+
+#: modules/carousel/widgets/content-carousel.php:627
+#: modules/carousel/widgets/content-carousel.php:717
+#: modules/carousel/widgets/content-carousel.php:807
+msgid "Scale Direction"
+msgstr "جهت مقیاس"
+
+#: modules/carousel/widgets/content-carousel.php:633
+#: modules/carousel/widgets/content-carousel.php:723
+#: modules/carousel/widgets/content-carousel.php:813
+msgid "Up"
+msgstr "بالا"
+
+#: modules/carousel/widgets/content-carousel.php:634
+#: modules/carousel/widgets/content-carousel.php:724
+#: modules/carousel/widgets/content-carousel.php:814
+msgid "Down"
+msgstr "پایین"
+
+#: modules/carousel/widgets/content-carousel.php:647
+#: modules/carousel/widgets/content-carousel.php:737
+#: modules/carousel/widgets/content-carousel.php:827
+msgid "Enable Delay"
+msgstr "فعال کردن تاخیر"
+
+#: modules/carousel/widgets/content-carousel.php:661
+#: modules/carousel/widgets/content-carousel.php:751
+#: modules/carousel/widgets/content-carousel.php:841
+msgid "Delay"
+msgstr "تاخیر"
+
+#: modules/carousel/widgets/content-carousel.php:917
+#: modules/carousel/widgets/content-carousel.php:970
+#: modules/carousel/widgets/content-carousel.php:1017
+#: modules/carousel/widgets/content-carousel.php:1093
+#: modules/carousel/widgets/content-carousel.php:1134
+#: modules/carousel/widgets/imagebox-carousel.php:671
+#: modules/carousel/widgets/post-carousel.php:620
+#: modules/carousel/widgets/post-carousel.php:667
+#: modules/carousel/widgets/post-carousel.php:810
+#: modules/carousel/widgets/post-carousel.php:854
+#: modules/icon-box/skins/skin-icon-box-v2.php:534
+msgid "CSS Class"
+msgstr "کلاس CSS"
+
+#: modules/carousel/widgets/content-carousel.php:1233
+msgid "Tabs ID"
+msgstr "شناسه برگه ها"
+
+#: modules/carousel/widgets/content-carousel.php:1367
+msgid "Transportation & Logistics"
+msgstr "حمل و نقل و تدارکات"
+
+#: modules/carousel/widgets/content-carousel.php:1368
+msgid ""
+"Risus massa fames metus lectus diam maecenas dui. Nibh morbi id purus eget "
+"tellus diam, integer blandit. Ac condimentum a nisl sagittis, interdum. Et "
+"viverra maecenas quis cras sed gravida volutpat, cursus enim. Enim ut nulla "
+"netus porta lacus diam. Et enim ultrices nunc, nunc. In iaculis venenatis at sit."
+msgstr ""
+"خنده توده گرسنگی تخت خواب که بیماری باید توسعه یابد و خاک پاک باشد. و سس از "
+"تیرهای بازیکنان، گاهی اوقات. و ماسینای کارتونی که فردا اما آخر هفته حامله هستند، "
+"البته برای. زیرا هنگامی که توری وجود ندارد، دروازه دریاچه توسعه یافته است. و "
+"برای بسکتبال در حال حاضر، در حال حاضر. اما بگذار در تیرهای مسموم باشد."
+
+#: modules/carousel/widgets/content-carousel.php:1371
+msgid "Construction & Real Estate"
+msgstr "ساخت و ساز و املاک و مستغلات"
+
+#: modules/carousel/widgets/content-carousel.php:1372
+msgid ""
+"Nunc, amet et, et at habitant. Eget quis justo, metus at metus sapien. Urna "
+"quisque rutrum pharetra pulvinar vitae quam blandit non. Orci tempor cursus "
+"egestas quis orci at nisi maecenas. Enim in ultrices tortor, nibh quis "
+"sollicitudin tellus non maecenas. In libero ut semper nunc magna tortor."
+msgstr ""
+"حالا بیایید عشق بورزیم و زندگی کنیم. هر که محتاج عادل باشد، از ترس عاقل بترسد. "
+"هر کوزه آرایشی در بالش زندگی می لرزید که چاپلوسی نیست. اورسی فقر طولانی مدت زیرا "
+"در شکنجه گر انتقام جو، که از ترس زمین آزاد است. برای اینکه همیشه رایگان باشید، "
+"اکنون یک ابزار عالی است."
+
+#: modules/carousel/widgets/content-carousel.php:1375
+msgid "Education"
+msgstr "تحصیلات"
+
+#: modules/carousel/widgets/content-carousel.php:1376
+msgid ""
+"Vivamus nisl sit volutpat laoreet ligula et. Nunc, duis est justo, cras ipsum "
+"vulputate eget tellus augue. Amet, sagittis ut enim nisl commodo, pharetra. "
+"Sapien imperdiet tristique interdum aliquet varius vitae facilisis vel. Erat "
+"convallis eget elit eget iaculis. Morbi id facilisis ligula odio sed amet "
+"suspendisse duis aliquet. Justo quam convallis id sed."
+msgstr ""
+"طرفداران روی رادار می نشینند و آخر هفته در حال پمپاژ است. اکنون، فقط مسکن است، "
+"فردا زمین به تبلیغات بسیار همه کاره نیاز دارد. تعداد زیادی فلش برای استفاده از "
+"بازیکنان، لرزان. تامین مالی عاقلانه زندگی غمگین آسان است یا گاهی اوقات اقتصاد "
+"متفاوت است. این دره بود که به تیر نیاز دارد. که از این بیماری به راحتی متنفر "
+"است، اما عشق به تعلیق موز. اما نحوه دستیابی به آن."
+
+#: modules/carousel/widgets/content-carousel.php:1391
+msgid "The Best IT Solutions for Your Business"
+msgstr "بهترین راه حل های فناوری اطلاعات برای کسب و کار شما"
+
+#: modules/carousel/widgets/content-carousel.php:1392
+msgid ""
+"We provide the wide range of high quality IT services and best practices "
+"solutions to our customers making their business better."
+msgstr ""
+"ما طیف گسترده ای از خدمات فناوری اطلاعات با کیفیت بالا و بهترین راهکارها را به "
+"مشتریان خود ارائه می دهیم تا کسب و کارشان را بهتر کنند."
+
+#: modules/carousel/widgets/content-carousel.php:1393
+msgid "Start your project"
+msgstr "پروژه خود را شروع کنید"
+
+#: modules/carousel/widgets/content-carousel.php:1396
+msgid "Award-Winning Software Development"
+msgstr "برنده جایزه توسعه نرم افزار"
+
+#: modules/carousel/widgets/content-carousel.php:1397
+msgid ""
+"We build complex web, desktop and mobile applications. With us you get quality "
+"software and perfect service every time."
+msgstr ""
+"ما برنامه های پیچیده وب، دسکتاپ و موبایل می سازیم. با ما هر بار نرم افزار با "
+"کیفیت و خدمات عالی دریافت می کنید."
+
+#: modules/carousel/widgets/content-carousel.php:1398
+msgid "View case studies"
+msgstr "مشاهده مطالعات موردی"
+
+#: modules/carousel/widgets/content-carousel.php:1401
+msgid "24/7 Tech & Business Support"
+msgstr "پشتیبانی فنی و تجاری 24 ساعته"
+
+#: modules/carousel/widgets/content-carousel.php:1402
+msgid ""
+"We ensure lifetime support of all applications we've built. Our support "
+"department is a team of professionals who will assist you 24/7."
+msgstr ""
+"ما از پشتیبانی مادام العمر از همه برنامه هایی که ساخته ایم اطمینان می دهیم. بخش "
+"پشتیبانی ما تیمی از متخصصان است که به صورت 24 ساعته به شما کمک می کنند."
+
+#: modules/carousel/widgets/content-carousel.php:1403
+msgid "Work with us"
+msgstr "با ما همکاری کنید"
+
+#: modules/carousel/widgets/content-carousel.php:1424
+msgid "Smart tech case study"
+msgstr "مطالعه موردی فناوری هوشمند"
+
+#: modules/carousel/widgets/content-carousel.php:1425
+msgid "Data Analytics Company"
+msgstr "شرکت تجزیه و تحلیل داده ها"
+
+#: modules/carousel/widgets/content-carousel.php:1426
+msgid ""
+"Adipiscing quis a at ligula. Gravida gravida diam rhoncus cursus in. Turpis "
+"sagittis tempor gravida phasellus sapien. Faucibus donec consectetur sed id sit "
+"nisl."
+msgstr ""
+"شما کسی را از لیگولا پیدا خواهید کرد. دوره رانکوس دیام باردار باردار در در زمان "
+"تیرهای شیطانی، فالوس دانا حامله بود. اما این هدف هواداران است."
+
+#: modules/carousel/widgets/iconbox-carousel.php:167
+msgid "Enter your Link"
+msgstr "لینک خود را وارد کنید"
+
+#: modules/carousel/widgets/iconbox-carousel.php:219
+#: modules/icon-box/skins/skin-icon-box-v2.php:373
+#: modules/image-box/skins/skin-image-box-v2.php:185
+#: modules/image-box/skins/skin-image-box-v2.php:252
+#: modules/image-box/skins/skin-image-box-v2.php:311
+#: modules/image-box/skins/skin-image-box-v2.php:334
+#: modules/image-box/skins/skin-image-box-v2.php:359
+#: modules/image-box/skins/skin-image-box-v2.php:372
+#: modules/image-box/skins/skin-image-box-v2.php:392
+#: modules/image-box/skins/skin-image-box-v2.php:412
+#: modules/image-box/skins/skin-image-box.php:116
+msgid "Add your custom class for icon  without the dot. e.g: my-class"
+msgstr "کلاس سفارشی خود را برای نماد بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/widgets/iconbox-carousel.php:222
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:228
+#: modules/icon-box/skins/skin-icon-box-v2.php:376
+msgid "Additional CSS class that you want to apply to the icon"
+msgstr "کلاس CSS اضافی که می خواهید روی نماد اعمال کنید"
+
+#: modules/carousel/widgets/iconbox-carousel.php:238
+msgid "Button Color"
+msgstr "رنگ دکمه"
+
+#: modules/carousel/widgets/iconbox-carousel.php:266
+#: modules/image/skins/skin-image.php:258
+msgid "Icon Hover Color"
+msgstr "رنگ هاور آیکون"
+
+#: modules/carousel/widgets/iconbox-carousel.php:306
+#: modules/icon-box/skins/skin-icon-box-v2.php:410
+#: modules/image-box/skins/skin-image-box-v2.php:276
+msgid "CardHover"
+msgstr "کارت شناور"
+
+#: modules/carousel/widgets/iconbox-carousel.php:345
+#: modules/carousel/widgets/imagebox-carousel.php:303
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:200
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:213
+msgid "Add your custom class for <div>  without the dot. e.g: my-class"
+msgstr "کلاس سفارشی خود را برای <div> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/widgets/iconbox-carousel.php:348
+#: modules/carousel/widgets/imagebox-carousel.php:306
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:203
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:216
+msgid "Additional CSS class that you want to apply to the <div>"
+msgstr "کلاس CSS اضافی که می خواهید در <div> اعمال کنید"
+
+#: modules/carousel/widgets/iconbox-carousel.php:364
+#: modules/carousel/widgets/imagebox-carousel.php:486
+#: modules/carousel/widgets/team-carousel.php:420
+#: modules/hero/skins/medical-hero.php:356 modules/hero/widgets/hero.php:472
+#: modules/icon-box/skins/skin-icon-box-v2.php:438
+#: modules/icon-box/skins/skin-icon-box.php:270
+#: modules/image-box/skins/skin-image-box-v2.php:390
+#: modules/image-box/skins/skin-image-box.php:443
+#: modules/image-gallery/skins/skin-image-gallery.php:188
+#: modules/pricing/widgets/price.php:535
+#: modules/star-rating/skins/skin-star-rating.php:161
+#: modules/team-member/widgets/team-member.php:516
+#: modules/ticket/widgets/ticket.php:509
+msgid "Title Class"
+msgstr "کلاس عنوان"
+
+#: modules/carousel/widgets/iconbox-carousel.php:366
+#: modules/carousel/widgets/imagebox-carousel.php:488
+#: modules/carousel/widgets/imagebox-carousel.php:683
+#: modules/icon-box/skins/skin-icon-box-v2.php:547
+msgid "Add your custom class for <h> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <h> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/widgets/iconbox-carousel.php:407
+#: modules/carousel/widgets/imagebox-carousel.php:534
+#: modules/icon-box/skins/skin-icon-box-v2.php:456
+#: modules/icon-box/skins/skin-icon-box.php:287
+#: modules/image-box/skins/skin-image-box-v2.php:410
+#: modules/image-box/skins/skin-image-box.php:460
+#: modules/image-gallery/skins/skin-image-gallery.php:221
+#: modules/image-gallery/skins/skin-profile.php:162
+#: modules/nav-tabs/skins/skin-nav-tabs.php:171
+msgid "Description Class"
+msgstr "کلاس توضیحات"
+
+#: modules/carousel/widgets/iconbox-carousel.php:409
+#: modules/carousel/widgets/imagebox-carousel.php:536
+msgid "Add your custom class for <p> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <p> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/widgets/iconbox-carousel.php:420
+#: modules/carousel/widgets/imagebox-carousel.php:551
+#: modules/image-gallery/skins/skin-image-gallery.php:233
+#: modules/image-gallery/skins/skin-profile.php:171
+#: modules/nav-tabs/skins/skin-nav-tabs.php:221
+#: modules/nav-tabs/skins/skin-nav-tabs.php:264
+msgid "Description Color"
+msgstr "رنگ توضیحات"
+
+#: modules/carousel/widgets/imagebox-carousel.php:121
+msgid "Image Link"
+msgstr "پیوند تصویر"
+
+#: modules/carousel/widgets/imagebox-carousel.php:141
+msgid "List "
+msgstr "لیست "
+
+#: modules/carousel/widgets/imagebox-carousel.php:152
+#: modules/hero/widgets/hero.php:174 modules/hero/widgets/hero.php:322
+#: modules/icon-box/skins/skin-icon-box-v2.php:198
+msgid "Learn more"
+msgstr "یادگیری بیشتر"
+
+#: modules/carousel/widgets/imagebox-carousel.php:327
+msgid "Border Enable"
+msgstr "فعال سازی جدول"
+
+#: modules/carousel/widgets/imagebox-carousel.php:341
+#: modules/carousel/widgets/imagebox-carousel.php:399
+#: modules/image-box/skins/skin-image-box.php:521
+msgid "Image Wrap Class"
+msgstr "کلاس بسته بندی تصویر"
+
+#: modules/carousel/widgets/imagebox-carousel.php:343
+msgid "Add your custom class for <div> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <div> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/widgets/imagebox-carousel.php:358
+#: modules/carousel/widgets/team-carousel.php:274
+msgid "Add your custom class for image  without the dot. e.g: my-class"
+msgstr "کلاس سفارشی خود را برای تصویر بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/widgets/imagebox-carousel.php:361
+#: modules/carousel/widgets/team-carousel.php:277 modules/hero/widgets/hero.php:505
+#: modules/hero/widgets/hero.php:515 modules/hero/widgets/hero.php:526
+#: modules/hero/widgets/hero.php:537 modules/hero/widgets/hero.php:548
+msgid "Additional CSS class that you want to apply to the image"
+msgstr "کلاس CSS اضافی که می خواهید روی تصویر اعمال کنید"
+
+#: modules/carousel/widgets/imagebox-carousel.php:369
+msgid "Enable BackgroundColor"
+msgstr "فعال کردن رنگ پس زمینه"
+
+#: modules/carousel/widgets/imagebox-carousel.php:401
+msgid "Add your custom class for <span> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <span> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/carousel/widgets/imagebox-carousel.php:449
+#: modules/carousel/widgets/mobile-carousel.php:210
+#: modules/carousel/widgets/post-carousel.php:398
+#: modules/highlighted-heading/widgets/highlighted-heading.php:172
+#: modules/posts/traits/button-widget-trait.php:106
+#: modules/posts/widgets/posts-base.php:260
+#: modules/posts/widgets/posts-base.php:370
+msgid "Alignment"
+msgstr "هم ترازی"
+
+#: modules/carousel/widgets/imagebox-carousel.php:453
+#: modules/carousel/widgets/mobile-carousel.php:214
+#: modules/carousel/widgets/post-carousel.php:401
+#: modules/highlighted-heading/widgets/highlighted-heading.php:176
+#: modules/posts/traits/button-widget-trait.php:110
+#: modules/posts/widgets/posts-base.php:264
+#: modules/posts/widgets/posts-base.php:374
+msgid "Left"
+msgstr "راست"
+
+#: modules/carousel/widgets/imagebox-carousel.php:457
+#: modules/carousel/widgets/mobile-carousel.php:218
+#: modules/carousel/widgets/post-carousel.php:402
+#: modules/highlighted-heading/widgets/highlighted-heading.php:180
+#: modules/posts/traits/button-widget-trait.php:114
+#: modules/posts/widgets/posts-base.php:268
+#: modules/posts/widgets/posts-base.php:378
+msgid "Center"
+msgstr "وسط"
+
+#: modules/carousel/widgets/imagebox-carousel.php:461
+#: modules/carousel/widgets/mobile-carousel.php:222
+#: modules/carousel/widgets/post-carousel.php:403
+#: modules/highlighted-heading/widgets/highlighted-heading.php:184
+#: modules/posts/traits/button-widget-trait.php:118
+#: modules/posts/widgets/posts-base.php:272
+#: modules/posts/widgets/posts-base.php:382
+msgid "Right"
+msgstr "چپ"
+
+#: modules/carousel/widgets/imagebox-carousel.php:582
+msgid "Description Width"
+msgstr "عرض توضیحات"
+
+#: modules/carousel/widgets/imagebox-carousel.php:742 modules/image/module.php:120
+msgid "Inline SVG"
+msgstr "SVG درون خطی"
+
+#: modules/carousel/widgets/imagebox-carousel.php:744 modules/image/module.php:122
+msgid ""
+"If you are uploading SVG file, it might be useful to inline the SVG files. Do "
+"not inline, if your SVG file is from unknown sources."
+msgstr ""
+"اگر فایل SVG را آپلود می کنید، ممکن است داخل فایل های SVG مفید باشد. اگر فایل "
+"SVG شما از منابع ناشناخته است، به صورت درون خطی نکنید."
+
+#: modules/carousel/widgets/imagebox-carousel.php:766
+#: modules/carousel/widgets/testimonial-carousel.php:860
+msgid ""
+"Id mollis consectetur congue egestas egestas suspendisse blandit justo. Tellus "
+"augue commodo id quis tempus etiam pulvinar at maecenas."
+msgstr ""
+"که فقیر نرم وسط مجری قانون اصلی را آویزان کرده بود. زمین وسیله ای برای مزیت آن "
+"زمان است، حتی بالشتک معبد."
+
+#: modules/carousel/widgets/lottie-carousel.php:44
+msgid "Lottie Carousel"
+msgstr "لوتیه کاروسل"
+
+#: modules/carousel/widgets/lottie-carousel.php:106
+#: modules/lottie/widgets/lottie.php:37 modules/lottie/widgets/lottie.php:65
+#: modules/lottie/widgets/lottie.php:141
+msgid "Lottie"
+msgstr "لوتی"
+
+#: modules/carousel/widgets/lottie-carousel.php:150
+#: modules/lottie/widgets/lottie.php:114
+msgid "Play Speed"
+msgstr "سرعت پخش"
+
+#: modules/carousel/widgets/lottie-carousel.php:182
+#: modules/query-control/controls/group-control-posts.php:84
+#: modules/query-control/controls/group-control-query.php:81
+msgid "Source"
+msgstr "منبع"
+
+#: modules/carousel/widgets/lottie-carousel.php:186
+msgid "Media File"
+msgstr "فایل رسانه"
+
+#: modules/carousel/widgets/lottie-carousel.php:187
+#: modules/carousel/widgets/lottie-carousel.php:196
+msgid "External URL"
+msgstr "لینک وب بیرونی"
+
+#: modules/carousel/widgets/lottie-carousel.php:204
+#: modules/carousel/widgets/lottie-carousel.php:233
+#: modules/carousel/widgets/lottie-carousel.php:285
+msgid "Enter your URL"
+msgstr "لینک خود را وارد کنید"
+
+#: modules/carousel/widgets/lottie-carousel.php:212
+#: modules/carousel/widgets/lottie-carousel.php:241
+#: modules/lottie/widgets/lottie.php:72
+msgid "Upload JSON File"
+msgstr "آپلود فایل JSON"
+
+#: modules/carousel/widgets/lottie-carousel.php:225
+msgid "Dark External URL"
+msgstr "URL خارجی تیره"
+
+#: modules/carousel/widgets/lottie-carousel.php:273
+msgid "Custom URL"
+msgstr "URL سفارشی"
+
+#: modules/carousel/widgets/lottie-carousel.php:313
+msgid "Light / Dark Mode"
+msgstr "حالت روشن / تاریک"
+
+#: modules/carousel/widgets/lottie-carousel.php:318
+msgid "Figma Files Included"
+msgstr "فایل های figma گنجانده شده است"
+
+#: modules/carousel/widgets/lottie-carousel.php:323
+msgid "50+ UI Flexible Components"
+msgstr "50+ کامپوننت انعطاف پذیر UI"
+
+#: modules/carousel/widgets/lottie-carousel.php:328
+msgid "Free Lifetime Updates"
+msgstr "به روز رسانی مادام العمر رایگان"
+
+#: modules/carousel/widgets/mobile-carousel.php:122
+#: modules/highlighted-heading/widgets/highlighted-heading.php:75
+msgid "Before Highlighted Text"
+msgstr "قبل از متن هایلایت شده"
+
+#: modules/carousel/widgets/mobile-carousel.php:127
+#: modules/carousel/widgets/mobile-carousel.php:156
+#: modules/highlighted-heading/widgets/highlighted-heading.php:80
+#: modules/highlighted-heading/widgets/highlighted-heading.php:109
+msgid "Enter your title"
+msgstr "عنوان خود را وارد کنید"
+
+#: modules/carousel/widgets/mobile-carousel.php:129
+#: modules/carousel/widgets/mobile-carousel.php:157
+#: modules/highlighted-heading/widgets/highlighted-heading.php:82
+#: modules/highlighted-heading/widgets/highlighted-heading.php:110
+msgid "Use <br> to break into two lines"
+msgstr "از <br> برای شکستن به دو خط استفاده کنید"
+
+#: modules/carousel/widgets/mobile-carousel.php:137
+#: modules/carousel/widgets/mobile-carousel.php:335
+#: modules/highlighted-heading/widgets/highlighted-heading.php:90
+#: modules/highlighted-heading/widgets/highlighted-heading.php:248
+msgid "Highlighted Text"
+msgstr "متن برجسته"
+
+#: modules/carousel/widgets/mobile-carousel.php:150
+#: modules/highlighted-heading/widgets/highlighted-heading.php:103
+msgid "After Highlighted Text"
+msgstr "بعد از متن هایلایت شده"
+
+#: modules/carousel/widgets/mobile-carousel.php:189
+#: modules/carousel/widgets/testimonial-carousel.php:583
+#: modules/highlighted-heading/widgets/highlighted-heading.php:151
+msgid "HTML Tag"
+msgstr "برچسب HTML"
+
+#: modules/carousel/widgets/mobile-carousel.php:226
+#: modules/highlighted-heading/widgets/highlighted-heading.php:188
+#: modules/posts/traits/button-widget-trait.php:122
+#: modules/posts/widgets/posts-base.php:386
+msgid "Justified"
+msgstr "تعدیل شده"
+
+#: modules/carousel/widgets/mobile-carousel.php:284
+#: modules/highlighted-heading/widgets/highlighted-heading.php:237
+msgid "Additional CSS"
+msgstr "CSS اضافی"
+
+#: modules/carousel/widgets/mobile-carousel.php:286
+#: modules/highlighted-heading/widgets/highlighted-heading.php:239
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the title"
+msgstr "کلاس‌های CSS اضافی که با فضایی که می‌خواهید روی عنوان اعمال کنید، جدا شده‌اند"
+
+#: modules/carousel/widgets/mobile-carousel.php:315
+#: modules/highlighted-heading/widgets/highlighted-heading.php:133
+msgid "Anchor Tag CSS"
+msgstr "تگ لنگر CSS"
+
+#: modules/carousel/widgets/mobile-carousel.php:317
+#: modules/highlighted-heading/widgets/highlighted-heading.php:135
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the <a> tag"
+msgstr "کلاس‌های CSS اضافی که با فاصله جدا شده‌اند که می‌خواهید روی تگ <a> اعمال کنید"
+
+#: modules/carousel/widgets/mobile-carousel.php:343
+#: modules/highlighted-heading/widgets/highlighted-heading.php:256
+msgid "Highlight Color"
+msgstr "رنگ برجسته"
+
+#: modules/carousel/widgets/mobile-carousel.php:368
+#: modules/highlighted-heading/widgets/highlighted-heading.php:290
+msgid "Highlighted CSS"
+msgstr "CSS هایلایت شده"
+
+#: modules/carousel/widgets/mobile-carousel.php:388
+msgid "Tab Content"
+msgstr "محتوای برگه"
+
+#: modules/carousel/widgets/mobile-carousel.php:517
+msgid "Step 1. Advanced budget management"
+msgstr "مرحله 1. مدیریت بودجه پیشرفته"
+
+#: modules/carousel/widgets/mobile-carousel.php:521
+msgid ""
+"Consequat ut cras nisl, enim purus in facilisi. Ipsum amet, lectus malesuada "
+"risus sollicitudin accumsan. Id sem elit vel vel lectus risus senectus."
+msgstr ""
+"شما می توانید برای طرفداران فردا، برای افراد خالص در آسانی ایجاد کنید. عشق خود، "
+"تخت فوق العاده خنده است، به طوری که مصرف کننده. آن خنده زیاد، یا بستر پیری."
+
+#: modules/carousel/widgets/mobile-carousel.php:524
+msgid "Step 2. Latest transaction history"
+msgstr "مرحله 2. آخرین تاریخچه تراکنش"
+
+#: modules/carousel/widgets/mobile-carousel.php:528
+msgid ""
+"Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis "
+"tristique quisque hac in consectetur condimentum."
+msgstr ""
+"به عنوان مثال، و عشق به کوک فعلی. اما نه قبل از اینکه اداره مرا دوست داشته باشد. "
+"همه از این تعظیم به همراهان در داستان نویسی غمگین هستند."
+
+#: modules/carousel/widgets/mobile-carousel.php:531
+msgid "Step 3. Transfers to people from your contact list"
+msgstr "مرحله 3. از لیست مخاطبین شما به افراد منتقل می شود"
+
+#: modules/carousel/widgets/mobile-carousel.php:535
+msgid ""
+"Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque "
+"volutpat ligula est. Mattis fermentum, at nec lacus."
+msgstr ""
+"خواسته نرم آخر هفته برای عزاداری آسان انتقام جویانه. آخر هفته غیر متعارف است. "
+"متیس گرم است، اما استرس ندارد."
+
+#: modules/carousel/widgets/mobile-carousel.php:538
+msgid "Step 4. Card-to-card transfers"
+msgstr "مرحله 4. انتقال کارت به کارت"
+
+#: modules/carousel/widgets/mobile-carousel.php:542
+msgid ""
+"A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit "
+"elementum sed erat. Id nunc blandit pharetra facilisis."
+msgstr ""
+"یک گربه، بالشتک ترک. در آن زمان، یا اما گلو عنصر کلیدی بود اما اینطور بود. حالا "
+"این یک تکان آسان است."
+
+#: modules/carousel/widgets/post-carousel.php:55
+msgid "Post Carousel"
+msgstr "کاروسل پست"
+
+#: modules/carousel/widgets/post-carousel.php:183
+#: modules/carousel/widgets/project-carousel.php:183
+#: modules/posts/widgets/portfolio.php:123 modules/posts/widgets/posts.php:102
+msgid "Query"
+msgstr "کوئری"
+
+#: modules/carousel/widgets/post-carousel.php:219
+#: modules/carousel/widgets/project-carousel.php:158
+#: modules/posts/skins/skin-base.php:61 modules/posts/widgets/portfolio.php:112
+#: modules/query-control/controls/group-control-query.php:406
+msgid "Posts Per Page"
+msgstr "پست در هر صفحه"
+
+#: modules/carousel/widgets/post-carousel.php:229
+msgid "Show Title"
+msgstr "نمایش عنوان"
+
+#: modules/carousel/widgets/post-carousel.php:261
+msgid "Show Excerpt"
+msgstr "نمایش خلاصه"
+
+#: modules/carousel/widgets/post-carousel.php:272
+msgid "Show Author Details"
+msgstr "نمایش جزئیات نویسنده"
+
+#: modules/carousel/widgets/post-carousel.php:286
+msgid "Show Author Description"
+msgstr "نمایش توضیحات نویسنده"
+
+#: modules/carousel/widgets/post-carousel.php:302
+msgid "Show Category"
+msgstr "نمایش دسته"
+
+#: modules/carousel/widgets/post-carousel.php:313
+msgid "Show Meta Data"
+msgstr "نمایش اطلاعات متا"
+
+#: modules/carousel/widgets/post-carousel.php:324
+#: modules/carousel/widgets/post-carousel.php:346
+msgid "Meta Data"
+msgstr "دادە متا"
+
+#: modules/carousel/widgets/post-carousel.php:331
+#: modules/carousel/widgets/post-carousel.php:353
+#: modules/pricing/skins/skin-list.php:286
+#: modules/query-control/controls/group-control-query.php:319
+#: modules/query-control/controls/group-control-query.php:381
+#: modules/ticket/widgets/ticket.php:91 modules/ticket/widgets/ticket.php:438
+msgid "Date"
+msgstr "تاریخ"
+
+#: modules/carousel/widgets/post-carousel.php:332
+#: modules/carousel/widgets/post-carousel.php:354
+msgid "Time"
+msgstr "زمان"
+
+#: modules/carousel/widgets/post-carousel.php:333
+msgid "Comments"
+msgstr "نظرات"
+
+#: modules/carousel/widgets/post-carousel.php:334
+#: modules/carousel/widgets/post-carousel.php:355
+msgid "Date Modified"
+msgstr "تاریخ ویرایش"
+
+#: modules/carousel/widgets/post-carousel.php:367
+msgid "Separator Between"
+msgstr "جداکننده بین ایتم ها"
+
+#: modules/carousel/widgets/post-carousel.php:385
+msgid "Meta Content"
+msgstr "محتوای متا"
+
+#: modules/carousel/widgets/post-carousel.php:405
+msgid "Space Around"
+msgstr "فضای اطراف"
+
+#: modules/carousel/widgets/post-carousel.php:406
+msgid "Space Evenly"
+msgstr "فضا به طور مساوی"
+
+#: modules/carousel/widgets/post-carousel.php:447
+msgid "Meta Color"
+msgstr "رنگ متا"
+
+#: modules/carousel/widgets/post-carousel.php:474
+msgid "Separator Color"
+msgstr "رنگ جداکننده"
+
+#: modules/carousel/widgets/post-carousel.php:488
+msgid "Meta CSS Class"
+msgstr "کلاس متا CSS"
+
+#: modules/carousel/widgets/post-carousel.php:630
+msgid "Excerpt"
+msgstr "خلاصه"
+
+#: modules/carousel/widgets/post-carousel.php:640
+msgid "Excerpt Color"
+msgstr "رنگ منتخب"
+
+#: modules/carousel/widgets/post-carousel.php:680
+msgid "Author Content"
+msgstr "محتوای نویسنده"
+
+#: modules/carousel/widgets/post-carousel.php:693
+#: modules/carousel/widgets/post-carousel.php:719
+msgid "Vertical Alignment"
+msgstr "چیدمان عمودی"
+
+#: modules/carousel/widgets/post-carousel.php:701
+#: modules/carousel/widgets/post-carousel.php:727
+msgid "Middle"
+msgstr "وسط"
+
+#: modules/carousel/widgets/post-carousel.php:745
+msgid "Avatar Size"
+msgstr "اندازه آواتار"
+
+#: modules/carousel/widgets/post-carousel.php:785
+msgid "Name Color"
+msgstr "نام رنگ"
+
+#: modules/carousel/widgets/post-carousel.php:829
+#: modules/carousel/widgets/team-carousel.php:461
+msgid "Role Color"
+msgstr "رنگ نقش"
+
+#: modules/carousel/widgets/post-carousel.php:1129
+msgid "No comments"
+msgstr "بدون نظر"
+
+#: modules/carousel/widgets/project-carousel.php:51
+msgid "Project Carousel"
+msgstr "پروژه کاروسل"
+
+#: modules/carousel/widgets/project-carousel.php:168
+#: modules/posts/skins/skin-hero.php:56
+msgid "Enable Breadcrumb"
+msgstr "فعال کردن برادکامپ"
+
+#: modules/carousel/widgets/project-carousel.php:212
+msgid "Swiper"
+msgstr "سوایپر"
+
+#: modules/carousel/widgets/team-carousel.php:39
+msgid "Team Carousel"
+msgstr "کروسل تیم"
+
+#: modules/carousel/widgets/team-carousel.php:205
+#: modules/team-member/widgets/team-member.php:279
+msgid "Enable Transparent?"
+msgstr "حالت شفاف فعال شود؟"
+
+#: modules/carousel/widgets/team-carousel.php:219
+#: modules/icon-box/skins/skin-icon-box.php:115
+#: modules/team-member/widgets/team-member.php:293
+msgid "Hide border?"
+msgstr "حاشیه پنهان شود؟"
+
+#: modules/carousel/widgets/team-carousel.php:221
+#: modules/icon-box/skins/skin-icon-box.php:117
+#: modules/team-member/widgets/team-member.php:295
+msgid "Hidden"
+msgstr "پنهان"
+
+#: modules/carousel/widgets/team-carousel.php:232
+msgid "Card BG Color"
+msgstr "رنگ پس زمینه کارت"
+
+#: modules/carousel/widgets/team-carousel.php:322
+#: modules/carousel/widgets/team-carousel.php:374
+#: modules/team-member/widgets/team-member.php:418
+#: modules/team-member/widgets/team-member.php:470
+msgid "Social Icon Color"
+msgstr "رنگ آیکون اجتماعی"
+
+#: modules/carousel/widgets/team-carousel.php:333
+#: modules/carousel/widgets/team-carousel.php:385
+#: modules/team-member/widgets/team-member.php:429
+#: modules/team-member/widgets/team-member.php:481
+msgid "Social Icon Background Color"
+msgstr "رنگ پس زمینه آیکون شبکه های اجتماعی"
+
+#: modules/carousel/widgets/team-carousel.php:344
+#: modules/carousel/widgets/team-carousel.php:396
+#: modules/team-member/widgets/team-member.php:440
+#: modules/team-member/widgets/team-member.php:492
+msgid "Social Icon Border Color"
+msgstr "رنگ حاشیه نماد اجتماعی"
+
+#: modules/carousel/widgets/team-carousel.php:422
+msgid "fw-medium fs-lg mb-1"
+msgstr "fw-medium fs-lg mb-1"
+
+#: modules/carousel/widgets/team-carousel.php:450
+msgid "Role Class"
+msgstr "کلاس نقش"
+
+#: modules/carousel/widgets/team-carousel.php:452
+msgid "fs-sm mb-3"
+msgstr "fs-sm mb-3"
+
+#: modules/carousel/widgets/testimonial-carousel.php:44
+msgid "Testimonial Carousel"
+msgstr "گواهی کاروسل"
+
+#: modules/carousel/widgets/testimonial-carousel.php:196
+msgid "Responsive View Avatar"
+msgstr "آواتار نمای واکنشگرا"
+
+#: modules/carousel/widgets/testimonial-carousel.php:252
+#: modules/testimonial/skins/skin-testimonial.php:128
+msgid "Enable Blockquote Icon"
+msgstr "نماد نقل قول بلوک را فعال کنید"
+
+#: modules/carousel/widgets/testimonial-carousel.php:277
+#: modules/carousel/widgets/testimonial-carousel.php:406
+#: modules/testimonial/skins/skin-testimonial.php:138
+msgid "Blockquote Icon"
+msgstr "آیکون نقل قول"
+
+#: modules/carousel/widgets/testimonial-carousel.php:373
+msgid "Blockquote Text"
+msgstr "متن نقل قول"
+
+#: modules/carousel/widgets/testimonial-carousel.php:395
+msgid "Blockquote CSS"
+msgstr "CSS نقل قول"
+
+#: modules/carousel/widgets/testimonial-carousel.php:397
+msgid "CSS Classes added to <p> in <blockquote>"
+msgstr "کلاس‌های CSS به <p> در <blockquote> اضافه شدند"
+
+#: modules/carousel/widgets/testimonial-carousel.php:542
+msgid "CSS classes"
+msgstr "کلاس های CSS"
+
+#: modules/carousel/widgets/testimonial-carousel.php:604
+msgid "Name CSS"
+msgstr "نام CSS"
+
+#: modules/carousel/widgets/testimonial-carousel.php:613
+msgid "Author Role"
+msgstr "نقش نویسنده"
+
+#: modules/carousel/widgets/testimonial-carousel.php:645
+msgid "Role CSS"
+msgstr "نقش CSS"
+
+#: modules/carousel/widgets/testimonial-carousel.php:668
+msgid "Card CSS"
+msgstr "CSS کارت"
+
+#: modules/carousel/widgets/testimonial-carousel.php:678
+msgid "Icons Wrapper CSS"
+msgstr "بسته بندی آیکون ها CSS"
+
+#: modules/carousel/widgets/testimonial-carousel.php:702
+msgid "Figure CSS"
+msgstr "شکل CSS"
+
+#: modules/carousel/widgets/testimonial-carousel.php:704
+msgid "CSS Classes added to <figure> in swiper-slide"
+msgstr "کلاس‌های CSS به <figure> در swiper-slide اضافه شدند"
+
+#: modules/carousel/widgets/testimonial-carousel.php:790
+msgid ""
+"Dolor, a eget elementum, integer nulla volutpat, nunc, sit. Quam iaculis varius "
+"mauris magna sem. Egestas sed sed suscipit dolor faucibus dui imperdiet at eget. "
+"Tincidunt imperdiet quis hendrerit aliquam feugiat neque cras sed. Dictum quam "
+"integer volutpat tellus, faucibus platea. Pulvinar turpis proin faucibus at "
+"mauris. Sagittis gravida vitae porta enim, nulla arcu fermentum massa. Tortor "
+"ullamcorper lacus. Pellentesque lectus adipiscing aenean volutpat tortor "
+"habitant."
+msgstr ""
+"درد، یک عنصر شیمیایی، بدون هیچ مشکلی دست نخورده، حالا بگذارید باشد. چگونه یک "
+"سناریوی عالی را بدست آوریم اما او درد گلو و نفرین آلت را در نیاز دریافت می کند. "
+"برای شروع مدل مو، اما برای از دست دادن هیچ یک از دفتر فردا. گفته شد چگونه تمام "
+"آخر هفته، زمین، گلوی خیابان. بالش زشت و در نتیجه گلوی گاراژ است. زیرا تیرهای "
+"زندگی دروازه حاملگی است، در کمان خمیرمایه ای نیست. درد دریاچه را تحمل می کند."
+
+#: modules/carousel/widgets/testimonial-carousel.php:801
+msgid "Head of Marketing"
+msgstr "رئیس بازاریابی"
+
+#: modules/carousel/widgets/testimonial-carousel.php:804
+msgid ""
+"Mi semper risus ultricies orci pulvinar in at enim orci. Quis facilisis nunc "
+"pellentesque in ullamcorper sit. Lorem blandit arcu sapien, senectus libero, "
+"amet dapibus cursus quam. Eget pellentesque eu purus volutpat adipiscing "
+"malesuada. Purus nisi, tortor vel lacus. Donec diam molestie ultrices vitae eget "
+"pulvinar fames. Velit lacus mi purus velit justo, amet. Nascetur lobortis diam, "
+"duis orci."
+msgstr ""
+"در اورک همیشه خنده وجود دارد چه کسی اکنون آسان است که در دفترچه تک تیرانداز "
+"بنشیند. سپاس از شما برای برنده شدن در تعظیم، عاقلانه، پیری رایگان، لذت بیشتر "
+"دوره. او باید یک زندگی خالص و یک زندگی وایکینگ ها داشته باشد. نجات خالص، شکنجه "
+"گر یا دریاچه. تا زمانی که زندگی انتقام جویانه به کوسنی از گرسنگی نیاز دارد. او "
+"دریاچه را دوست دارد، او فقط من را پاک می خواهد، او من را دوست دارد. کارتن در "
+"حیاط خلوت متولد خواهد شد."
+
+#: modules/carousel/widgets/testimonial-carousel.php:814
+msgid "Annette Black"
+msgstr "آنت بلک"
+
+#: modules/carousel/widgets/testimonial-carousel.php:815
+msgid "Strategic Advisor"
+msgstr "مشاور استراتژیک"
+
+#: modules/carousel/widgets/testimonial-carousel.php:818
+msgid ""
+"Ac at sed sit senectus massa. Massa ante amet ultrices magna porta tempor. "
+"Aliquet diam in et magna ultricies mi at. Lectus enim, vel enim egestas nam "
+"pellentesque et leo. Elit mi faucibus laoreet aliquam pellentesque sed aliquet "
+"integer massa. Orci leo tortor ornare id mattis auctor aliquam volutpat aliquet. "
+"Odio lectus viverra eu blandit nunc malesuada vitae eleifend pulvinar. In ac "
+"fermentum sit in orci."
+msgstr ""
+"و با این حال انبوهی از سالخوردگی وجود دارد. دسته جمعی قبل از درب بسکتبال زمان "
+"بسیار خوبی است. برای تخت، یا برای نیاز بچه ها و شیر. نخبگان گلوی من اسکناس برخی "
+"از بچه ها، اما کل توده موز. اورک ها شیر شکنجه گر به تزئین که نویسنده جامع برخی "
+"از مشکلات. من از تخت متنفرم و کشش کاناپه اکنون زندگی نوجوانان است در و گرما در "
+"اورک ها است."
+
+#: modules/carousel/widgets/testimonial-carousel.php:828
+msgid "Darrell Steward"
+msgstr "دارل استوارد"
+
+#: modules/carousel/widgets/testimonial-carousel.php:829
+msgid "Project Manager"
+msgstr "مدیر پروژه"
+
+#: modules/carousel/widgets/testimonial-carousel.php:844
+msgid ""
+"Pellentesque finibus congue egestas egestas suspendisse blandit justo. Tellus "
+"augue commodo id quis tempus etiam pulvinar at maecenas."
+msgstr ""
+"تعلیق مرزهای کودکان در سراسر کشور به همین سادگی است. زمین وسیله ای برای مزیت آن "
+"زمان است، حتی بالشتک معبد."
+
+#: modules/carousel/widgets/testimonial-carousel.php:848
+msgid "Albert Flores"
+msgstr "آلبرت فلورس"
+
+#: modules/carousel/widgets/testimonial-carousel.php:849
+msgid "PR Director"
+msgstr "مدیر روابط عمومی"
+
+#: modules/carousel/widgets/testimonial-carousel.php:852
+msgid ""
+"Vivamus iaculis facilisis pretium. Pellentesque vitae mi odio. Donec imperdiet "
+"pellentesque ipsum quis pharetra. Nullam dolor sem."
+msgstr ""
+"قیمت فلش های زنده آسان است. از زندگیم متنفرم تا همان مردی که می لرزد. هیچ دردی "
+"در هر زمان وجود ندارد."
+
+#: modules/carousel/widgets/testimonial-carousel.php:856
+msgid "Wade Warren"
+msgstr "وید وارن"
+
+#: modules/carousel/widgets/testimonial-carousel.php:857
+msgid "Illustrator"
+msgstr "تصویرگر"
+
+#: modules/carousel/widgets/testimonial-carousel.php:864
+msgid "Fannie Summers"
+msgstr "فانی سامرز"
+
+#: modules/carousel/widgets/testimonial-carousel.php:865
+msgid "Designer"
+msgstr "طراح"
+
+#: modules/carousel/widgets/testimonial-carousel.php:868
+msgid ""
+"Phasellus luctus nisi id orci condimentum, at cursus nisl vestibulum. Orci "
+"varius natoque penatibus et magnis dis parturient montes."
+msgstr ""
+"غم و اندوه اورک اورک ها متفاوت هستند و کوه ها از خانه های آنها و خدایان بزرگ "
+"شریک خواهند شد."
+
+#: modules/carousel/widgets/testimonial-carousel.php:872
+msgid "Robert Fox"
+msgstr "رابرت فاکس"
+
+#: modules/carousel/widgets/testimonial-carousel.php:873
+msgid "QA Engineer"
+msgstr "مهندس QA"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:39
+msgid "Categories Dropdown"
+msgstr "منوی آبشاری دسته بندی ها"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:78
+msgid "Arguments"
+msgstr "آرگومان ها"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:85
+msgid "Class"
+msgstr "کلاس"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:95
+msgid "Taxonomy"
+msgstr "طبقه بندی"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:105
+#: modules/pricing/widgets/price-switcher.php:95
+#: modules/query-control/controls/group-control-query.php:383
+msgid "ID"
+msgstr "شناسه"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:108
+msgid "Value for the 'id' attribute of the select element"
+msgstr "مقدار برای ویژگی \"id\" عنصر انتخاب"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:118
+msgid "Value for the 'class' attribute of the select element"
+msgstr "مقدار برای ویژگی 'class' عنصر انتخاب"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:125
+msgid "Show Option All"
+msgstr "نمایش گزینه همه"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:127
+msgid "All Categories"
+msgstr "همه دسته بندی ها"
+
+#: modules/categories-dropdown/widgets/categories-dropdown.php:128
+msgid "Text to display for showing all categories."
+msgstr "متن برای نمایش برای نمایش همه دسته ها."
+
+#: modules/column/module.php:55
+msgid "Widget Wrapper"
+msgstr "دربرگیرنده محصولات"
+
+#: modules/column/module.php:64
+#: modules/highlighted-heading/widgets/highlighted-heading.php:352
+#: modules/lottie/widgets/lottie.php:149
+msgid "Max Width"
+msgstr "حداکثر عرض"
+
+#: modules/column/module.php:90
+msgid "Applied to elementor-widget-wrap element."
+msgstr "برای عنصر elementor-widget-wrap اعمال شد."
+
+#: modules/custom-attributes/module.php:68
+msgid "Attributes"
+msgstr "ویژگی ها"
+
+#: modules/custom-attributes/module.php:76
+msgid "Custom Attributes"
+msgstr "ویژگی های سفارشی"
+
+#: modules/custom-attributes/module.php:81
+msgid "key|value"
+msgstr "کلید|مقدار"
+
+#: modules/custom-attributes/module.php:82
+#, php-format
+msgid ""
+"Set custom attributes for the wrapper element. Each attribute in a separate "
+"line. Separate attribute key from the value using %s character."
+msgstr ""
+"ویژگی های سفارشی را برای عنصر wrapper تنظیم کنید. هر صفت در یک خط جداگانه. کلید "
+"ویژگی را با استفاده از کاراکتر %s از مقدار جدا کنید."
+
+#: modules/custom-css/module.php:104 modules/custom-css/module.php:121
+#: modules/custom-css/module.php:142
+msgid "Custom CSS"
+msgstr "CSS سفارشی"
+
+#: modules/custom-css/module.php:112
+msgid "Add your own custom CSS here"
+msgstr "CSS دلخواه خود را اینجا اضافه کنید"
+
+#: modules/custom-css/module.php:132
+msgid ""
+"Use \"selector\" to target wrapper element. Examples:<br>selector {color: "
+"red;} // For main element<br>selector .child-element {margin: 10px;} // For "
+"child element<br>.my-class {text-align: center;} // Or use any custom selector"
+msgstr ""
+"برای هدف قرار دادن عنصر از \"انتخابگر\" استفاده کنید. مثالها: <br> سلکتور{color: "
+"red;} // برای عنصر اصلی <br> سلکتور.child-element {margin: 10px;}  // برای عنصر "
+"کودک <br>>.my-class {text-align: center;}  // یا از هر انتخابگر سفارشی استفاده "
+"کنید"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:36
+msgid "Image with Lightbox"
+msgstr "تصویر با لایت باکس"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:98
+#: modules/logo/widgets/logo.php:101 modules/team-member/widgets/team-member.php:93
+msgid "Choose Image"
+msgstr "تصویر را انتخاب کنید"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:114
+msgid "Enable Dark Image"
+msgstr "تصویر تاریک را فعال کنید"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:125
+msgid "Dark Image"
+msgstr "تصویر تاریک"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:160
+#: modules/image-gallery/skins/skin-image-gallery.php:130
+msgid "Caption"
+msgstr "عنوان"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:162
+msgid "Enter your caption"
+msgstr "کپشن خود را وارد کنید"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:163
+msgid "Use this to override the address in the maps"
+msgstr "از این برای لغو آدرس در نقشه ها استفاده کنید"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:172
+#: modules/hero/widgets/hero.php:464
+msgid "Classes"
+msgstr "کلاس ها"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:182
+msgid "Additional CSS class that you want to apply to the image wrap"
+msgstr "کلاس CSS اضافی که می‌خواهید در پوشش تصویر اعمال کنید"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:189
+#: modules/icon-list/module.php:85 modules/nav-menu/widgets/nav-menu.php:246
+msgid "Anchor Class"
+msgstr "کلاس لنگر"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:192
+msgid "Additional CSS class that you want to apply to the anchor"
+msgstr "کلاس CSS اضافی که می خواهید روی انکر اعمال کنید"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:198
+msgid " Image Class"
+msgstr " کلاس تصویر"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:211
+msgid "Dark Image Class"
+msgstr "کلاس تصویر تاریک"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:238
+#: modules/image-gallery/skins/skin-image-gallery.php:255
+msgid "Caption Class"
+msgstr "کلاس کپشن"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:241
+msgid "Additional CSS class that you want to apply to the caption"
+msgstr "کلاس CSS اضافی که می‌خواهید روی عنوان اعمال کنید"
+
+#: modules/google-maps/skins/skin-image-lightbox-silicon.php:378
+msgid "Expand the map"
+msgstr "نقشه را گسترش دهید"
+
+#: modules/hero/skins/financial-consulting.php:39
+msgid "Financial Consulting"
+msgstr "مشاوره مالی"
+
+#: modules/hero/skins/financial-consulting.php:84
+msgid "Text Styles"
+msgstr "سبک های متن"
+
+#: modules/hero/skins/medical-hero.php:38
+msgid "Medical"
+msgstr "پزشکی"
+
+#: modules/hero/skins/medical-hero.php:84 modules/hero/widgets/hero.php:137
+msgid "Hero Image"
+msgstr "تصویر هیرو"
+
+#: modules/hero/skins/medical-hero.php:101
+msgid "Silicon Medical Center"
+msgstr "مرکز پزشکی سیلیکون"
+
+#: modules/hero/skins/medical-hero.php:112
+msgid ""
+"Our medical center provides a wide range of health care services. We use only "
+"advanced technologies to keep your family happy and healthy, without any "
+"unexpected surprises. We appreciate your trust greatly. Our patients choose us "
+"and our services because they know we are the best."
+msgstr ""
+"مرکز پزشکی ما طیف گسترده ای از خدمات مراقبت های بهداشتی را ارائه می دهد. ما فقط "
+"از فناوری های پیشرفته برای شاد و سلامت خانواده شما بدون هیچ گونه غافلگیری غیر "
+"منتظره استفاده می کنیم. قدردان اعتماد شما هستیم بیماران ما ما و خدمات ما را "
+"انتخاب می کنند زیرا می دانند که ما بهترین هستیم."
+
+#: modules/hero/skins/medical-hero.php:131
+#: modules/image-box/skins/skin-image-box.php:135
+msgid "Enable Button?"
+msgstr "دکمه فعال شود؟"
+
+#: modules/hero/skins/medical-hero.php:143
+#: modules/image-box/skins/skin-image-box.php:147
+msgid "Click Here"
+msgstr "کلیک کنید"
+
+#: modules/hero/skins/medical-hero.php:268
+#: modules/image-box/skins/skin-image-box.php:276
+#: modules/posts/traits/button-widget-trait.php:174
+msgid "Icon Spacing"
+msgstr "فاصله آیکون"
+
+#: modules/hero/skins/medical-hero.php:348
+msgid "Additional Content Classes"
+msgstr "کلاس های محتوای اضافی"
+
+#: modules/hero/skins/medical-hero.php:358
+msgid "text-light pb-1 pb-md-3"
+msgstr "text-light pb-1 pb-md-3"
+
+#: modules/hero/skins/medical-hero.php:359
+msgid "CSS class that you want to apply to the Title"
+msgstr "کلاس CSS که می خواهید روی عنوان اعمال کنید"
+
+#: modules/hero/skins/medical-hero.php:366 modules/hero/widgets/hero.php:482
+msgid "Subtitle Class"
+msgstr "کلاس زیرنویس"
+
+#: modules/hero/skins/medical-hero.php:368
+msgid "fs-lg text-light pb-2 pb-md-0 mb-4 mb-md-5"
+msgstr "fs-lg text-light pb-2 pb-md-0 mb-4 mb-md-5"
+
+#: modules/hero/skins/medical-hero.php:369
+msgid "CSS class that you want to apply to the subtitle"
+msgstr "کلاس CSS که می خواهید روی زیرنویس اعمال کنید"
+
+#: modules/hero/widgets/hero.php:48 modules/posts/skins/skin-hero.php:32
+msgid "Hero"
+msgstr "قهرمان"
+
+#: modules/hero/widgets/hero.php:106
+msgid "We Take Care of Your Health"
+msgstr "ما مراقب سلامتی شما هستیم"
+
+#: modules/hero/widgets/hero.php:117
+msgid "PROFESSIONAL MEDICAL CENTER"
+msgstr "مرکز پزشکی حرفه ای"
+
+#: modules/hero/widgets/hero.php:128
+msgid "Don't have insurance?"
+msgstr "بیمه نداری؟"
+
+#: modules/hero/widgets/hero.php:154
+msgid "Action Buttons"
+msgstr "دکمه های اکشن"
+
+#: modules/hero/widgets/hero.php:162
+msgid "Enable Button 1"
+msgstr "فعال کردن دکمه 1"
+
+#: modules/hero/widgets/hero.php:283
+msgid "Enable Icon 1"
+msgstr "آیکون 1 را فعال کنید"
+
+#: modules/hero/widgets/hero.php:310
+msgid "Enable Button 2"
+msgstr "فعال کردن دکمه 2"
+
+#: modules/hero/widgets/hero.php:418
+msgid "Enable Icon 2"
+msgstr "نماد 2 را فعال کنید"
+
+#: modules/hero/widgets/hero.php:446
+msgid "Additional Content"
+msgstr "محتوای اضافی"
+
+#: modules/hero/widgets/hero.php:453 modules/nav-tabs/skins/skin-nav-tabs.php:184
+#: modules/nav-tabs/widgets/nav-tabs.php:181
+#: modules/posts/skins/skin-portfolio-list.php:31
+#: modules/pricing/skins/skin-list.php:35
+msgid "List"
+msgstr "لیست"
+
+#: modules/hero/widgets/hero.php:474
+msgid "display-4"
+msgstr "نمایش-4"
+
+#: modules/hero/widgets/hero.php:475
+msgid "Additional CSS class that you want to apply to the Title"
+msgstr "کلاس CSS اضافی که می خواهید در عنوان اعمال کنید"
+
+#: modules/hero/widgets/hero.php:484
+msgid "fs-xl"
+msgstr "fs-xl"
+
+#: modules/hero/widgets/hero.php:485
+msgid "Additional CSS class that you want to apply to the subtitle"
+msgstr "کلاس CSS اضافی که می خواهید روی زیرنویس اعمال کنید"
+
+#: modules/hero/widgets/hero.php:492
+msgid "Lead Class"
+msgstr "کلاس رهبری"
+
+#: modules/hero/widgets/hero.php:494
+msgid "fs-lg"
+msgstr "fs-lg"
+
+#: modules/hero/widgets/hero.php:495
+msgid "Additional CSS class that you want to apply to the lead"
+msgstr "کلاس CSS اضافی که می‌خواهید روی سرنخ اعمال کنید"
+
+#: modules/hero/widgets/hero.php:512
+msgid "Button Class1"
+msgstr "دکمه کلاس 1"
+
+#: modules/hero/widgets/hero.php:523
+msgid "Button Class2"
+msgstr "دکمه کلاس 2"
+
+#: modules/hero/widgets/hero.php:545
+msgid "Icon Class1"
+msgstr "آیکون کلاس 1"
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:38
+msgid "Highlighted Heading"
+msgstr "عنوان برجسته شده"
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:281
+msgid "Before Text CSS"
+msgstr "قبل از متن CSS"
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:283
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the before "
+"highlighted text"
+msgstr ""
+"کلاس‌های CSS اضافی که با فاصله از هم جدا شده‌اند که می‌خواهید روی متن برجسته شده "
+"قبلی اعمال کنید"
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:299
+msgid "After Text CSS"
+msgstr "بعد از متن CSS"
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:301
+msgid ""
+"Additional CSS classes separated by space that you'd like to apply to the after "
+"highlighted text"
+msgstr ""
+"کلاس‌های CSS اضافی که با فاصله از هم جدا شده‌اند که می‌خواهید روی متن برجسته شده "
+"اعمال کنید"
+
+#: modules/highlighted-heading/widgets/highlighted-heading.php:387
+msgid "Height"
+msgstr "ارتفاع"
+
+#: modules/icon-box/module.php:58
+msgid "Icon Wrapper Class"
+msgstr "کلاس بسته بندی نمادها"
+
+#: modules/icon-box/module.php:61
+msgid "Additional CSS class that you want to apply to the icon wrapper"
+msgstr "کلاس CSS اضافی که می‌خواهید در بسته بندی نماد اعمال کنید"
+
+#: modules/icon-box/skins/skin-icon-box-v2.php:321
+#: modules/icon-box/skins/skin-icon-box.php:170
+msgid "Backgroud Color"
+msgstr "رنگ پس زمینه"
+
+#: modules/icon-box/skins/skin-icon-box-v2.php:402
+#: modules/icon-box/skins/skin-icon-box-v2.php:423
+#: modules/icon-box/skins/skin-icon-box-v2.php:441
+#: modules/image-box/skins/skin-image-box-v2.php:255
+#: modules/image-box/skins/skin-image-box-v2.php:314
+#: modules/image-box/skins/skin-image-box-v2.php:337
+#: modules/image-box/skins/skin-image-box-v2.php:362
+#: modules/image-box/skins/skin-image-box-v2.php:375
+#: modules/image-box/skins/skin-image-box-v2.php:395
+#: modules/image-box/skins/skin-image-box-v2.php:415
+#: modules/image-box/skins/skin-image-box.php:119
+msgid "Additional CSS class that you want to apply to the title"
+msgstr "کلاس CSS اضافی که می خواهید روی عنوان اعمال کنید"
+
+#: modules/icon-box/skins/skin-icon-box-v2.php:420
+msgid "Cardbody Class"
+msgstr "کلاس بدنه کارت"
+
+#: modules/icon-box/skins/skin-icon-box-v2.php:459
+msgid "Additional CSS class that you want to apply to the description"
+msgstr "کلاس CSS اضافی که می خواهید در توضیحات اعمال شود"
+
+#: modules/icon-box/skins/skin-icon-box-v2.php:557
+msgid "Button Icon Color"
+msgstr "رنگ آیکن دکمه"
+
+#: modules/icon-box/skins/skin-icon-box.php:232
+#: modules/posts/widgets/posts-base.php:162
+#: modules/posts/widgets/posts-base.php:572
+msgid "Spacing"
+msgstr "فاصله"
+
+#: modules/icon-list/module.php:58
+msgid "List item Wrap"
+msgstr "بسته بندی مورد فهرست"
+
+#: modules/icon-list/module.php:60
+msgid "Add your custom class for <ul> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <ul> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/icon-list/module.php:67
+msgid "List item Class"
+msgstr "کلاس آیتم فهرست"
+
+#: modules/icon-list/module.php:69
+msgid "Add your custom class for <li> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <li> بدون نقطه اضافه کنید. به عنوان مثال: کلاس من"
+
+#: modules/icon-list/module.php:78 modules/icon-list/module.php:87
+msgid "Additional CSS class that you want to apply to the <i> tag"
+msgstr "کلاس CSS اضافی که می خواهید در تگ <i> اعمال کنید"
+
+#: modules/icon/module.php:60
+msgid ""
+"Additional CSS class that you want to apply to the <i> tag. Does not apply to "
+"SVG icons."
+msgstr ""
+"کلاس CSS اضافی که می خواهید در تگ <i> اعمال کنید. برای نمادهای SVG اعمال نمی شود."
+
+#: modules/icon/module.php:69
+msgid "Additional CSS class that you want to apply to the .elementor-icon element"
+msgstr "کلاس CSS اضافی که می‌خواهید روی عنصر .elementor-icon اعمال کنید"
+
+#: modules/image-box/skins/skin-image-box-v2.php:188
+msgid "Additional CSS class that you want to apply to the title icon"
+msgstr "کلاس CSS اضافی که می‌خواهید روی نماد عنوان اعمال کنید"
+
+#: modules/image-box/skins/skin-image-box-v2.php:298
+msgid "Enable Card Shadow"
+msgstr "سایه کارت را فعال کنید"
+
+#: modules/image-box/skins/skin-image-box-v2.php:309
+#: modules/pricing/skins/skin-card.php:335
+msgid "Card Body Class"
+msgstr "کلاس بدن کارت"
+
+#: modules/image-box/skins/skin-image-box-v2.php:357
+msgid "Shadow Class"
+msgstr "کلاس سایه"
+
+#: modules/image-box/skins/skin-image-box.php:94
+msgid "Style 3"
+msgstr "استایل 3"
+
+#: modules/image-box/skins/skin-image-box.php:117
+msgid "w-25"
+msgstr "w-25"
+
+#: modules/image-box/skins/skin-image-box.php:345
+msgid "Show border?"
+msgstr "نمایش حاشیه ؟"
+
+#: modules/image-box/skins/skin-image-box.php:347
+msgid "show"
+msgstr "نشان دادن"
+
+#: modules/image-box/skins/skin-image-box.php:478
+#: modules/team-member/widgets/team-member.php:306
+msgid "Card Hover Color"
+msgstr "رنگ هاور کارت"
+
+#: modules/image-box/skins/skin-image-box.php:501
+msgid "Padding Class"
+msgstr "کلاس پدینگ"
+
+#: modules/image-box/skins/skin-image-box.php:503
+msgid "align-items-start"
+msgstr "align-items-start"
+
+#: modules/image-box/skins/skin-image-box.php:511
+msgid "Card Wrap Class"
+msgstr "کلاس بسته بندی کارت"
+
+#: modules/image-box/skins/skin-image-box.php:513
+msgid "mb-4"
+msgstr "mb-4"
+
+#: modules/image-box/skins/skin-image-box.php:523
+msgid "rounded-3 p-3 mb-3"
+msgstr "rounded-3 p-3 mb-3"
+
+#: modules/image-box/skins/skin-image-box.php:531
+msgid "Content Wrap Class"
+msgstr "کلاس بسته بندی محتوا"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:41
+msgid "About Grid"
+msgstr "درباره شبکه"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:94
+msgid "Index"
+msgstr "ایندکس"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:97
+msgid ""
+"Specify the index of the gallery item for which you want the repeater settings "
+"to apply"
+msgstr ""
+"فهرست مورد گالری را که می‌خواهید تنظیمات تکرارکننده برای آن اعمال شود، مشخص کنید"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:104
+msgid "Video URL"
+msgstr "آدرس ویدئو"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:106
+msgid "Specify the video URL if you want the gallery item links to a video."
+msgstr ""
+"اگر می‌خواهید آیتم گالری به یک ویدیو پیوند داده شود، URL ویدیو را مشخص کنید."
+
+#: modules/image-gallery/skins/skin-image-gallery.php:120
+msgid "Additional Gallery Image Settings"
+msgstr "تنظیمات تصویر گالری اضافی"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:134
+msgid "Attachment Caption"
+msgstr "زیرنویس پیوست"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:135
+#: modules/image-gallery/skins/skin-image-gallery.php:144
+msgid "Custom Caption"
+msgstr "زیرنویس سفارشی"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:147
+msgid "Enter your image caption"
+msgstr "زیرنویس تصویر خود را وارد کنید"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:177
+msgid "Widget wrap Class"
+msgstr "کلاس بسته بندی ویجت"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:179
+msgid "pb-3 mb-3"
+msgstr "pb-3 mb-3"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:180
+#: modules/image-gallery/skins/skin-image-gallery.php:259
+msgid "CSS Classes added to <div>"
+msgstr "کلاس های CSS به <div> اضافه شدند"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:190
+msgid "text-light mb-1"
+msgstr "text-light mb-1"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:191
+msgid "CSS Classes added to <h3>"
+msgstr "کلاس های CSS به <h3> اضافه شدند"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:224
+msgid "mb-0"
+msgstr "mb-0"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:225
+msgid "CSS Classes added to <p>"
+msgstr "کلاس های CSS به <p> اضافه شدند"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:257
+msgid "gallery-item-caption fs-sm fw-medium"
+msgstr "gallery-item-caption fs-sm fw-medium"
+
+#: modules/image-gallery/skins/skin-image-gallery.php:267
+msgid "Caption Color"
+msgstr "رنگ کپشن"
+
+#: modules/image-gallery/skins/skin-image-grid-parallax.php:40
+msgid "Image Grid Parallax"
+msgstr "اختلاف منظر شبکه تصویر"
+
+#: modules/image-gallery/skins/skin-parallax-gfx.php:40
+msgid "Parallax GFX"
+msgstr "اختلاف منظر GFX"
+
+#: modules/image-gallery/skins/skin-parallax-gfx.php:70
+msgid "Data Depth Value"
+msgstr "مقدار عمق داده"
+
+#: modules/image-gallery/skins/skin-parallax-gfx.php:86
+msgid "Data Attribute"
+msgstr "ویژگی داده"
+
+#: modules/image-gallery/skins/skin-parallax-gfx.php:112
+msgid "Wrapper CSS Class"
+msgstr "لفاف کلاس CSS"
+
+#: modules/image-gallery/skins/skin-profile.php:41
+msgid "Profile"
+msgstr "پروفایل"
+
+#: modules/image-gallery/skins/skin-profile.php:92
+msgid "Enter Your Details"
+msgstr "مشخصات خود را وارد کنید"
+
+#: modules/image-gallery/skins/skin-profile.php:128
+msgid "Wrap Spacing"
+msgstr "فاصله بسته بندی"
+
+#: modules/image-gallery/skins/skin-profile.php:145
+msgid "Image Spacing"
+msgstr "فاصله تصویر"
+
+#: modules/image/module.php:87
+msgid "Image Anchor Class"
+msgstr "کلاس لنگر تصویر"
+
+#: modules/image/module.php:102
+msgid "Caption CSS"
+msgstr "زیرنویس CSS"
+
+#: modules/image/module.php:104
+msgid "Add your custom class for <figcaption> tag  without the dot. e.g: my-class"
+msgstr ""
+"کلاس سفارشی خود را برای تگ <figcaption> بدون نقطه اضافه کنید. به عنوان مثال: "
+"کلاس من"
+
+#: modules/image/module.php:107
+msgid "Additional CSS class that you want to apply to the figcaption tag"
+msgstr "کلاس CSS اضافی که می خواهید روی تگ figcaption اعمال کنید"
+
+#: modules/image/skins/skin-image-attribute.php:52
+msgid "Image Jarallax"
+msgstr "تصویر Jarallax"
+
+#: modules/image/skins/skin-image-attribute.php:86
+msgid "Data Jarallax Element"
+msgstr "عنصر داده Jarallax"
+
+#: modules/image/skins/skin-image-attribute.php:95
+msgid "Data Parallax Element"
+msgstr "عنصر اختلاف منظر داده"
+
+#: modules/image/skins/skin-image.php:55
+msgid "LightGallery - Video"
+msgstr "لایت گالری - ویدئو"
+
+#: modules/image/skins/skin-image.php:104
+msgid "Enable Play Button?"
+msgstr "دکمه پخش فعال شود؟"
+
+#: modules/image/skins/skin-image.php:121
+#: modules/posts/traits/button-widget-trait.php:33
+msgid "Extra Large"
+msgstr "خیلی بزرگ"
+
+#: modules/image/skins/skin-image.php:213
+msgid "Button Background Color"
+msgstr "رنگ پس زمینه دکمه"
+
+#: modules/image/skins/skin-image.php:246
+msgid "Button Hover Color"
+msgstr "رنگ دکمه هاور"
+
+#: modules/logo/widgets/logo.php:93
+msgid "Logo Wrap CSS"
+msgstr "بسته بندی لوگو CSS"
+
+#: modules/logo/widgets/logo.php:115
+msgid "Image CSS"
+msgstr "CSS تصویر"
+
+#: modules/logo/widgets/logo.php:159
+msgid "Title CSS"
+msgstr "عنوان CSS"
+
+#: modules/lottie/widgets/lottie.php:85
+msgid "Settings"
+msgstr "پیکربندی"
+
+#: modules/lottie/widgets/lottie.php:92
+msgid "Loop"
+msgstr "حلقه"
+
+#: modules/lottie/widgets/lottie.php:184
+msgid "Lottie CSS"
+msgstr "لوتیه CSS"
+
+#: modules/lottie/widgets/lottie.php:187
+msgid "Additional CSS to be <lottie-player> element."
+msgstr "CSS اضافی برای عنصر <lottie-player>."
+
+#: modules/nav-menu/widgets/nav-menu.php:55
+msgid "Silicon Nav Menu"
+msgstr "منوی Silicon Nav"
+
+#: modules/nav-menu/widgets/nav-menu.php:165
+msgid "Nav Menu"
+msgstr "منوی Nav"
+
+#: modules/nav-menu/widgets/nav-menu.php:175
+msgid "Menu"
+msgstr "فهرست"
+
+#. translators: %1$s: Link to Menu Link.
+#: modules/nav-menu/widgets/nav-menu.php:181
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr ""
+"برای مدیریت منوهای خود به <a href=\"%s\" target=\"_blank\">صفحه منوها</a> بروید."
+
+#: modules/nav-menu/widgets/nav-menu.php:189
+msgid "There are no menus in your site."
+msgstr "هیچ منویی در سایت شما وجود ندارد."
+
+#. translators: %1$s: Link to Menu Link.
+#: modules/nav-menu/widgets/nav-menu.php:189
+#, php-format
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr "برای ایجاد یک به <a href=\"%s\" target=\"_blank\">صفحه منو</a> بروید."
+
+#: modules/nav-menu/widgets/nav-menu.php:208
+msgid "Inline"
+msgstr "درون خطی"
+
+#: modules/nav-menu/widgets/nav-menu.php:220
+msgid "Wrappers"
+msgstr "لفاف ها"
+
+#: modules/nav-menu/widgets/nav-menu.php:228
+msgid "Menu Item Wrap"
+msgstr "بسته بندی آیتم منو"
+
+#: modules/nav-menu/widgets/nav-menu.php:237
+msgid "Menu Item Class"
+msgstr "کلاس آیتم منو"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:37
+msgid "Nav Days"
+msgstr "Nav روزها"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:78
+#: modules/nav-tabs/skins/skin-nav-tabs.php:80
+#: modules/nav-tabs/skins/skin-nav-tabs.php:81
+#: modules/nav-tabs/widgets/nav-tabs.php:86
+#: modules/nav-tabs/widgets/nav-tabs.php:88
+#: modules/nav-tabs/widgets/nav-tabs.php:89 modules/pricing/skins/skin-list.php:151
+#: modules/pricing/widgets/price.php:300
+msgid "List Item"
+msgstr "آیتم لیست"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:87
+#: modules/nav-tabs/widgets/nav-tabs.php:122
+msgid "Tab Content ID"
+msgstr "شناسه محتوای برگه"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:89
+#: modules/nav-tabs/widgets/nav-tabs.php:124
+msgid "Tab Content Id"
+msgstr "شناسه محتوای برگه"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:95
+#: modules/nav-tabs/skins/skin-nav-tabs.php:97
+msgid "List Item Description"
+msgstr "شرح آیتم فهرست"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:98
+msgid "Enter your item description"
+msgstr "توضیحات کالای خود را وارد کنید"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:104
+#: modules/nav-tabs/widgets/nav-tabs.php:155
+msgid "Nav List"
+msgstr "فهرست ناوبری"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:109
+msgid "Day One"
+msgstr "روز اول"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:112
+msgid "Day Two"
+msgstr "روز دوم"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:160
+#: modules/pricing/widgets/price.php:307
+msgid "Text Class"
+msgstr "کلاس متن"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:164
+msgid "Additional CSS class that you want to apply to the title wrap <div> tag"
+msgstr "کلاس CSS اضافی که می‌خواهید روی تگ عنوان wrap <div> اعمال کنید"
+
+#: modules/nav-tabs/skins/skin-nav-tabs.php:174
+msgid "Additional CSS class that you want to apply to the desc wrap <div> tag"
+msgstr "کلاس CSS اضافی که می‌خواهید به تگ desc wrap <div> اعمال کنید"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:40
+msgid "Nav Tabs"
+msgstr "نوارهای ناوبری"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:77
+msgid "Nav Tabs List"
+msgstr "فهرست برگه‌های ناو"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:97
+msgid "Enable Link?"
+msgstr "فعالسازی لینک؟"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:107
+msgid "List Link"
+msgstr "لینک لیست"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:148
+msgid "Enter Your Icon Class"
+msgstr "وارد کلاس آیکون خود شوید"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:160
+msgid "Project management"
+msgstr "مدیریت پروژه"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:163
+msgid "Remote work"
+msgstr "کار از راه دور"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:166
+msgid "Product release"
+msgstr "انتشار محصول"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:169
+msgid "Campaign planning"
+msgstr "برنامه ریزی کمپین"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:352
+msgid "List Wrap Class"
+msgstr "کلاس بسته بندی لیست"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:354
+msgid "flex-nowrap justify-content-lg-center overflow-auto pb-2 mb-3 mb-lg-4"
+msgstr "flex-nowrap justify-content-lg-center overflow-auto pb-2 mb-3 mb-lg-4"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:355
+#: modules/nav-tabs/widgets/nav-tabs.php:364
+msgid "Enter Your Wrap Class"
+msgstr "وارد کلاس بسته بندی خود شوید"
+
+#: modules/nav-tabs/widgets/nav-tabs.php:362
+msgid "List item Wrap Class"
+msgstr "کلاس بسته بندی آیتم فهرست"
+
+#: modules/page-settings/module.php:75
+msgid "Enable Overflow?"
+msgstr "سرریز فعال شود؟"
+
+#: modules/page-settings/module.php:274
+msgid "Body Classes"
+msgstr "کلاس های بدن"
+
+#: modules/page-settings/module.php:294 modules/page-settings/module.php:581
+msgid "Headers"
+msgstr "سرصفحه ها"
+
+#: modules/page-settings/module.php:302
+msgid "Custom Header"
+msgstr "هدر سفارشی"
+
+#: modules/page-settings/module.php:313
+msgid "Navbar Position"
+msgstr "موقعیت نوار ناوبری"
+
+#: modules/page-settings/module.php:318
+msgid "Fixed Top"
+msgstr "بالا ثابت"
+
+#: modules/page-settings/module.php:319
+msgid "Absolute"
+msgstr "مطلق"
+
+#: modules/page-settings/module.php:330
+msgid "Stick Navbar on Scroll"
+msgstr "نوار ناوبری اسکرول"
+
+#: modules/page-settings/module.php:345
+msgid "Navbar Text"
+msgstr "متن ناوبری"
+
+#: modules/page-settings/module.php:363
+msgid "Transparent"
+msgstr "شفاف"
+
+#: modules/page-settings/module.php:376
+msgid "Enable shadow"
+msgstr "سایه را فعال کنید"
+
+#: modules/page-settings/module.php:390
+msgid "Disable Dark Mode Shadow"
+msgstr "سایه حالت تاریک را غیرفعال کنید"
+
+#: modules/page-settings/module.php:448
+msgid "Enable Buy Now Button ?"
+msgstr "فعال کردن دکمه اکنون خرید کنید؟"
+
+#: modules/page-settings/module.php:566
+#: modules/posts/traits/button-widget-trait.php:213
+msgid "Button CSS"
+msgstr "CSS دکمه"
+
+#: modules/page-settings/module.php:787 modules/pricing/widgets/price.php:363
+#: modules/pricing/widgets/price.php:701
+msgid "Footer"
+msgstr "صفحه پاورقی ( فوتر )"
+
+#: modules/page-settings/module.php:795
+msgid "Custom Footer"
+msgstr "پاورقی سفارشی"
+
+#: modules/page-settings/module.php:806
+msgid "Footer Variant"
+msgstr "نوع پاورقی"
+
+#: modules/page-settings/module.php:810
+msgid "Static Footer"
+msgstr "پاورقی استاتیک"
+
+#: modules/page-settings/module.php:824
+msgid "Footer Static Widgets"
+msgstr "ابزارک های استاتیک پاورقی"
+
+#: modules/page-settings/module.php:839
+msgid "Copyright Text"
+msgstr "متن کپی رایت"
+
+#: modules/page-settings/module.php:841
+msgid ""
+"© All rights reserved. Made with <i class=\"bx bx-heart d-inline-block fs-lg "
+"text-gradient-primary align-middle mt-n1 mx-1\"></i> by&nbsp; <a href=\"https://"
+"madrasthemes.com/\" class=\"text-muted\" target=\"_blank\" rel=\"noopener"
+"\">MadrasThemes</a>"
+msgstr ""
+"© کلیه حقوق محفوظ است. ساخته شده با <i class=\"bx bx-heart d-inline-block fs-lg "
+"text-gradient-primary align-middle mt-n1 mx-1\"></i> توسط&nbsp; <a href="
+"\"https://madrasthemes.com/\" class=\"text-muted\" target=\"_blank\" rel="
+"\"noopener\">مدراس مضامین</a>"
+
+#: modules/parallax/widgets/parallax-3d-tilt.php:39
+msgid "Parallax 3D Tilt"
+msgstr "شیب سه بعدی اختلاف منظر"
+
+#: modules/parallax/widgets/parallax-3d-tilt.php:88
+#: modules/parallax/widgets/parallax-3d-tilt.php:138
+#: modules/slider/widgets/image-comparison-slider.php:87
+#: modules/slider/widgets/image-comparison-slider.php:148
+msgid "Images"
+msgstr "تصویرها"
+
+#: modules/parallax/widgets/parallax-3d-tilt.php:96
+msgid "Layer 1 Image"
+msgstr "تصویر لایه 1"
+
+#: modules/parallax/widgets/parallax-3d-tilt.php:116
+msgid "Layer 2 Image"
+msgstr "تصویر لایه 2"
+
+#: modules/parallax/widgets/parallax-3d-tilt.php:146
+msgid "Desktop Vertical Spacing"
+msgstr "فاصله عمودی دسکتاپ"
+
+#: modules/parallax/widgets/parallax-3d-tilt.php:164
+msgid "Responsive Vertical Spacing"
+msgstr "فاصله عمودی رسپانسیو"
+
+#: modules/posts/data/controller.php:43
+msgid "Document doesn't exist"
+msgstr "سند وجود ندارد"
+
+#: modules/posts/data/controller.php:54
+msgid "Posts widget doesn't exist"
+msgstr "ویجت پست ها وجود ندارد"
+
+#: modules/posts/skins/skin-base.php:225 templates/documents/page.php:16
+#: templates/types/page.php:21
+msgid "Page"
+msgstr "صفحه"
+
+#: modules/posts/skins/skin-grid-card.php:31
+msgid "Grid Card"
+msgstr "کارت شبکه"
+
+#: modules/posts/skins/skin-grid-v1.php:31
+msgid "Grid v1"
+msgstr "شبکه ای v1"
+
+#: modules/posts/skins/skin-grid-v2.php:31
+msgid "Grid v2"
+msgstr "شبکه ای v2"
+
+#: modules/posts/skins/skin-hero.php:68
+msgid "Enable container"
+msgstr "فعال کردن کانتینر"
+
+#: modules/posts/skins/skin-hero.php:79
+msgid "Feature Title"
+msgstr "عنوان ویژگی"
+
+#: modules/posts/skins/skin-hero.php:88
+msgid "Feature Icon"
+msgstr "آیکون ویژگی"
+
+#: modules/posts/skins/skin-hero.php:97
+msgid "Cover Image"
+msgstr "تصویر کاور"
+
+#: modules/posts/skins/skin-list-simple.php:31
+msgid "List Simple"
+msgstr "لیست ساده"
+
+#: modules/posts/skins/skin-list-v1.php:31
+msgid "List v1"
+msgstr "فهرست v1"
+
+#: modules/posts/skins/skin-list-v2.php:31
+msgid "List v2"
+msgstr "فهرست v2"
+
+#: modules/posts/skins/skin-portfolio-grid.php:31
+msgid "Grid"
+msgstr "شبکه"
+
+#: modules/posts/skins/skin-portfolio-masonry.php:31
+msgid "Masonry"
+msgstr "آجری"
+
+#: modules/posts/traits/button-widget-trait.php:29
+msgid "Extra Small"
+msgstr "بسیار کوچک"
+
+#: modules/posts/traits/button-widget-trait.php:31
+msgid "Medium"
+msgstr "متوسط"
+
+#: modules/posts/traits/button-widget-trait.php:160
+msgid "Icon Position"
+msgstr "موقعیت آیکون"
+
+#: modules/posts/traits/button-widget-trait.php:164
+#: modules/pricing/skins/skin-list.php:228 modules/pricing/widgets/price.php:638
+#: modules/query-control/controls/group-control-query.php:343
+#: modules/ticket/widgets/ticket.php:829
+msgid "Before"
+msgstr "قبل"
+
+#: modules/posts/traits/button-widget-trait.php:165
+#: modules/pricing/skins/skin-list.php:232 modules/pricing/widgets/price.php:642
+#: modules/query-control/controls/group-control-query.php:360
+#: modules/ticket/widgets/ticket.php:833
+msgid "After"
+msgstr "بعد"
+
+#: modules/posts/traits/button-widget-trait.php:192
+msgid "View"
+msgstr "نمایش"
+
+#: modules/posts/traits/button-widget-trait.php:202
+msgid "Button Wrapper CSS"
+msgstr "دکمه بسته بندی CSS"
+
+#: modules/posts/traits/button-widget-trait.php:205
+msgid "Additional CSS to be applied to .btn-wrapper element."
+msgstr "CSS اضافی برای استفاده از عنصر btn-wrapper."
+
+#: modules/posts/traits/button-widget-trait.php:216
+msgid "Additional CSS to be applied to .btn element."
+msgstr "CSS اضافی برای استفاده از عنصر btn."
+
+#: modules/posts/traits/button-widget-trait.php:224
+#: modules/pricing/widgets/price.php:437 modules/ticket/widgets/ticket.php:221
+msgid "Button ID"
+msgstr "شناسه دکمه"
+
+#: modules/posts/traits/button-widget-trait.php:230
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr "شناسه سفارشی خود را بدون کلید پوند اضافه کنید. به عنوان مثال: شناسه من"
+
+#: modules/posts/traits/button-widget-trait.php:231
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this form "
+"is displayed. This field allows `A-z 0-9` & underscore chars without spaces."
+msgstr ""
+"لطفاً مطمئن شوید که شناسه منحصر به فرد است و در جای دیگری از صفحه نمایش این فرم "
+"استفاده نشده است. این فیلد نویسه‌های A-z 0-9 و زیرخط بدون فاصله را مجاز می‌کند."
+
+#: modules/posts/widgets/portfolio.php:45
+msgid "Portfolio"
+msgstr "نمونه کارها"
+
+#: modules/posts/widgets/posts-base.php:100
+#: modules/posts/widgets/posts-base.php:112
+#: modules/posts/widgets/posts-base.php:355
+msgid "No More Posts Message"
+msgstr "پیامی برای پست بیشتر وجود ندارد"
+
+#: modules/posts/widgets/posts-base.php:146
+msgid "Spinner Color"
+msgstr "رنگ اسپینر"
+
+#: modules/posts/widgets/posts-base.php:202
+msgid "Page Limit"
+msgstr "محدودیت صفحه"
+
+#: modules/posts/widgets/posts-base.php:217
+msgid "Shorten"
+msgstr "کوتاه کردن"
+
+#: modules/posts/widgets/posts-base.php:232
+msgid "Previous Label"
+msgstr "برچسب قبلی"
+
+#: modules/posts/widgets/posts-base.php:233
+msgid "&laquo; Previous"
+msgstr "&larr; قبلی"
+
+#: modules/posts/widgets/posts-base.php:246
+msgid "Next Label"
+msgstr "برچسب بعدی"
+
+#: modules/posts/widgets/posts-base.php:247
+msgid "Next &raquo;"
+msgstr "بعدی &rarr;"
+
+#: modules/posts/widgets/posts-base.php:337
+msgid "Load More"
+msgstr "ادامه مطلب"
+
+#: modules/posts/widgets/posts-base.php:405
+msgid "Custom Messages"
+msgstr "پیام های سفارشی"
+
+#: modules/posts/widgets/posts-base.php:420
+msgid "No more posts message"
+msgstr "دیگر پیامی برای پست وجود ندارد"
+
+#: modules/posts/widgets/posts-base.php:422
+msgid "No more posts to show"
+msgstr "پست دیگری برای نمایش وجود ندارد"
+
+#: modules/posts/widgets/posts-base.php:455
+msgid "Navigation Class"
+msgstr "کلاس ناوبری"
+
+#: modules/posts/widgets/posts-base.php:457
+msgid "Additional CSS class that you want to apply to the ul.pagination tag"
+msgstr "کلاس CSS اضافی که می‌خواهید روی تگ ul.pagination اعمال کنید"
+
+#: modules/posts/widgets/posts-base.php:475
+msgid "Colors"
+msgstr "رنگها"
+
+#: modules/posts/widgets/posts-base.php:730
+#: modules/posts/widgets/posts-base.php:732
+msgid "Numbers"
+msgstr "تعداد"
+
+#: modules/posts/widgets/posts-base.php:731
+#: modules/posts/widgets/posts-base.php:732
+msgid "Previous/Next"
+msgstr "قبلی/بعدی"
+
+#: modules/posts/widgets/posts-base.php:733
+msgid "Load on Click"
+msgstr "روی کلیک بارگیری کنید"
+
+#: modules/posts/widgets/posts-base.php:734
+msgid "Infinite Scroll"
+msgstr "اسکرول بی نهایت"
+
+#: modules/posts/widgets/posts.php:33
+msgid "Posts"
+msgstr "پست ها"
+
+#: modules/pricing/skins/skin-card.php:89
+msgid "Sub title"
+msgstr "عنوان فرعی"
+
+#: modules/pricing/skins/skin-card.php:91
+msgid "Best for large teams"
+msgstr "بهترین برای تیم های بزرگ"
+
+#: modules/pricing/skins/skin-card.php:129 modules/pricing/skins/skin-list.php:242
+#: modules/ticket/widgets/ticket.php:764
+msgid "Price"
+msgstr "قیمت"
+
+#: modules/pricing/skins/skin-card.php:142 modules/pricing/widgets/price.php:227
+msgid "Annually Price"
+msgstr "قیمت سالانه"
+
+#: modules/pricing/skins/skin-card.php:155 modules/ticket/widgets/ticket.php:240
+msgid "Price Sub Text"
+msgstr "متن فرعی قیمت"
+
+#: modules/pricing/skins/skin-card.php:288
+msgid "Sub Title Class"
+msgstr "کلاس عنوان فرعی"
+
+#: modules/pricing/skins/skin-card.php:298
+msgid "Sub Title Color"
+msgstr "رنگ زیر عنوان"
+
+#: modules/pricing/skins/skin-card.php:328
+msgid "Add your custom class for card background. e.g: bg-transparent"
+msgstr ""
+"کلاس سفارشی خود را برای پس زمینه کارت اضافه کنید. به عنوان مثال: bg-transparent"
+
+#: modules/pricing/skins/skin-card.php:337
+msgid "Add your custom class for card body. e.g: bg-transparent"
+msgstr ""
+"کلاس سفارشی خود را برای بدنه کارت اضافه کنید. به عنوان مثال: bg-transparent"
+
+#: modules/pricing/skins/skin-card.php:344 modules/pricing/widgets/price.php:552
+msgid "Enable Transparent"
+msgstr "شفاف را فعال کنید"
+
+#: modules/pricing/skins/skin-card.php:356
+msgid "Enable Border Light"
+msgstr "نور حاشیه را فعال کنید"
+
+#: modules/pricing/skins/skin-card.php:401
+msgid "Price Typography"
+msgstr "تایپوگرافی قیمت"
+
+#: modules/pricing/skins/skin-card.php:410
+msgid "Price CSS Class"
+msgstr "کلاس CSS قیمت"
+
+#: modules/pricing/skins/skin-card.php:419
+msgid "Annual Price CSS Class"
+msgstr "کلاس CSS قیمت سالانه"
+
+#: modules/pricing/skins/skin-card.php:429
+msgid "Price Sub Text CSS Class"
+msgstr "کلاس CSS زیر متن قیمت"
+
+#: modules/pricing/skins/skin-card.php:438
+msgid "Price Sub Text Color"
+msgstr "رنگ متن زیر قیمت"
+
+#: modules/pricing/skins/skin-list.php:170 modules/pricing/widgets/price.php:151
+#: modules/pricing/widgets/price.php:623 modules/ticket/widgets/ticket.php:249
+#: modules/ticket/widgets/ticket.php:803
+msgid "Currency Symbol"
+msgstr "نماد ارز"
+
+#: modules/pricing/skins/skin-list.php:174 modules/pricing/widgets/price.php:155
+#: modules/ticket/widgets/ticket.php:253
+msgctxt "Currency Symbol"
+msgid "Dollar"
+msgstr "دلار"
+
+#: modules/pricing/skins/skin-list.php:175 modules/pricing/widgets/price.php:156
+#: modules/ticket/widgets/ticket.php:254
+msgctxt "Currency Symbol"
+msgid "Euro"
+msgstr "یورو"
+
+#: modules/pricing/skins/skin-list.php:176 modules/pricing/widgets/price.php:157
+#: modules/ticket/widgets/ticket.php:255
+msgctxt "Currency Symbol"
+msgid "Baht"
+msgstr "بات"
+
+#: modules/pricing/skins/skin-list.php:177 modules/pricing/widgets/price.php:158
+#: modules/ticket/widgets/ticket.php:256
+msgctxt "Currency Symbol"
+msgid "Franc"
+msgstr "فرانک"
+
+#: modules/pricing/skins/skin-list.php:178 modules/pricing/widgets/price.php:159
+#: modules/ticket/widgets/ticket.php:257
+msgctxt "Currency Symbol"
+msgid "Guilder"
+msgstr "گیلد"
+
+#: modules/pricing/skins/skin-list.php:179 modules/pricing/widgets/price.php:160
+#: modules/ticket/widgets/ticket.php:258
+msgctxt "Currency Symbol"
+msgid "Krona"
+msgstr "کرون"
+
+#: modules/pricing/skins/skin-list.php:180 modules/pricing/widgets/price.php:161
+#: modules/ticket/widgets/ticket.php:259
+msgctxt "Currency Symbol"
+msgid "Lira"
+msgstr "لیر"
+
+#: modules/pricing/skins/skin-list.php:181 modules/pricing/widgets/price.php:162
+#: modules/ticket/widgets/ticket.php:260
+msgctxt "Currency Symbol"
+msgid "Peseta"
+msgstr "پستا"
+
+#: modules/pricing/skins/skin-list.php:182 modules/pricing/widgets/price.php:163
+#: modules/ticket/widgets/ticket.php:261
+msgctxt "Currency Symbol"
+msgid "Peso"
+msgstr "وزن"
+
+#: modules/pricing/skins/skin-list.php:183 modules/pricing/widgets/price.php:164
+#: modules/ticket/widgets/ticket.php:262
+msgctxt "Currency Symbol"
+msgid "Pound Sterling"
+msgstr "پوند استرلینگ"
+
+#: modules/pricing/skins/skin-list.php:184 modules/pricing/widgets/price.php:165
+#: modules/ticket/widgets/ticket.php:263
+msgctxt "Currency Symbol"
+msgid "Real"
+msgstr "واقعی"
+
+#: modules/pricing/skins/skin-list.php:185 modules/pricing/widgets/price.php:166
+#: modules/ticket/widgets/ticket.php:264
+msgctxt "Currency Symbol"
+msgid "Ruble"
+msgstr "وزن"
+
+#: modules/pricing/skins/skin-list.php:186 modules/pricing/widgets/price.php:167
+#: modules/ticket/widgets/ticket.php:265
+msgctxt "Currency Symbol"
+msgid "Rupee"
+msgstr "روپیه"
+
+#: modules/pricing/skins/skin-list.php:187 modules/pricing/widgets/price.php:168
+#: modules/ticket/widgets/ticket.php:266
+msgctxt "Currency Symbol"
+msgid "Rupee (Indian)"
+msgstr "روپیه (هندی)"
+
+#: modules/pricing/skins/skin-list.php:188 modules/pricing/widgets/price.php:169
+#: modules/ticket/widgets/ticket.php:267
+msgctxt "Currency Symbol"
+msgid "Shekel"
+msgstr "شیکل"
+
+#: modules/pricing/skins/skin-list.php:189 modules/pricing/widgets/price.php:170
+#: modules/ticket/widgets/ticket.php:268
+msgctxt "Currency Symbol"
+msgid "Yen/Yuan"
+msgstr "چرا / یوان"
+
+#: modules/pricing/skins/skin-list.php:190 modules/pricing/widgets/price.php:171
+#: modules/ticket/widgets/ticket.php:269
+msgctxt "Currency Symbol"
+msgid "Won"
+msgstr "برنده"
+
+#: modules/pricing/skins/skin-list.php:191 modules/pricing/widgets/price.php:172
+#: modules/query-control/controls/group-control-query.php:329
+#: modules/ticket/widgets/ticket.php:270
+msgid "Custom"
+msgstr "دلخواه"
+
+#: modules/pricing/skins/skin-list.php:201 modules/pricing/widgets/price.php:181
+#: modules/ticket/widgets/ticket.php:279
+msgid "Custom Symbol"
+msgstr "نماد سفارشی"
+
+#: modules/pricing/skins/skin-list.php:212
+msgid "Symbol Color"
+msgstr "رنگ نماد"
+
+#: modules/pricing/skins/skin-list.php:223 modules/pricing/widgets/price.php:633
+#: modules/team-member/widgets/team-member.php:135
+#: modules/team-member/widgets/team-member.php:137
+#: modules/ticket/widgets/ticket.php:824
+msgid "Position"
+msgstr "موقعیت"
+
+#: modules/pricing/skins/skin-list.php:255
+msgid "Price Class CSS"
+msgstr "CSS کلاس قیمت"
+
+#: modules/pricing/skins/skin-list.php:275 modules/pricing/widgets/price.php:611
+#: modules/ticket/widgets/ticket.php:772
+msgid "Price Color"
+msgstr "رنگ قیمت"
+
+#: modules/pricing/skins/skin-list.php:300 modules/ticket/widgets/ticket.php:469
+msgid "Date Class"
+msgstr "کلاس تاریخ"
+
+#: modules/pricing/skins/skin-list.php:309 modules/ticket/widgets/ticket.php:446
+msgid "Date Color"
+msgstr "رنگ تاریخ"
+
+#: modules/pricing/skins/skin-list.php:335
+msgid "Early birds"
+msgstr "پرندگان اولیه"
+
+#: modules/pricing/skins/skin-list.php:339
+msgid "Late birds"
+msgstr "پرندگان دیررس"
+
+#: modules/pricing/skins/skin-list.php:389
+msgid "Skin Header"
+msgstr "سربرگ پوست"
+
+#: modules/pricing/widgets/price-switcher.php:40
+msgid "Price Switcher"
+msgstr "تعویض کننده قیمت"
+
+#: modules/pricing/widgets/price-switcher.php:77
+#: modules/team-member/widgets/team-member.php:86
+msgid "General"
+msgstr "عمومی"
+
+#: modules/pricing/widgets/price-switcher.php:84
+msgid "Show Price Switcher ?"
+msgstr "نمایش سوئیچر قیمت؟"
+
+#: modules/pricing/widgets/price-switcher.php:87
+msgid "Enable to display price switcher."
+msgstr "برای نمایش تعویض کننده قیمت فعال شود."
+
+#: modules/pricing/widgets/price-switcher.php:107
+msgid "Left Label"
+msgstr "برچسب چپبرچسب سمت چپ"
+
+#: modules/pricing/widgets/price-switcher.php:109
+msgid "Monthly"
+msgstr "ماهانه"
+
+#: modules/pricing/widgets/price-switcher.php:119
+msgid "Right Label"
+msgstr "برچسب سمت راست"
+
+#: modules/pricing/widgets/price-switcher.php:121
+msgid "Annually"
+msgstr "سالانه"
+
+#: modules/pricing/widgets/price-switcher.php:131
+msgid "Percentage"
+msgstr "درصد"
+
+#: modules/pricing/widgets/price-switcher.php:133
+msgid "-10%"
+msgstr "-10%"
+
+#: modules/pricing/widgets/price.php:55
+msgid "Price Table"
+msgstr "جدول قیمت"
+
+#: modules/pricing/widgets/price.php:94 modules/pricing/widgets/price.php:492
+msgid "Header"
+msgstr "هدر"
+
+#: modules/pricing/widgets/price.php:103
+msgid "Standard"
+msgstr "استاندارد"
+
+#: modules/pricing/widgets/price.php:126
+msgid "Header Icon"
+msgstr "آیکون هدر"
+
+#: modules/pricing/widgets/price.php:141 modules/pricing/widgets/price.php:588
+#: modules/ticket/widgets/ticket.php:233 modules/ticket/widgets/ticket.php:714
+msgid "Pricing"
+msgstr "قیمت"
+
+#: modules/pricing/widgets/price.php:192
+msgid "Monthly Price"
+msgstr "قیمت ماهانه"
+
+#: modules/pricing/widgets/price.php:204
+msgid "Monthly Sub Price"
+msgstr "زیر قیمت ماهانه"
+
+#: modules/pricing/widgets/price.php:216
+msgid "Show Annual"
+msgstr "نمایش سالانه"
+
+#: modules/pricing/widgets/price.php:218
+msgid "On"
+msgstr "روشن"
+
+#: modules/pricing/widgets/price.php:219
+msgid "Off"
+msgstr "خاموش"
+
+#: modules/pricing/widgets/price.php:243
+msgid "Annually Sub Price"
+msgstr "زیر قیمت سالانه"
+
+#: modules/pricing/widgets/price.php:259 modules/ticket/widgets/ticket.php:302
+msgid "Currency Format"
+msgstr "فرمت ارز"
+
+#: modules/pricing/widgets/price.php:274 modules/pricing/widgets/price.php:655
+msgid "Features"
+msgstr "ویژگی ها"
+
+#: modules/pricing/widgets/price.php:342
+msgid "List Item #1"
+msgstr "لیست آیتم #1"
+
+#: modules/pricing/widgets/price.php:346
+msgid "List Item #2"
+msgstr "لیست آیتم #2"
+
+#: modules/pricing/widgets/price.php:350
+msgid "List Item #3"
+msgstr "لیست آیتم #3"
+
+#: modules/pricing/widgets/price.php:372 modules/ticket/widgets/ticket.php:156
+msgid "Start free trial"
+msgstr "آزمایش رایگان را شروع کنید"
+
+#: modules/pricing/widgets/price.php:439 modules/ticket/widgets/ticket.php:223
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page   this form "
+"is displayed. This field allows A-z 0-9 & underscore chars without spaces."
+msgstr ""
+"لطفاً مطمئن شوید که شناسه منحصر به فرد است و در جای دیگری از صفحه نمایش این فرم "
+"استفاده نشده است. این فیلد نویسه‌های A-z 0-9 و زیرخط بدون فاصله را مجاز می‌کند."
+
+#: modules/pricing/widgets/price.php:449 modules/pricing/widgets/price.php:857
+msgid "Badge"
+msgstr "نشان"
+
+#: modules/pricing/widgets/price.php:466
+msgid "Badge Icon"
+msgstr "نماد نشان"
+
+#: modules/pricing/widgets/price.php:478
+msgid "Badge Title"
+msgstr "عنوان نشان"
+
+#: modules/pricing/widgets/price.php:480
+msgid "Popular"
+msgstr "محبوب"
+
+#: modules/pricing/widgets/price.php:576
+msgid "Icon Background"
+msgstr "پس زمینه آیکون"
+
+#: modules/pricing/widgets/price.php:600 modules/ticket/widgets/ticket.php:813
+msgid "Currency Symbol Color"
+msgstr "رنگ نماد ارز"
+
+#: modules/pricing/widgets/price.php:690
+msgid "Ul Wrap Class"
+msgstr "بسته بندی کلاس UI"
+
+#: modules/pricing/widgets/price.php:797
+msgid "Button width class"
+msgstr "کلاس عرض دکمه"
+
+#: modules/pricing/widgets/price.php:799 modules/ticket/widgets/ticket.php:655
+msgid "Add your custom class for button. e.g: card-active"
+msgstr "کلاس سفارشی خود را برای دکمه اضافه کنید. به عنوان مثال: کارت فعال"
+
+#: modules/query-control/controls/group-control-posts.php:89
+#: modules/query-control/controls/group-control-query.php:110
+#: modules/query-control/controls/group-control-query.php:223
+#: modules/query-control/controls/group-control-related.php:83
+#: modules/query-control/module.php:121
+msgid "Search & Select"
+msgstr "جستجو و انتخاب کنید"
+
+#: modules/query-control/controls/group-control-posts.php:141
+#: modules/query-control/controls/group-control-query.php:84
+#: modules/query-control/controls/group-control-query.php:207
+#: modules/query-control/controls/group-control-related.php:71
+#: modules/query-control/module.php:112
+msgid "Manual Selection"
+msgstr "انتخاب دستی"
+
+#: modules/query-control/controls/group-control-posts.php:142
+#: modules/query-control/controls/group-control-query.php:85
+msgid "Current Query"
+msgstr "کوئری فعلی"
+
+#: modules/query-control/controls/group-control-query.php:99
+msgid "Include"
+msgstr "عبارتند از"
+
+#: modules/query-control/controls/group-control-query.php:126
+msgid "Include By"
+msgstr "شامل توسط"
+
+#: modules/query-control/controls/group-control-query.php:130
+#: modules/query-control/controls/group-control-query.php:145
+#: modules/query-control/controls/group-control-query.php:208
+#: modules/query-control/controls/group-control-query.php:244
+#: modules/query-control/controls/group-control-related.php:51
+msgid "Term"
+msgstr "شرط"
+
+#: modules/query-control/controls/group-control-query.php:146
+msgid ""
+"Terms are items in a taxonomy. The available taxonomies are: Categories, Tags, "
+"Formats and custom taxonomies."
+msgstr ""
+"اصطلاحات مواردی در یک طبقه بندی هستند. طبقه بندی های موجود عبارتند از: دسته بندی "
+"ها، برچسب ها، قالب ها و طبقه بندی های سفارشی."
+
+#: modules/query-control/controls/group-control-query.php:191
+#: modules/query-control/module.php:107
+msgid "Exclude"
+msgstr "مستثنی کردن"
+
+#: modules/query-control/controls/group-control-query.php:202
+msgid "Exclude By"
+msgstr "توسط"
+
+#: modules/query-control/controls/group-control-query.php:206
+#: modules/query-control/module.php:111
+msgid "Current Post"
+msgstr "پست فعلی"
+
+#: modules/query-control/controls/group-control-query.php:289
+#: modules/query-control/module.php:138
+msgid "Avoid Duplicates"
+msgstr "اجتناب از تکراری"
+
+#: modules/query-control/controls/group-control-query.php:292
+msgid ""
+"Set to Yes to avoid duplicate posts from showing up. This only effects the "
+"frontend."
+msgstr ""
+"برای جلوگیری از نمایش پست های تکراری روی بله تنظیم کنید. این فقط روی صفحه نمایش "
+"تأثیر می گذارد."
+
+#: modules/query-control/controls/group-control-query.php:304
+msgid "Offset"
+msgstr "انحراف"
+
+#: modules/query-control/controls/group-control-query.php:313
+msgid "Use this setting to skip over posts (e.g. '2' to skip over 2 posts)."
+msgstr ""
+"از این تنظیم برای رد شدن از روی پست ها استفاده کنید (مثلاً \"2\" برای رد شدن از 2 "
+"پست)."
+
+#: modules/query-control/controls/group-control-query.php:323
+#: modules/query-control/module.php:1185 templates/classes/manager.php:183
+msgid "All"
+msgstr "همه"
+
+#: modules/query-control/controls/group-control-query.php:324
+msgid "Past Day"
+msgstr "روز گذشته"
+
+#: modules/query-control/controls/group-control-query.php:325
+msgid "Past Week"
+msgstr "هفته گذشته"
+
+#: modules/query-control/controls/group-control-query.php:326
+msgid "Past Month"
+msgstr "ماه گذشته"
+
+#: modules/query-control/controls/group-control-query.php:327
+msgid "Past Quarter"
+msgstr "سه ماهه گذشته"
+
+#: modules/query-control/controls/group-control-query.php:328
+msgid "Past Year"
+msgstr "سال گذشته"
+
+#: modules/query-control/controls/group-control-query.php:348
+#: modules/query-control/controls/group-control-query.php:365
+msgid "Choose"
+msgstr "انتخاب"
+
+#: modules/query-control/controls/group-control-query.php:356
+msgid ""
+"Setting a ‘Before’ date will show all the posts published until the chosen date "
+"(inclusive)."
+msgstr ""
+"تنظیم تاریخ «قبل» همه پست‌های منتشر شده را تا تاریخ انتخابی (شامل) نشان می‌دهد."
+
+#: modules/query-control/controls/group-control-query.php:373
+msgid ""
+"Setting an ‘After’ date will show all the posts published since the chosen date "
+"(inclusive)."
+msgstr ""
+"با تنظیم تاریخ «بعد»، همه پست‌های منتشر شده از تاریخ انتخابی (شامل) نشان داده "
+"می‌شود."
+
+#: modules/query-control/controls/group-control-query.php:377
+msgid "Order By"
+msgstr "سفارش داده شده توسط"
+
+#: modules/query-control/controls/group-control-query.php:384
+msgid "Menu Order"
+msgstr "منو سفارش"
+
+#: modules/query-control/controls/group-control-query.php:385
+msgid "Random"
+msgstr "تصادفی"
+
+#: modules/query-control/controls/group-control-query.php:393
+msgid "Order"
+msgstr "ترتیب"
+
+#: modules/query-control/controls/group-control-query.php:397
+msgid "ASC"
+msgstr "صعودی"
+
+#: modules/query-control/controls/group-control-query.php:398
+msgid "DESC"
+msgstr "نزولی"
+
+#: modules/query-control/controls/group-control-query.php:415
+msgid "Ignore Sticky Posts"
+msgstr "نادیده گرفتن پست های چسبنده"
+
+#: modules/query-control/controls/group-control-query.php:421
+msgid "Sticky-posts ordering is visible on frontend only"
+msgstr "سفارش پست های چسبنده فقط در قسمت جلو قابل مشاهده است"
+
+#: modules/query-control/controls/group-control-query.php:425
+msgid "Query ID"
+msgstr "شناسه کوئری"
+
+#: modules/query-control/controls/group-control-query.php:428
+msgid "Give your Query a custom unique id to allow server side filtering"
+msgstr ""
+"به کوئری خود یک شناسه منحصر به فرد سفارشی بدهید تا امکان فیلتر سمت سرور فراهم شود"
+
+#: modules/query-control/controls/group-control-related.php:42
+msgid "Related"
+msgstr "مرتبط"
+
+#: modules/query-control/controls/group-control-related.php:67
+msgid "Fallback"
+msgstr "بازپرداخت"
+
+#: modules/query-control/controls/group-control-related.php:72
+msgid "Recent Posts"
+msgstr "آخرین مطالب"
+
+#: modules/query-control/controls/group-control-related.php:75
+msgid ""
+"Displayed if no relevant results are found. Manual selection display order is "
+"random"
+msgstr ""
+"در صورت یافتن نتیجه مرتبط نمایش داده می شود. ترتیب نمایش انتخاب دستی تصادفی است"
+
+#: modules/query-control/module.php:141
+msgid ""
+"Set to Yes to avoid duplicate posts from showing up on the page. This only "
+"affects the frontend."
+msgstr ""
+"برای جلوگیری از نمایش پست های تکراری در صفحه، روی بله تنظیم کنید. این فقط روی "
+"قسمت ظاهری تأثیر می گذارد."
+
+#: modules/section/module.php:63
+msgid "Container CSS Classes"
+msgstr "کلاس های CSS کانتینری"
+
+#: modules/section/module.php:66
+msgid ""
+"Applied to elementor-container element. You can use additional bootstrap utility "
+"classes here."
+msgstr ""
+"برای عنصر المنتور-کانتینر اعمال می شود. در اینجا می توانید از کلاس های کمکی راه "
+"انداز اضافی استفاده کنید."
+
+#: modules/section/module.php:90
+msgid "Enable Jarallax"
+msgstr "Jarallax را فعال کنید"
+
+#: modules/section/module.php:110
+msgid "Separate Wrapper for Background"
+msgstr "لفاف جدا برای پس زمینه"
+
+#: modules/section/module.php:122
+msgid "Speed"
+msgstr "سرعت"
+
+#: modules/section/module.php:136
+msgid "Data Type"
+msgstr "نوع داده ها"
+
+#: modules/section/module.php:148
+msgid "Enable Overlay"
+msgstr "فعال کردن پوشش"
+
+#: modules/section/module.php:160
+msgid "Overlay Opacity"
+msgstr "شفافیت پوشش"
+
+#: modules/section/module.php:182
+msgid "Enter the style that you want to be inlined to .jarallax element"
+msgstr "استایلی را که می‌خواهید روی عنصر jarallax. قرار داده شود، وارد کنید"
+
+#: modules/section/module.php:199
+msgid "Applied to .jarallax element"
+msgstr "به عنصر jarallax. اعمال شد"
+
+#: modules/section/module.php:216
+msgid "Applied to the wrapper of .jarallax element"
+msgstr "بر روی لفاف عنصر jarallax اعمال می شود"
+
+#: modules/shapes/widgets/shapes.php:32 modules/shapes/widgets/shapes.php:52
+#: modules/shapes/widgets/shapes.php:80 modules/shapes/widgets/shapes.php:111
+msgid "Shapes"
+msgstr "شکل ها"
+
+#: modules/shapes/widgets/shapes.php:84
+msgid "Bottom Shape"
+msgstr "شکل پایین"
+
+#: modules/shapes/widgets/shapes.php:85
+msgid "Background Shape"
+msgstr "شکل پس زمینه"
+
+#: modules/shapes/widgets/shapes.php:119
+msgid "SVG Color"
+msgstr "رنگ SVG"
+
+#: modules/sidebar/module.php:51
+msgid "Off-Canvas?"
+msgstr "خارج از بوم؟"
+
+#: modules/sidebar/module.php:52
+msgid "Should show this sidebar off-canvas in mobile view?"
+msgstr "آیا باید این نوار کناری خارج از بوم را در نمای موبایل نشان دهد؟"
+
+#: modules/sidebar/module.php:74 modules/sidebar/module.php:75
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: modules/slider/widgets/image-comparison-slider.php:38
+msgid "Image Comparison Slider"
+msgstr "لغزنده مقایسه تصویر"
+
+#: modules/slider/widgets/image-comparison-slider.php:96
+msgid "Dark Mode Slot"
+msgstr "اسلات حالت تاریک"
+
+#: modules/slider/widgets/image-comparison-slider.php:98
+msgid "Slot 2"
+msgstr "اسلات 2"
+
+#: modules/slider/widgets/image-comparison-slider.php:99
+msgid "Slot 1"
+msgstr "اسلات 1"
+
+#: modules/slider/widgets/image-comparison-slider.php:106
+msgid "Dark Mode Image"
+msgstr "تصویر حالت تاریک"
+
+#: modules/slider/widgets/image-comparison-slider.php:126
+msgid "Light Mode Image"
+msgstr "تصویر حالت روشن"
+
+#: modules/slider/widgets/image-comparison-slider.php:156
+msgid "Left Background Color"
+msgstr "رنگ پس زمینه سمت چپ"
+
+#: modules/slider/widgets/image-comparison-slider.php:167
+msgid "Right Background Color"
+msgstr "رنگ پس زمینه سمت راست"
+
+#: modules/star-rating/skins/skin-star-rating.php:113
+msgid "Pre Title"
+msgstr "عنوان قبلی"
+
+#: modules/star-rating/skins/skin-star-rating.php:115
+msgid "Enter Your Pre title"
+msgstr "عنوان قبلی خود را وارد کنید"
+
+#: modules/star-rating/skins/skin-star-rating.php:124
+msgid "Enter Your reviews"
+msgstr "نظرات خود را وارد کنید"
+
+#: modules/star-rating/skins/skin-star-rating.php:171
+msgid "Pre Title Color"
+msgstr "رنگ پیش عنوان"
+
+#: modules/star-rating/skins/skin-star-rating.php:193
+msgid "Pre Title Class"
+msgstr "کلاس پیش عنوان"
+
+#: modules/star-rating/skins/skin-star-rating.php:203
+msgid "Review Color"
+msgstr "رنگ دیدگاه"
+
+#: modules/star-rating/skins/skin-star-rating.php:225
+msgid "Review Class"
+msgstr "کلاس دیدگاه"
+
+#: modules/star-rating/skins/skin-star-rating.php:244
+msgid "Icon Wrap Class"
+msgstr "کلاس بسته بندی نمادها"
+
+#: modules/star-rating/skins/skin-star-rating.php:247
+msgid "Additional CSS class that you want to apply to the <div> tag"
+msgstr "کلاس CSS اضافی که می خواهید در تگ <div> اعمال کنید"
+
+#: modules/team-member/widgets/team-member.php:40
+msgid "Team Member"
+msgstr "عضو تیم"
+
+#: modules/team-member/widgets/team-member.php:119
+msgid "Additional CSS class that you want to apply to the <img> tag"
+msgstr "کلاس CSS اضافی که می خواهید روی تگ <img> اعمال کنید"
+
+#: modules/team-member/widgets/team-member.php:207
+msgid "Icon Link Class"
+msgstr "کلاس پیوند آیکون"
+
+#: modules/team-member/widgets/team-member.php:217
+msgid "Icon Link"
+msgstr "لینک آیکون"
+
+#: modules/team-member/widgets/team-member.php:545
+msgid "Postion Class"
+msgstr "کلاس موقعیت"
+
+#: modules/team-member/widgets/team-member.php:555
+msgid "Byline Color"
+msgstr "رنگ خطی"
+
+#: modules/testimonial/skins/skin-testimonial.php:95
+msgid "Choose Logo"
+msgstr "انتخاب لوگو"
+
+#: modules/testimonial/skins/skin-testimonial.php:242
+msgid "Avatar CSS"
+msgstr "آواتار CSS"
+
+#: modules/testimonial/skins/skin-testimonial.php:244
+#: modules/testimonial/skins/skin-testimonial.php:311
+msgid "CSS Classes added to <img>"
+msgstr "کلاس های CSS به <img> اضافه شدند"
+
+#: modules/testimonial/skins/skin-testimonial.php:270
+msgid "Logo Width"
+msgstr "عرض لوگو"
+
+#: modules/testimonial/skins/skin-testimonial.php:309
+msgid "Logo CSS"
+msgstr "لوگو CSS"
+
+#: modules/ticket/widgets/ticket.php:45
+msgid "Ticket Card"
+msgstr "کارت بلیط"
+
+#: modules/ticket/widgets/ticket.php:84 modules/ticket/widgets/ticket.php:429
+msgid "Ticket Details"
+msgstr "جزئیات بلیط"
+
+#: modules/ticket/widgets/ticket.php:93
+msgid "Oct 14+15"
+msgstr "14+15 اکتبر"
+
+#: modules/ticket/widgets/ticket.php:102
+msgid "NY Digital Conference"
+msgstr "کنفرانس دیجیتال نیویورک"
+
+#: modules/ticket/widgets/ticket.php:127 modules/ticket/widgets/ticket.php:134
+#: modules/ticket/widgets/ticket.php:519
+msgid "QR Image"
+msgstr "تصویر QR"
+
+#: modules/ticket/widgets/ticket.php:147 modules/ticket/widgets/ticket.php:557
+msgid "Access Button"
+msgstr "دکمه دسترسی"
+
+#: modules/ticket/widgets/ticket.php:242
+msgid "for only"
+msgstr "فقط برای"
+
+#: modules/ticket/widgets/ticket.php:290
+msgid "Ticket Price"
+msgstr "قیمت بلیط"
+
+#: modules/ticket/widgets/ticket.php:316
+msgid "Wrapper"
+msgstr "پوشاننده"
+
+#: modules/ticket/widgets/ticket.php:333
+msgid "Show dark ?"
+msgstr "نمایش تاریک؟"
+
+#: modules/ticket/widgets/ticket.php:396
+msgid "Background Wrapper Class"
+msgstr "کلاس بسته بندی پس زمینه"
+
+#: modules/ticket/widgets/ticket.php:406
+msgid "Shadow Color"
+msgstr "رنگ سایه"
+
+#: modules/ticket/widgets/ticket.php:417
+msgid "Shadow Color Class"
+msgstr "کلاس رنگ سایه"
+
+#: modules/ticket/widgets/ticket.php:457
+msgid "Date typography"
+msgstr "تایپوگرافی تاریخ"
+
+#: modules/ticket/widgets/ticket.php:497
+msgid "Title typography"
+msgstr "تایپوگرافی عنوان"
+
+#: modules/ticket/widgets/ticket.php:653
+msgid "Button Class"
+msgstr "کلاس دکمه"
+
+#: modules/ticket/widgets/ticket.php:723
+msgid "Price Text"
+msgstr "متن قیمت"
+
+#: modules/ticket/widgets/ticket.php:742
+msgid "Text typography"
+msgstr "تایپوگرافی متن"
+
+#: modules/ticket/widgets/ticket.php:754
+msgid "Price Sub Text Class"
+msgstr "کلاس متن زیر قیمت"
+
+#: modules/ticket/widgets/ticket.php:783
+msgid "Price typography"
+msgstr "تایپوگرافی قیمت"
+
+#: modules/ticket/widgets/ticket.php:795
+msgid "Ticket Price Class"
+msgstr "کلاس قیمت بلیط"
+
+#: plugin.php:87 plugin.php:98
+msgid "Something went wrong."
+msgstr "مشکلی پیش آمد."
+
+#. Plugin Name of the plugin/theme
+#: plugin.php:334
+msgid "Silicon Elementor"
+msgstr "سیلیکون المنتور"
+
+#: silicon-elementor.php:66
+msgid ""
+"Silicon Elementor is not working because you need to activate the Elementor "
+"plugin."
+msgstr "Silicon Elementor کار نمی کند زیرا باید افزونه Elementor را فعال کنید."
+
+#: silicon-elementor.php:67
+msgid "Activate Elementor Now"
+msgstr "اکنون Elementor را فعال کنید"
+
+#: silicon-elementor.php:75
+msgid ""
+"Silicon Elementor is not working because you need to install the Elementor "
+"plugin."
+msgstr "Silicon Elementor کار نمی کند زیرا باید افزونه Elementor را نصب کنید."
+
+#: silicon-elementor.php:76
+msgid "Install Elementor Now"
+msgstr "اکنون Elementor را نصب کنید"
+
+#: silicon-elementor.php:93
+msgid ""
+"Silicon Elementor is not working because you are using an old version of "
+"Elementor."
+msgstr ""
+"Silicon Elementor کار نمی کند زیرا شما از نسخه قدیمی المنتور استفاده می کنید."
+
+#: silicon-elementor.php:94 silicon-elementor.php:111
+msgid "Update Elementor Now"
+msgstr "اکنون المنتور را به روز کنید"
+
+#: silicon-elementor.php:110
+msgid ""
+"A new version of Elementor is available. For better performance and "
+"compatibility of Silicon Elementor, we recommend updating to the latest version."
+msgstr ""
+"نسخه جدید المنتور در دسترس است. برای عملکرد بهتر و سازگاری Silicon Elementor، "
+"توصیه می کنیم به آخرین نسخه به روز رسانی کنید."
+
+#: templates/classes/config.php:50
+#: templates/scripts/template-modal-header-logo.php:12
+msgid "Silicon Templates"
+msgstr "قالب های سیلیکونی"
+
+#: templates/classes/config.php:125
+msgid "Get Pro"
+msgstr "دریافت نسخه پرو"
+
+#: templates/scripts/template-modal-error.php:13
+msgid "Template couldn't be loaded. Please activate you license key before."
+msgstr "الگو بارگیری نشد. لطفاً کلید مجوز خود را قبلاً فعال کنید."
+
+#: templates/scripts/template-modal-header-back.php:10
+msgid "Back to Library"
+msgstr "بازگشت به کتابخانه"
+
+#: templates/scripts/template-modal-header.php:11
+msgid "Close"
+msgstr "بستن"
+
+#: templates/scripts/template-modal-insert-button.php:12
+#: templates/scripts/template-modal-item.php:22
+msgid "Insert"
+msgstr "درج"
+
+#: templates/scripts/template-modal-keywords.php:11
+msgid "Filter by Widget / Addon"
+msgstr "فیلتر بر اساس ویجت / افزونه"
+
+#: templates/scripts/template-modal-keywords.php:13
+msgid "All Widgets/Addons"
+msgstr "همه ابزارک ها/افزونه ها"
+
+#: templates/scripts/template-modal-loading.php:15
+msgid "Loading"
+msgstr "در حال بارگذاری"
+
+#: templates/types/page.php:25
+msgid "Pages"
+msgstr "برگه‌ها"
+
+#: templates/types/section.php:25
+msgid "Sections"
+msgstr "بخش ها"
+
+#. Plugin URI of the plugin/theme
+msgid "https://silicon.madrasthemes.com/"
+msgstr "https://silicon.madrasthemes.com/"
+
+#. Description of the plugin/theme
+msgid "Silicon Elementor is built for Silicon WordPress Theme."
+msgstr "Silicon Elementor برای قالب وردپرس Silicon ساخته شده است."
+
+#. Author of the plugin/theme
+msgid "MadrasThemes"
+msgstr "MadrasThemes"
+
+#. Author URI of the plugin/theme
+msgid "https://madrasthemes.com/"
+msgstr "https://madrasthemes.com/"

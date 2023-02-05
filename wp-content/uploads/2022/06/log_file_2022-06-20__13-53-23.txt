@@ -1,0 +1,18 @@
+
+---فایلهای بارگیری شده---
+فایلهای درون ریزی برای:Menus با موفقیت بارگیری شد!
+حداکثر زمان اجرای اولیه =300
+اطلاعات فایل ها :
+Site URL = https://galleryelara.ir/ghaleb7
+فایل اطلاعات = /home/gallerye/public_html/ghaleb7/wp-content/uploads/2022/06/demo-content-import-file_2022-06-20__13-53-23.xml
+فایل ابزارک = تعریف نشده!
+فایل های سفارشی ساز= تعریف نشده!
+Redux فایل ها:
+تعریف نشده!
+
+------
+صدا زدن جدید ایجکس
+
+
+---ocdi/after_import---
+
